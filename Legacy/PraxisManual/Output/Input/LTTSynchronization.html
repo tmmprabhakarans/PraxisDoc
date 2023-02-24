@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>LTT Synchronization</title>
+<link rel="stylesheet" href="../std.css" type="text/css" media="all" />
+</head>
+<body>
+<div><span class="breadcrumbleft">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\PraxisManualVersion2.0.html">Praxis Manual Version 2.0</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\HMIControls.html">HMI Controls</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\VulcanLink.html">Vulcan Link</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;</span><span class="breadcrumbright">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\EditingPrograms.html">&#8672;Prev</a>&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\Tools.html">Next&#8674;</a></span><div style="clear:both"></div>
+</div><hr />
+<h1>LTT Synchronization</h1>
+<p>When linked to Praxis, the same LTT is used in Vulcan, Praxis and Flux. Vulcan becomes the LTT master and owns the technology tables. All edits made at Vulcan are pushed to all Praxis + Flux stations on the network. </p>
+<h4>Walkthrough:</h4>
+<p>&#9679; Switch to the Configure page and click on the Laser Database button.</p>
+<p><img src="img/Configure.png" alt="Configure"/></p>
+<p>&#9679; Open Praxis or Flux to confirm the existing laser data.</p>
+<p><img src="img/FluxLTT.png" alt="Flux LTT"/></p>
+<p>&#9679; In Vulcan select a material + thickness and use clone page to clone the selected page. Here we are going to clone the MS_2mm generic page for Air. Follow the steps displayed in the image below and press OK.</p>
+<p><img src="img/ClonePage.png" alt="Clone Page"/></p>
+<p>&#9679; Press done in laser database page and press OK to save the changes when prompted.</p>
+<p><img src="img/SaveChanges.png" alt="Save Changes"/></p>
+<p>&#9679; Open the page lists again in Praxis/Flux. The cloned page should be listed.</p>
+<p><img src="img/LTTUpdate.png" alt="LTT Update"/></p>
+<p><b>Notes</b></p>
+<ol>
+<li>Flux/Praxis should refresh the pages without restart. You just need to restart the page list dialogs.</li>
+<li>A more realistic test scenario would be to install Vulcan, Praxis and Flux on different computers.</li>
+<li>The LTT synchronization doesn’t work from Flux → Vulcan. Work is needed in Vulcan to support this.</li>
+</ol>
+</body>
+</html>

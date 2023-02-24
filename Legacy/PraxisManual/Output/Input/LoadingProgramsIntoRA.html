@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>Loading Programs into RightAngle</title>
+<link rel="stylesheet" href="../std.css" type="text/css" media="all" />
+</head>
+<body>
+<div><span class="breadcrumbleft">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\PraxisManualVersion2.0.html">Praxis Manual Version 2.0</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\HMIControls.html">HMI Controls</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\RightAngleLink.html">Right Angle Link</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;</span><span class="breadcrumbright">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\RightAngleLink.html">&#8672;Prev</a>&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\SearchingProgramsRA.html">Next&#8674;</a></span><div style="clear:both"></div>
+</div><hr />
+<h1>Loading Programs into RightAngle</h1>
+<p>Launch Praxis and RightAngle. Switch to Praxis and import Job spreadsheets from the <i>C:\Program Files\Metamation\Praxis\Samples\Jobs</i> folder. (Or load some parts and create new Job from the part library). Select a job, right click, and use the Plan Job panel command. Select 5130X 6A B23 to add the selected parts to the production queue.</p>
+<p><img src="img/PlanJobRA.png" alt="Plan Job"/></p>
+<p>The queued part’s status is updated back in Praxis.</p>
+<p><img src="img/BendingQueue.png" alt="Bending Queue"/></p>
+<p>Switch to RightAngle <b>Run</b> page. It displays the programs in 5130X 6A B23 queue. The program tiles display the job details like job name, quantity to run, customer name etc. The tile also displays the Praxis raw-material name instead of the material name.</p>
+<p><img src="img/RunProgram.png" alt="Run Program"/></p>
+<p>The program list displays the programs sorted by the priority and the due-date and it automatically refreshes when: &#9679; The production queue is updated in Praxis by adding new programs or removing existing ones.</p>
+<p>&#9679; Job details like the job-name, customer name etc. are updated.</p>
+<p>&#9679; The Part geometry is revised, and the part is reprogrammed.</p>
+<h3>Removing programs from the queue</h3>
+<p>Switch to Praxis Job page and select one or more Jobs or Job-parts.</p>
+<p>&#9679; Right click and use the Reset Job/Reset Part panel command to revoke the job parts from the production queue.</p>
+<p>&#9679; The RA program list is automatically updated with the updated queue.</p>
+</body>
+</html>

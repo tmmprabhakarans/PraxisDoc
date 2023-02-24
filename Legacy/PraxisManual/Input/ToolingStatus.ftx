@@ -1,0 +1,29 @@
+-------------------
+Tooling Status
+-------------------
+
+Part tiles display tooling status of the part for all available Praxis machines. The sections below display various icons and icon-colors used to indicate the machine technology and tooling status.
+
+Technology Legends
+................................
+
+[Laser](img/LaserTool.png) Laser Machine
+
+[Punch](img/PunchTool.png) Punch Machine
+
+[PanelBend](img/PanelBend.png) Panel bending Machine
+
+[Bend](img/Bend.png) Bending Machine
+
+Status Legends
+................................
+
+[ToolingOK](img/ToolOK.png) Tooling is *OK*
+
+[ToolingWarning](img/Warning.png) NC is generated but tooling has warnings
+
+[ToolingError](img/Error.png) Tooling has errors
+
+[ToolingUnavailable](img/ToolingUnavailable.png) Part tooling is not available for this machine
+
+[Tooling Sample](img/ToolingSample.png)

@@ -1,0 +1,30 @@
+----------------------
+Vulcan Link
+----------------------
+
+(o) The Programs page in Vulcan displays layouts from Praxis’ production queue.
+
+(o) Operators can edit these layouts and save them back to Praxis.
+
+(o) Operators can run the programs. The run progress is reported back and is reflected in Praxis.
+
+(o) Operators can Add/Remove/Update LTT pages in Vulcan and push the updates to Praxis enabled Flux stations.
+
+Setting up the Praxis-Vulcan link
+=========================
+
+Download Vulcan setup and install Vulcan standalone first.
+
+(o) Activate and switch to the Programs page. You should see the sample demo programs (please contact Praxis support team for a Vulcan license).
+
+(o) Install Praxis with Vulcan Link component.
+
+[Vulcan Seup](img/Vulcan Setup.png)
+
+(o) Launch Praxis to complete the setup.
+
+Praxis installs *Proteck Dual Head* laser machine to test the Vulcan connection and updates the Vulcan machine automatically. There is no create page in Vulcan as it produces programs created from Praxis when connected.
+[Prteck Dual Head](img/ProteckDualHead.png)
+
+*Note:* Install the dual head machine manually if the automatic machine installation fails. You will also need to set the Vulcan machine by editing _C:\ProgramData\Metamation\Vulcan\Data\Settings.curl file_ (set MachineId:2230001) after installing the machine in Praxis.
+

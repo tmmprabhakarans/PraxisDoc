@@ -1,0 +1,12 @@
+-------------------------
+Validate CAD Error
+-------------------------
+The part is put in the error state if the material cannot be resolved or appropriate cut/bend solution is not found during the Part import.
+
+Following sections describes the various error states and ways to resolve them.
+
+(O) [Material Missing](MaterialMissing)
+
+(O) [Material Not Assigned](MaterialNotAssigned)
+
+(O) [Bend and Cut Infeasible](BendandCutInfeasible)

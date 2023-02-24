@@ -1,0 +1,12 @@
+----------------------
+Planning Jobs
+----------------------
+
+The Job is planned in one of the following ways to extract a higher throughput in lesser work steps.
+
+(O) [Mixed mode nesting](MixedNesting)
+
+(O) [Interactive Nesting](InteractiveNesting)
+
+(O) [Pull Workflow](PullWorkflow)
+

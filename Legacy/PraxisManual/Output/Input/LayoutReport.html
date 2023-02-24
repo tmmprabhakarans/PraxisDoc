@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>Layout Report</title>
+<link rel="stylesheet" href="../std.css" type="text/css" media="all" />
+</head>
+<body>
+<div><span class="breadcrumbleft">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\PraxisManualVersion2.0.html">Praxis Manual Version 2.0</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\Job.html">Job</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;</span><span class="breadcrumbright">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\SaveNestOutput.html">&#8672;Prev</a>&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\OutOfDateLayout.html">Next&#8674;</a></span><div style="clear:both"></div>
+</div><hr />
+<h1>Layout Report</h1>
+<p>Praxis saves a html report along with the other outputs. This is a fixed template report, and it contains various estimation and composition details. The reports have multiple sections:</p>
+<p>The header section contains the key layout information like the machine, material, runtime, sheet count etc.</p>
+<p><img src="img/Layout Header.png" alt="Layout Header"/></p>
+<p>This is followed by a <b>layout picture.</b> The layout picture displays parts colored by the nest instance (the job-item). Placing the mouse over the part instance displays basic part details like the Name, Job ID and the Instance#.</p>
+<p> <img src="img/Layout Picture.png" alt="Layout Picture"/></p>
+<p>A simulation preview is generated, and the play button is placed on the right-top corner, if the <b>Output simulation preview…</b> option is enabled in <b>factory • settings • job</b> page.</p>
+<p><img src="img/Simulation Preview.png" alt="Simulation Preview"/></p>
+<p>Clicking on the <b>play</b> button runs the simulation preview for ~10s. It indefinitely loops over with a stop of 3s at the last frame. Use <b>pause</b> button to stop the simulation and switch back to the layout picture.</p>
+<p><img src="img/Pause.png" alt="Pause"/></p>
+<p>Layout picture is followed by the jobs table. This displays list of all the jobs listed on the layout.</p>
+<p><img src="img/Jobs Table.png" alt="Jobs Table"/></p>
+<p>The Parts list display the nested parts in the same color as they appear in the layout. Please note that this list displays the parts by part-order (than just the part drawing). Therefore, separate entries are displayed for the same part from multiple jobs (orders) placed on this layout. The part details show the respective job IDs. These details also display the partwise resource usage which can be used in the quote preparation for individual parts.</p>
+<p><img src="img/AllParts.png" alt="All Parts"/></p>
+<p>Used tools section follow the punch parts. It displays list of tools used sorted by station ID with the tool icons drawn proportional to the scale.</p>
+<p><img src="img/UsedTools.png" alt="Used Tools"/></p>
+</body>
+</html>

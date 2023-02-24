@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>Adding Multiple RA Stations</title>
+<link rel="stylesheet" href="../std.css" type="text/css" media="all" />
+</head>
+<body>
+<div><span class="breadcrumbleft">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\PraxisManualVersion2.0.html">Praxis Manual Version 2.0</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\HMIControls.html">HMI Controls</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\RightAngleLink.html">Right Angle Link</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;</span><span class="breadcrumbright">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\EditingProgramsRA.html">&#8672;Prev</a>&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\ToolsAndSettingsSynchronization.html">Next&#8674;</a></span><div style="clear:both"></div>
+</div><hr />
+<h1>Adding Multiple RA Stations</h1>
+<p>Multiple RA stations can be linked to Praxis for the same or different bending machines. Use the installation steps listed in the <a href="input/RightAngle Link.html">setup section</a>. Select the Praxis desktop client with RightAngle Link when prompted by the Praxis setup.</p>
+<p><img src="img/MultipleRA.png" alt="Multiple RA"/></p>
+<p>Launch Praxis and connect it to the Praxis server. Now launch RightAngle. It should be linked to the Praxis for the same <b>5130X 6A B23</b> machine. And both stations display the same machine queue.</p>
+<p><img src="img/RAStations.png" alt="RA Stations"/></p>
+<p>Loading a program to run on one station, removes it from the queue such that the other stations can work on the remaining programs. This behavior would be useful in carrying out the load balanced, collaborative production.</p>
+<p><img src="img/MultipleStationRun.png" alt="Multiple Stations"/></p>
+<p>Use <b>settings • other setting • machine settings</b> RightAngle command in Service mode to change the machine. Now switch to Praxis and plan a few jobs/parts on <b>5170 6A</b> demo machine. The second RA station displays 5170 production queue.</p>
+<p><img src="img/Station5170A.png" alt="5170A"/></p>
+</body>
+</html>

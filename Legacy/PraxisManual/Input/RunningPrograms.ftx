@@ -1,0 +1,17 @@
+--------------------
+Running Programs
+---------------------
+Select a program and use the run command to load the program for running.
+
+[Run Program](img/RunProgramVulcan.png)
+
+Praxis Job and Part statuses are updated to reflect the parts-in-progress. The Layout is checked-out to prevent updates while program is loaded on the machine.
+
+[Processing Job](img/ProcessingJob.png)
+
+Press the *stop*[^] button on the run page to mark the _current_ sheet as complete. The job is updated with the completion status. Repeat this to mark all sheets as completed. Once completed program is unloaded, it is removed from the machine production queue and the job/part/layout statuses are updated in Praxis.
+
+[^]: This is a demo mode workaround to complete layout sheets at Vulcan. In the live mode, this would happen automatically as layout is completed on a machine.
+
+[Job Done](img/JobDone.png)
+

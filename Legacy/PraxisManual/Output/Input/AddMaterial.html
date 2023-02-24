@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>Add New Material</title>
+<link rel="stylesheet" href="../std.css" type="text/css" media="all" />
+</head>
+<body>
+<div><span class="breadcrumbleft">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\PraxisManualVersion2.0.html">Praxis Manual Version 2.0</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\FactorySettings.html">Factory Settings</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;</span><span class="breadcrumbright">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\AddMachine.html">&#8672;Prev</a>&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\DeleteMaterial.html">Next&#8674;</a></span><div style="clear:both"></div>
+</div><hr />
+<h1>Add New Material</h1>
+<h3>Using Factory Settings</h3>
+<p>Use <b>factory . sheets . add&#8230</b> command and select <b>New Material&#8230</b> menu option to add a new material or raw material.</p>
+<p><img src="img/NewMaterial.png" alt="New Material"/></p>
+<p>Fill in the Material name, unique new Raw Material name and thickness(as per the working unit set in Praaxis settings)</p>
+<p><img src="img/NewRawmaterial.png" alt="Raw Material"/></p>
+<p><b>Note:</b> Pick <b>View&#8230 Show All Materials</b> option to&nbsp;&nbsp;&nbsp;see the newly added materials. Otherwise Praxis show only the inventory material in the materials/sheets list.</p>
+<p><img src="img/ShowMaterials.png" alt="Show Material"/></p>
+<h3>Using Spreadsheet</h3>
+<p><img src="img/ExportSheet.png" alt="ExportSheet"/></p>
+<p>The material/sheet list is exported to a text file in a hierarchical format, Material → Raw material → Sheets. This is terser and more expressive format than the regular CSV files. The exported data is structured as:</p>
+<pre>&lt;File – Version&gt;
+Material – Name = [Bend Material],[Density], [FName]
+  RawMaterial – Thickness, Name=[FName]
+    Sheet-Width, Height, Grain, Desc = Qty, [Factory], [Shelf], [Cost], [Comments]</pre>
+<p>Each next level hierarchy is intended by a single space than its parent:</p>
+<pre>1
+Bronze = Aluminium
+  0.5, Bronze-05
+    1500, 1500, Vertical=112</pre>
+<p>The exported data can be edited and imported back to apply the changes. You can also add additional fields (not exported by default) to the exported content. These optional fields are marked under the square bracket in the schema.</p>
+</body>
+</html>

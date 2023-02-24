@@ -1,0 +1,24 @@
+--------------------
+Pre-Requisites Installation
+---------------------
+*Note:*
+
+Praxis setup displays the below mentioned warning message at the beginning of Installation if the Praxis setup is run without running the *Pre-Requisites*. Pre-Requisite installation is necessary only for the first time and can be ignored thereafter.
+
+[PreRequisite](img/PreRequisite Unavailable.png)
+
+Execute the *PreSetup.Praxis* to install all the Pre-Requisites required to run Praxis application.
+
+[Pre-Requisite set up](img/PreRequisite Setup.png)
+
+Click *Install* to begin the Installation. 
+
+[Install](img/Install.png)
+
+This setup installs native redistributables, .Net Frameworks and other drivers used by Praxis.
+
+[Pre-Requisite Install](img/PreRequisiteInstall.png)
+
+Click *Finish* to complete the setup and Restart the computer.
+
+[Finish Install](img/FinishInstall.png)
