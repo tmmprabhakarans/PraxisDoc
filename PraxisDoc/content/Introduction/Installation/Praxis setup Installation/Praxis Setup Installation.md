@@ -9,7 +9,7 @@ Execute Praxis Setup to begin the installation
 
 ![Praxis Setup](/images/PraxisSetup.png)
 
-Choose the installation directory or accept the installation default _*C:\Program Files\Metamation\Praxis*_ and click *Next*. 
+Choose the installation directory or accept the installation default _**C:\Program Files\Metamation\Praxis**_ and click **Next**. 
 
 ![Installation Path](/images/InstallationPath.png)
 

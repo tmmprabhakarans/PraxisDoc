@@ -9,8 +9,8 @@ The part is put in the error state if the material cannot be resolved or appropr
 
 Following sections describes the various error states and ways to resolve them.
 
-* [Material Missing](MaterialMissing)
+* [Material Missing](/part-library/validate-cad-error/material-missing/)
 
-* [Material Not Assigned](MaterialNotAssigned)
+* [Material Not Assigned](/part-library/validate-cad-error/material-not-assigned/)
 
-* [Bend and Cut Infeasible](BendandCutInfeasible)
+* [Bend and Cut Infeasible](/part-library/validate-cad-error/bendcut-infeasible/)

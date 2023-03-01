@@ -1,8 +1,8 @@
----
-title: "Part Library"
-date: 2023-02-28T15:24:00+05:30
-draft: true
----
++++
+archetype = "chapter"
+title = "Part Library"
+weight = 2
++++
 
 New parts can be imported and viewed using Part Library page.
 

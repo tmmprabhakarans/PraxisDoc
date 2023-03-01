@@ -1,15 +1,15 @@
 +++
-archetype = "chapter"
+archetype = "default"
 title = "Installation"
 weight = 1
 +++
 
 Following sections explains the pre-requisites and steps required to install Praxis application and connect the same with Server/Client setup.
 
-* [Pre-Requisites](Pre-Requisites)
+* [Pre-Requisites](/introduction/installation/pre-requisites/)
 
-* [Praxis Setup Installation](PraxisSetupInstallation)
+* [Praxis Setup Installation](/introduction/installation/praxis-setup-installation/praxis-setup-installation/)
 
-* [Server Installation](ServerInstallation)
+* [Server Installation](/introduction/installation/serverfull-installation/)
 
-* [Client Installation](ClientInstallation)
+* [Client Installation](/introduction/installation/client-installation/)

@@ -4,7 +4,7 @@ date: 2023-02-28T15:06:41+05:30
 draft: true
 ---
 
-Run [Pre-Requisite ](Pre-Requisites) Installation like Server before beginning the Client setup.
+Run [Pre-Requisite ](/introduction/installation/pre-requisites/) Installation like Server before beginning the Client setup.
 
 In the client machine, after executing the Installer, Select Client option on the component selection page.
 
