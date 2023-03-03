@@ -1,7 +1,7 @@
 ---
 title: "Nest Settings"
 date: 2023-03-02T12:32:55+05:30
-draft: true
+draft: false
 weight: 10
 ---
 

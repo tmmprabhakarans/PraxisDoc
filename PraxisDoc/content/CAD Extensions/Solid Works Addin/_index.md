@@ -1,7 +1,7 @@
 ---
 title: "Solid Works Addin"
 date: 2023-03-02T17:39:37+05:30
-draft: true
+draft: false
 weight: 2
 ---
 

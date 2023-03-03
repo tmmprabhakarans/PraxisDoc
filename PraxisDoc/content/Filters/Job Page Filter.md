@@ -1,7 +1,7 @@
 ---
 title: "Job Page Filter"
 date: 2023-03-02T16:32:23+05:30
-draft: true
+draft: false
 weight: 4
 ---
 

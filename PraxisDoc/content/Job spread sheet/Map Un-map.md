@@ -1,7 +1,7 @@
 ---
 title: "Map/Un-map"
 date: 2023-03-02T11:49:15+05:30
-draft: true
+draft: false
 weight: 1
 ---
 

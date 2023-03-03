@@ -1,7 +1,7 @@
 ---
 title: "Client Installation"
 date: 2023-02-28T15:06:41+05:30
-draft: true
+draft: false
 ---
 
 Run [Pre-Requisite ](/introduction/installation/pre-requisites/) Installation like Server before beginning the Client setup.

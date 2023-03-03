@@ -1,7 +1,7 @@
 ---
 title: "Material Mapping"
 date: 2023-03-02T12:31:12+05:30
-draft: true
+draft: false
 weight: 4
 ---
 

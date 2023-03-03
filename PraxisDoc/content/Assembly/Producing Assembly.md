@@ -1,7 +1,7 @@
 ---
 title: "Producing Assembly"
 date: 2023-03-01T14:48:26+05:30
-draft: true
+draft: false
 weight: 1
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Spreadsheet Mapping Error"
 date: 2023-03-02T11:57:34+05:30
-draft: true
+draft: false
 weight: 2
 ---
 

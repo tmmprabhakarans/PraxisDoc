@@ -1,7 +1,7 @@
 ---
 title: "Emulation Mode"
 date: 2023-03-02T17:37:56+05:30
-draft: true
+draft: false
 weight: 2
 ---
 

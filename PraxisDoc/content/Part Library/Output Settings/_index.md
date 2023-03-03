@@ -1,7 +1,7 @@
 ---
 title: "Output Settings"
 date: 2023-02-28T17:12:50+05:30
-draft: true
+draft: false
 weight: 7
 ---
 

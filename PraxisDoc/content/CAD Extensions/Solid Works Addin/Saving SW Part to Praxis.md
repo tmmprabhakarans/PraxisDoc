@@ -1,7 +1,7 @@
 ---
 title: "Saving SW Part to Praxis"
 date: 2023-03-02T17:55:13+05:30
-draft: true
+draft: false
 weight: 1
 ---
 

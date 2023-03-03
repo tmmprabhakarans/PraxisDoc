@@ -1,7 +1,7 @@
 ---
 title: "Server/Full Installation"
 date: 2023-02-28T15:00:21+05:30
-draft: true
+draft: false
 weight: 3
 ---
 

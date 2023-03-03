@@ -1,7 +1,7 @@
 ---
 title: "Delete Material"
 date: 2023-03-02T12:30:56+05:30
-draft: true
+draft: false
 weight: 3
 ---
 
