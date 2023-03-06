@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/hmicontrols/vulcanlink/loadingprogramsintovulcan/index.html</loc>
+    <lastmod>2023-03-06T15:32:09+05:30</lastmod>
+  </url>
+  <url>
+    <loc>/hmicontrols/right-angle-link/loading-programs-into-right-angle/index.html</loc>
+    <lastmod>2023-03-06T14:47:02+05:30</lastmod>
+  </url>
+  <url>
+    <loc>/hmicontrols/right-angle-link/index.html</loc>
+    <lastmod>2023-03-06T14:40:28+05:30</lastmod>
+  </url>
+  <url>
     <loc>/cad-extensions/solid-works-addin/saving-sw-part-to-praxis/index.html</loc>
     <lastmod>2023-03-02T17:55:13+05:30</lastmod>
   </url>
@@ -57,6 +69,18 @@
     <lastmod>2023-02-28T14:15:34+05:30</lastmod>
   </url>
   <url>
+    <loc>/hmicontrols/vulcanlink/runningprograms/index.html</loc>
+    <lastmod>2023-03-06T16:45:00+05:30</lastmod>
+  </url>
+  <url>
+    <loc>/hmicontrols/vulcanlink/index.html</loc>
+    <lastmod>2023-03-06T15:24:25+05:30</lastmod>
+  </url>
+  <url>
+    <loc>/hmicontrols/right-angle-link/searching-programs/index.html</loc>
+    <lastmod>2023-03-06T14:50:40+05:30</lastmod>
+  </url>
+  <url>
     <loc>/cad-extensions/solid-works-addin/index.html</loc>
     <lastmod>2023-03-02T17:39:37+05:30</lastmod>
   </url>
@@ -105,6 +129,14 @@
     <lastmod>2023-02-28T14:46:47+05:30</lastmod>
   </url>
   <url>
+    <loc>/hmicontrols/vulcanlink/editingprograms/index.html</loc>
+    <lastmod>2023-03-06T16:48:09+05:30</lastmod>
+  </url>
+  <url>
+    <loc>/hmicontrols/right-angle-link/running-programs/index.html</loc>
+    <lastmod>2023-03-06T14:52:42+05:30</lastmod>
+  </url>
+  <url>
     <loc>/filters/save-filter/index.html</loc>
     <lastmod>2023-03-02T16:16:31+05:30</lastmod>
   </url>
@@ -141,6 +173,14 @@
     <lastmod>2023-02-28T15:00:21+05:30</lastmod>
   </url>
   <url>
+    <loc>/hmicontrols/vulcanlink/lttsynchronization/index.html</loc>
+    <lastmod>2023-03-06T16:49:51+05:30</lastmod>
+  </url>
+  <url>
+    <loc>/hmicontrols/right-angle-link/editing-programs/index.html</loc>
+    <lastmod>2023-03-06T14:57:49+05:30</lastmod>
+  </url>
+  <url>
     <loc>/filters/job-page-filter/index.html</loc>
     <lastmod>2023-03-02T16:32:23+05:30</lastmod>
   </url>
@@ -159,6 +199,10 @@
   <url>
     <loc>/job/layout-commands/index.html</loc>
     <lastmod>2023-03-01T17:36:56+05:30</lastmod>
+  </url>
+  <url>
+    <loc>/hmicontrols/right-angle-link/adding-multiple-ra-stations/index.html</loc>
+    <lastmod>2023-03-06T15:04:17+05:30</lastmod>
   </url>
   <url>
     <loc>/factory-settings/edit-factory-material/index.html</loc>
@@ -222,7 +266,7 @@
   </url>
   <url>
     <loc>/hmicontrols/index.html</loc>
-    <lastmod>2023-03-06T15:32:09+05:30</lastmod>
+    <lastmod>2023-03-06T16:49:51+05:30</lastmod>
   </url>
   <url>
     <loc>/factory-settings/email-notification/index.html</loc>
@@ -231,38 +275,6 @@
   <url>
     <loc>/factory-settings/nest-settings/index.html</loc>
     <lastmod>2023-03-02T12:32:55+05:30</lastmod>
-  </url>
-  <url>
-    <loc>/hmicontrols/vulcanlink/loadingprogramsintovulcan/index.html</loc>
-    <lastmod>2023-03-06T15:32:09+05:30</lastmod>
-  </url>
-  <url>
-    <loc>/hmicontrols/vulcanlink/index.html</loc>
-    <lastmod>2023-03-06T15:24:25+05:30</lastmod>
-  </url>
-  <url>
-    <loc>/hmicontrols/right-angle-link/adding-multiple-ra-stations/index.html</loc>
-    <lastmod>2023-03-06T15:04:17+05:30</lastmod>
-  </url>
-  <url>
-    <loc>/hmicontrols/right-angle-link/editing-programs/index.html</loc>
-    <lastmod>2023-03-06T14:57:49+05:30</lastmod>
-  </url>
-  <url>
-    <loc>/hmicontrols/right-angle-link/running-programs/index.html</loc>
-    <lastmod>2023-03-06T14:52:42+05:30</lastmod>
-  </url>
-  <url>
-    <loc>/hmicontrols/right-angle-link/searching-programs/index.html</loc>
-    <lastmod>2023-03-06T14:50:40+05:30</lastmod>
-  </url>
-  <url>
-    <loc>/hmicontrols/right-angle-link/loading-programs-into-right-angle/index.html</loc>
-    <lastmod>2023-03-06T14:47:02+05:30</lastmod>
-  </url>
-  <url>
-    <loc>/hmicontrols/right-angle-link/index.html</loc>
-    <lastmod>2023-03-06T14:40:28+05:30</lastmod>
   </url>
   <url>
     <loc>/assembly/create-nests-from-assembly/index.html</loc>

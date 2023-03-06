@@ -1,5 +1,26 @@
 var relearn_search_index = [
   {
+    "content": " Launch Praxis and Vulcan. Switch to Praxis and import Job spreadsheets from the C:\\Program Files\\Metamation\\Praxis\\Samples\\Jobs folder. (Or load some parts and create new Job from the part library).\nSelect a job, right click, and use the Plan Job panel command. Select a bend machine.\nRepeat Plan Job (previous step) and select Proteck Dual Head machine from the menu.\nNests start appearing after a few seconds. Right click and use Send to Machine… command to send the layouts to Vulcan.\nLaunch Vulcan and switch to Programs page. It lists programs to run in Proteck Dual Head queue. The program tiles display job details like sheets to run, estimated machine-time-per-sheet, Praxis raw-materials etc.\nThe program list is updated as layouts are sent/recalled from Praxis. Programs are automatically refreshed when layouts are edited in Praxis.\nUse the search box to search the programs by name, raw-material or LTT table. The examples below show results of programs searched by\nRaw-material LTT. Removing programs from the queue Switch to Praxis Job page or go to the nests tab.\nSelect one or more layouts, right click, and use the Recall from Machine… panel command to remove the layouts from the production queue.\nThe Vulcan program list is automatically updated with the updated queue. ",
+    "description": "",
+    "tags": null,
+    "title": "Loading Programs into Vulcan",
+    "uri": "/hmicontrols/vulcanlink/loadingprogramsintovulcan/index.html"
+  },
+  {
+    "content": "Launch Praxis and RightAngle. Switch to Praxis and import Job spreadsheets from the C:\\Program Files\\Metamation\\Praxis\\Samples\\Jobs folder. (Or load some parts and create new Job from the part library). Select a job, right click, and use the Plan Job panel command. Select 5130X 6A B23 to add the selected parts to the production queue.\nThe queued part’s status is updated back in Praxis.\nSwitch to RightAngle Run page. It displays the programs in 5130X 6A B23 queue. The program tiles display the job details like job name, quantity to run, customer name etc. The tile also displays the Praxis raw-material name instead of the material name.\nThe program list displays the programs sorted by the priority and the due-date and it automatically refreshes when:\nThe production queue is updated in Praxis by adding new programs or removing existing ones.\nJob details like the job-name, customer name etc. are updated.\nThe Part geometry is revised, and the part is reprogrammed.\nRemoving programs from the queue Switch to Praxis Job page and select one or more Jobs or Job-parts.\nRight click and use the Reset Job/Reset Part panel command to revoke the job parts from the production queue.\nThe RA program list is automatically updated with the updated queue.\n",
+    "description": "",
+    "tags": null,
+    "title": "Loading Programs into RightAngle",
+    "uri": "/hmicontrols/right-angle-link/loading-programs-into-right-angle/index.html"
+  },
+  {
+    "content": "Setting up Praxis-RA link Download RA setup and install RightAngle standalone first.\nActivate RA (please contact Praxis/RA support team for a RA license) and make sure you can import a sample part (you can find RA samples in C:\\ProgramData\\Metamation\\RA\\Samples folder).\nInstall Praxis with RightAngle Link.\nLaunch Praxis to complete the setup.\nLaunch RA and click on the Metamation logo at the bottom-right. Notice the Praxis machine in the Version dialog. Also notice that there is no Create page in the Praxis mode.\n",
+    "description": "",
+    "tags": null,
+    "title": "Right Angle Link",
+    "uri": "/hmicontrols/right-angle-link/index.html"
+  },
+  {
     "content": " Open a sheetmetal part in SolidWorks. (Praxis already ships with a few. Locate them in C:\\Program Files\\Metamation\\Praxis\\Samples\\Parts folder).\nNow switch to the Praxis tab. It should show the Praxis toolbar in SolidWorks.\nPress Save to Praxis toolbar button to save the part to Praxis. This displays the save dialog where you can choose the part-configuration and the Praxis raw-material. Press OK to save.\nSetting up the auto-material resolution This setting can be used to help Praxis convert the SolidWorks material and the part thickness to a Praxis raw-material during the part upload. To set it up:\nClick on Options button to launch the Options dialog. Switch to the Material Mapping page and define material mapping between SolidWorks and Praxis materials by clicking first on a SolidWorks material from the left list followed by the Praxis material from the right list. Now use Map button to define the mapping. The mapping is added to the bottom list. Select the mapped item and use Un-map button to delete the mapping.\nThe mapping defined here is used to lookup the Praxis material from the SolidWorks material assigned to the Part. Thickness Fudge is another setting which affects the material lookup. This is the tolerance used when matching the model thickness to the raw-material thickness. Reading custom part properties This is another setting which can be used to read the material, revision etc. from a SolidWorks part. To set it up:\nSelect the Custom Fields settings page. Using Map/Un-map buttons, map the required Praxis fields with SolidWorks Custom and Configuration fields. (The field values displayed here are loaded from the active part).\nNote The settings defined here are saved into Praxis repository and are synchronized across all Praxis-SW stations.\n",
     "description": "",
     "tags": null,
@@ -98,6 +119,27 @@ var relearn_search_index = [
     "uri": "/introduction/installation/pre-requisites/index.html"
   },
   {
+    "content": "Select a program and use the run command to load the program for running.\nPraxis Job and Part statuses are updated to reflect the parts-in-progress. The Layout is checked-out to prevent updates while program is loaded on the machine.\nPress the stop1 button on the run page to mark the current sheet as complete. The job is updated with the completion status. Repeat this to mark all sheets as completed. Once completed program is unloaded, it is removed from the machine production queue and the job/part/layout statuses are updated in Praxis.\nThis is a demo mode workaround to complete layout sheets at Vulcan. In the live mode, this would happen automatically as layout is completed on a machine. ↩︎\n",
+    "description": "",
+    "tags": null,
+    "title": "Running Programs",
+    "uri": "/hmicontrols/vulcanlink/runningprograms/index.html"
+  },
+  {
+    "content": "The Programs page in Vulcan displays layouts from Praxis’ production queue.\nOperators can edit these layouts and save them back to Praxis.\nOperators can run the programs. The run progress is reported back and is reflected in Praxis.\nOperators can Add/Remove/Update LTT pages in Vulcan and push the updates to Praxis enabled Flux stations.\nSetting up the Praxis-Vulcan link Download Vulcan setup and install Vulcan standalone first.\nActivate and switch to the Programs page. You should see the sample demo programs (please contact Praxis support team for a Vulcan license).\nInstall Praxis with Vulcan Link component.\nLaunch Praxis to complete the setup. Praxis installs Proteck Dual Head laser machine to test the Vulcan connection and updates the Vulcan machine automatically. There is no create page in Vulcan as it produces programs created from Praxis when connected.\nNote Install the dual head machine manually if the automatic machine installation fails. You will also need to set the Vulcan machine by editing C:\\ProgramData\\Metamation\\Vulcan\\Data\\Settings.curl file (set MachineId:2230001) after installing the machine in Praxis.\n",
+    "description": "",
+    "tags": null,
+    "title": "Vulcan Link",
+    "uri": "/hmicontrols/vulcanlink/index.html"
+  },
+  {
+    "content": "Launch the search prompt using the search button from the right. Type-in the search text and press OK. The programs are searched by the part name, job name and the job customer. And the list is updated with the programs matching the search text.\n",
+    "description": "",
+    "tags": null,
+    "title": "Searching Programs",
+    "uri": "/hmicontrols/right-angle-link/searching-programs/index.html"
+  },
+  {
     "content": "Pre-requisite: The system must have SolidWorks Application installed to test this feature.\nInstallation Steps Launch Praxis setup and select SolidWorks Extension option on the components selection page to install the Praxis-SolidWorks add-in1. (Skip the Server option if add-in is being installed on a Praxis client). Finish Praxis installation and make sure Praxis monitor is running in the notification area.\nLaunch SolidWorks. It should prompt with the Praxis login dialog at the startup. Enter the password (if required) and press OK to continue to the SolidWorks home tab. Praxis remembers the credentials entered here and uses it from the next session onwards.\nFinish Praxis installation and make sure Praxis monitor is running in the notification area.\nLaunch SolidWorks. It should prompt with the Praxis login dialog at the startup. Enter the password (if required) and press OK to continue to the SolidWorks home tab. Praxis remembers the credentials entered here and uses it from the next session onwards.\nYou can use the tools • praxis • about praxis… SolidWorks command to check and verify the extension.\nAnd use tools • add-ins… dialog to enable/disable it at the SolidWorks startup. (The Praxis add-in is listed under Other Add-ins at the bottom.)\nTerms add-in and extension are used interchangeably in this document ↩︎\n",
     "description": "",
     "tags": null,
@@ -182,6 +224,20 @@ var relearn_search_index = [
     "uri": "/introduction/installation/praxis-setup-installation/praxis-setup-installation/index.html"
   },
   {
+    "content": "Select a Program in the programs list and use edit command to edit the program. The layout is checkout from the Praxis and is locked for editing. Update the program in Vulcan and press on done button to save the changes back to Praxis. Praxis checks the layout for validation errors and adds it back to the production queue if everything is OK.\nLinking Vulcan only station to Praxis The installation steps suggested in the start of this notes is more useful for testing and demo where both Vulcan, Praxis are needed on the same computer. A simpler Vulcan only option can be selected during the Praxis installation to skip a full Praxis install at the Controls. Select Stations • Vulcan on components page to pick this option. In this mode, existing only Praxis monitor with Vulcan addin is installed to link Vulcan to the Praxis.\n",
+    "description": "",
+    "tags": null,
+    "title": "Editing Programs",
+    "uri": "/hmicontrols/vulcanlink/editingprograms/index.html"
+  },
+  {
+    "content": "Select a program and use the run command to load the program for running.\nPraxis Job and Part statuses are updated to reflect the parts-in-progress.\nPress the done button on the run page (depending on your screen height, you may have to press the more to bring this in). The job is updated with the completion status and the program is removed from the machine production queue.\n",
+    "description": "",
+    "tags": null,
+    "title": "Running Programs",
+    "uri": "/hmicontrols/right-angle-link/running-programs/index.html"
+  },
+  {
     "content": "Save Filter by Name Use menu command Save Filter… or shortcut Ctrl+S to Save the filter by name. The Save Filter dialog can also be used to delete pre-existing filters. Selecting from an existing item, overwrites the item with the new filter.\nSelect saved filters Click on the filter selection menu button from the right-hand-side or use V shortcut key to list and select a saved filter. Select All option to clear filters and list all items. You can also use the alpha-numeric hot key A-Z, to jump-select a filter from the list.\nSame sort/filter feature is also available in the jobs page.\n",
     "description": "",
     "tags": null,
@@ -245,6 +301,20 @@ var relearn_search_index = [
     "uri": "/introduction/installation/serverfull-installation/index.html"
   },
   {
+    "content": "When linked to Praxis, the same LTT is used in Vulcan, Praxis and Flux. Vulcan becomes the LTT master and owns the technology tables. All edits made at Vulcan are pushed to all Praxis + Flux stations on the network.\nWalkthrough: Switch to the Configure page and click on the Laser Database button. Open Praxis or Flux to confirm the existing laser data. In Vulcan select a material + thickness and use clone page to clone the selected page. Here we are going to clone the MS_2mm generic page for Air. Follow the steps displayed in the image below and press OK. Press done in laser database page and press OK to save the changes when prompted. Open the page lists again in Praxis/Flux. The cloned page should be listed. Note Flux/Praxis should refresh the pages without restart. You just need to restart the page list dialogs. A more realistic test scenario would be to install Vulcan, Praxis and Flux on different computers. The LTT synchronization doesn’t work from Flux → Vulcan. Work is needed in Vulcan to support this. ",
+    "description": "",
+    "tags": null,
+    "title": "LTT Synchronization",
+    "uri": "/hmicontrols/vulcanlink/lttsynchronization/index.html"
+  },
+  {
+    "content": "Switch to the Edit page in RightAngle. Select the program you want to edit and press the edit toolbar command. RA check-out the program from the Praxis repository and opens it in the edit mode. The part tile and tooltip in Praxis reflects the check-out status and reason.\nApply a tooling change and press done to save the program back to Praxis. The program is saved and used from next time onwards.\n",
+    "description": "",
+    "tags": null,
+    "title": "Editing Programs",
+    "uri": "/hmicontrols/right-angle-link/editing-programs/index.html"
+  },
+  {
     "content": "The Jobs search functionality has significantly improved in this build. This makes it easier to locate Jobs, Active Parts and Nests based of various:\nOrder criteria like the priority, due date, customer, ordered part and quantity etc.\nPlanning/Scheduling status like the scheduled machines, sheets to-do, sheets completed, nested parts, nested layouts etc.\nNest attributes like nest efficiency, raw-material, unique and total parts, job IDs and counts.\nSample Filters Part/Layout Name The Part name field appears in the Jobs and the Nests page. Keying-in the search text, lists all sheets/jobs containing the parts matching the search term.\nSelecting the items from the suggestion narrows down the search to the selected part(s).\nThis behavior extends to the jobs page as well. Job page can be searched using the Part name and the Layout name. Like the Part name field, a suggestion list is displayed for the layouts as well.\nPriority and Due date Priorities and due dates are assigned to a part in a job. The Priority field, like the “Part name”, lets users find nests/jobs with higher priority parts. The high priority parts can be located on a nest by highlighting them using mouse over the suggestion menu. Similarly, parts with specified due date can be searched and located on a nest using the highlight feature.\nApart from pre-defined due date filters like Today, Yesterday, tomorrow etc., you can also key-in the custom date values/ranges in yymmdd format into the search textbox. The acceptable date expressions are:\nExpressions with (in)equality operators followed by the date value. E.g., \u003e=220121 would search all items which are due on or after 21st Jan 2022.\nDate range expressions like one in the image below. It searches for all nests due on or after 28th Jan 2022 and before 30th Jan 2022.\nUsed Tools Like the Part Library, nests can also be searched by the used punch tools. To search by used tools:\nSelect the Used tools field from the available filter columns. Praxis presents list of all available used tools.\nGenerally, this is a long list, use search term like the tool name, shape, size etc. to narrow down this list to the tool you are looking for.\nSelect one or more item from the list to filter parts where these tools are used. Switching to the details view, highlights the used tools and switching to simulation view reflects it back in the tooling preview.\nAside: Often the filter list hides the search content behind itself. Use Toggle opacity command to toggle the transparency. The transparency can also be toggled using the Right Mouse Click anywhere on the filter list.\n",
     "description": "",
     "tags": null,
@@ -278,6 +348,13 @@ var relearn_search_index = [
     "tags": null,
     "title": "Layout Commands",
     "uri": "/job/layout-commands/index.html"
+  },
+  {
+    "content": "Multiple RA stations can be linked to Praxis for the same or different bending machines. Use the installation steps listed in the [setup section](input/RightAngle Link). Select the Praxis desktop client with RightAngle Link when prompted by the Praxis setup.\nLaunch Praxis and connect it to the Praxis server. Now launch RightAngle. It should be linked to the Praxis for the same 5130X 6A B23 machine. And both stations display the same machine queue.\nLoading a program to run on one station, removes it from the queue such that the other stations can work on the remaining programs. This behavior would be useful in carrying out the load balanced, collaborative production.\nUse settings • other setting • machine settings RightAngle command in Service mode to change the machine. Now switch to Praxis and plan a few jobs/parts on 5170 6A demo machine. The second RA station displays 5170 production queue.\n",
+    "description": "",
+    "tags": null,
+    "title": "Adding Multiple RA Stations",
+    "uri": "/hmicontrols/right-angle-link/adding-multiple-ra-stations/index.html"
   },
   {
     "content": " Like the CAM page mapping, you can edit material aliases and bend material (material used in Flux Bend) using the Map –\u003e Materials command to map materials to the alternate names.\nThis command brings up the material editor dialog as shown in the image above. This can be used to\nAssign a bend-material to the selected material.\nEdit alternate name (aliases) of a material.\nEdit alternate names of a raw materials.\nBend-material The factory materials defined in Praxis may be different from the known materials defined in Flux. Praxis assigns the mapped bend material to the part before sending it to Flux Engine for bend CAM. The bend material combo displayed in this UI displays all materials defined in Flux. Select one appropriate for selected material from the left.\nMaterial Aliases Enter an alias name of the material, one-per-line, in the Aliases textbox. When importing new parts, these aliases are used to map the external material names like ERP, CAD systems etc. to the one defined in Praxis. This is a many-to-one map where multiple aliases can be assigned to a single Praxis material. While an alias name must be used just once. The UI enforces this rule if the alias is used again for some other material.\nRaw Material Aliases Like material-aliases, the raw-material aliases allow to provide alternate names for material + thicknesses. These short names later can be used in a spreadsheet to provide a single entry for both material + thickness. For instance, In the image above alias GALV#13 for the raw material QStE380TM-15 is used in spreadsheet below to assign the part-material::\nPartName, Quantity, DueDate, Priority, Material 00.13,6,08/21/2016,Normal,GALV#13 00.14,13,08/21/2016,Normal,GALV#13 00.16,3,08/21/2016,Normal,GALV#13\nThe imported part is assigned with the target raw material and the alias is displayed as the Drawing material part field. This part-field is used to capture the material/raw material alias which was used to resolve the actual material or raw material of the part. As displayed in the right below – the bend material is assigned to part bending solution.\nThe Export… and Import… commands can be used to assign mappings in batch. The exported file is a simple key-value CSV file. The section below describes the key-value schema with examples. (Note that there is not header row in the exported CSV).\nBend Material (Material, Bend-material)\nAluminium, AlMg3 QStE380TM, 1.8900 Stainless, 1.4301 Material alias (Alias, Material)\nAlMg3, Aluminium 3.3535, Aluminium Al, Aluminium Raw Material alias (Alias, Raw Material)\nALUM#10, Aluminium-05 AL07, Aluminium-07 Al07X, Aluminium-07 ",
@@ -404,62 +481,6 @@ var relearn_search_index = [
     "tags": null,
     "title": "Nest Settings",
     "uri": "/factory-settings/nest-settings/index.html"
-  },
-  {
-    "content": " Launch Praxis and Vulcan. Switch to Praxis and import Job spreadsheets from the C:\\Program Files\\Metamation\\Praxis\\Samples\\Jobs folder. (Or load some parts and create new Job from the part library).\nSelect a job, right click, and use the Plan Job panel command. Select a bend machine.\nRepeat Plan Job (previous step) and select Proteck Dual Head machine from the menu.\nNests start appearing after a few seconds. Right click and use Send to Machine… command to send the layouts to Vulcan.\nLaunch Vulcan and switch to Programs page. It lists programs to run in Proteck Dual Head queue. The program tiles display job details like sheets to run, estimated machine-time-per-sheet, Praxis raw-materials etc.\nThe program list is updated as layouts are sent/recalled from Praxis. Programs are automatically refreshed when layouts are edited in Praxis.\nUse the search box to search the programs by name, raw-material or LTT table. The examples below show results of programs searched by\nRaw-material LTT. Removing programs from the queue Switch to Praxis Job page or go to the nests tab.\nSelect one or more layouts, right click, and use the Recall from Machine… panel command to remove the layouts from the production queue.\nThe Vulcan program list is automatically updated with the updated queue. ",
-    "description": "",
-    "tags": null,
-    "title": "Loading Programs into Vulcan",
-    "uri": "/hmicontrols/vulcanlink/loadingprogramsintovulcan/index.html"
-  },
-  {
-    "content": "The Programs page in Vulcan displays layouts from Praxis’ production queue.\nOperators can edit these layouts and save them back to Praxis.\nOperators can run the programs. The run progress is reported back and is reflected in Praxis.\nOperators can Add/Remove/Update LTT pages in Vulcan and push the updates to Praxis enabled Flux stations.\nSetting up the Praxis-Vulcan link Download Vulcan setup and install Vulcan standalone first.\nActivate and switch to the Programs page. You should see the sample demo programs (please contact Praxis support team for a Vulcan license).\nInstall Praxis with Vulcan Link component.\nLaunch Praxis to complete the setup. Praxis installs Proteck Dual Head laser machine to test the Vulcan connection and updates the Vulcan machine automatically. There is no create page in Vulcan as it produces programs created from Praxis when connected.\nNote Install the dual head machine manually if the automatic machine installation fails. You will also need to set the Vulcan machine by editing C:\\ProgramData\\Metamation\\Vulcan\\Data\\Settings.curl file (set MachineId:2230001) after installing the machine in Praxis.\n",
-    "description": "",
-    "tags": null,
-    "title": "Vulcan Link",
-    "uri": "/hmicontrols/vulcanlink/index.html"
-  },
-  {
-    "content": "Multiple RA stations can be linked to Praxis for the same or different bending machines. Use the installation steps listed in the [setup section](input/RightAngle Link). Select the Praxis desktop client with RightAngle Link when prompted by the Praxis setup.\nLaunch Praxis and connect it to the Praxis server. Now launch RightAngle. It should be linked to the Praxis for the same 5130X 6A B23 machine. And both stations display the same machine queue.\nLoading a program to run on one station, removes it from the queue such that the other stations can work on the remaining programs. This behavior would be useful in carrying out the load balanced, collaborative production.\nUse settings • other setting • machine settings RightAngle command in Service mode to change the machine. Now switch to Praxis and plan a few jobs/parts on 5170 6A demo machine. The second RA station displays 5170 production queue.\n",
-    "description": "",
-    "tags": null,
-    "title": "Adding Multiple RA Stations",
-    "uri": "/hmicontrols/right-angle-link/adding-multiple-ra-stations/index.html"
-  },
-  {
-    "content": "Switch to the Edit page in RightAngle. Select the program you want to edit and press the edit toolbar command. RA check-out the program from the Praxis repository and opens it in the edit mode. The part tile and tooltip in Praxis reflects the check-out status and reason.\nApply a tooling change and press done to save the program back to Praxis. The program is saved and used from next time onwards.\n",
-    "description": "",
-    "tags": null,
-    "title": "Editing Programs",
-    "uri": "/hmicontrols/right-angle-link/editing-programs/index.html"
-  },
-  {
-    "content": "Select a program and use the run command to load the program for running.\nPraxis Job and Part statuses are updated to reflect the parts-in-progress.\nPress the done button on the run page (depending on your screen height, you may have to press the more to bring this in). The job is updated with the completion status and the program is removed from the machine production queue.\n",
-    "description": "",
-    "tags": null,
-    "title": "Running Programs",
-    "uri": "/hmicontrols/right-angle-link/running-programs/index.html"
-  },
-  {
-    "content": "Launch the search prompt using the search button from the right. Type-in the search text and press OK. The programs are searched by the part name, job name and the job customer. And the list is updated with the programs matching the search text.\n",
-    "description": "",
-    "tags": null,
-    "title": "Searching Programs",
-    "uri": "/hmicontrols/right-angle-link/searching-programs/index.html"
-  },
-  {
-    "content": "Launch Praxis and RightAngle. Switch to Praxis and import Job spreadsheets from the C:\\Program Files\\Metamation\\Praxis\\Samples\\Jobs folder. (Or load some parts and create new Job from the part library). Select a job, right click, and use the Plan Job panel command. Select 5130X 6A B23 to add the selected parts to the production queue.\nThe queued part’s status is updated back in Praxis.\nSwitch to RightAngle Run page. It displays the programs in 5130X 6A B23 queue. The program tiles display the job details like job name, quantity to run, customer name etc. The tile also displays the Praxis raw-material name instead of the material name.\nThe program list displays the programs sorted by the priority and the due-date and it automatically refreshes when:\nThe production queue is updated in Praxis by adding new programs or removing existing ones.\nJob details like the job-name, customer name etc. are updated.\nThe Part geometry is revised, and the part is reprogrammed.\nRemoving programs from the queue Switch to Praxis Job page and select one or more Jobs or Job-parts.\nRight click and use the Reset Job/Reset Part panel command to revoke the job parts from the production queue.\nThe RA program list is automatically updated with the updated queue.\n",
-    "description": "",
-    "tags": null,
-    "title": "Loading Programs into RightAngle",
-    "uri": "/hmicontrols/right-angle-link/loading-programs-into-right-angle/index.html"
-  },
-  {
-    "content": "Setting up Praxis-RA link Download RA setup and install RightAngle standalone first.\nActivate RA (please contact Praxis/RA support team for a RA license) and make sure you can import a sample part (you can find RA samples in C:\\ProgramData\\Metamation\\RA\\Samples folder).\nInstall Praxis with RightAngle Link.\nLaunch Praxis to complete the setup.\nLaunch RA and click on the Metamation logo at the bottom-right. Notice the Praxis machine in the Version dialog. Also notice that there is no Create page in the Praxis mode.\n",
-    "description": "",
-    "tags": null,
-    "title": "Right Angle Link",
-    "uri": "/hmicontrols/right-angle-link/index.html"
   },
   {
     "content": "A new assembly can be imported from a CSV file.\nUse open • import assemblies… command and select a CSV file to import it as a new assembly. Update the assembly details, quantities or use the Add…/Remove… buttons to update the BOM before importing the assembly and the parts.\nSame CSV format used for creating new job can be used for importing new assemblies as well.\nOnce imported, you can prepare and assign Static Nests to these assemblies.\nSwitch to the assemblies’ tab, right click an assembly and use Create Nests… command to launch the assembly nesting wizard. This is an interactive wizard where you can select machine, sheets, update the quantities, nest and save the results. The generated nests are named after the parent assembly for an easier identification. Once saved, the nest results are assigned to the assembly as static nests. And the assembly part status is updated to reflect the nest status. (Notice part Roof~2 status as the nest Roof-L5 was discarded from the results above). User can edit a static nest to insert un-nested parts from the parent assembly. Right click on an assembly and use Drop Nests… command to delete all assigned nests. Note Unlike jobs, mixing parts from other assemblies is not allowed for static nests. If allowed, this would prevent an assembly from being released for production without releasing the other.\nProducing a kit Right click and use New Job… command to produce the assembly. Praxis displays the New Job dialog. Update the assembly count and press OK. Use the regular New Job dialog with the part details to update due date and priority etc. and press OK. Update the assembly count and press OK. Use the regular New Job dialog with the part details to update due date and priority etc. and press OK.\nPraxis creates a job from the assembly, copies the static nests as job nests with the updated sheet counts. The copied nests are named with Job ID prefix. You can edit/delete the job nests without affecting the original kit. Or repack the nests using Adapt/Compact… and Add Parts… commands. Right click the job and use Plan Job… command to select and assign the press brakes to parts with the bends. ",

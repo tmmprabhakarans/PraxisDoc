@@ -9,22 +9,22 @@
     <title>Right Angle Link :: Praxis Manual</title>
     <link href="/hmicontrols/right-angle-link/index.html" rel="canonical" type="text/html" title="Right Angle Link :: Praxis Manual">
     <link href="/hmicontrols/right-angle-link/index.xml" rel="alternate" type="application/rss+xml" title="Right Angle Link :: Praxis Manual">
-    <link href="/images/favicon.png?1678099968" rel="icon" type="image/png">
+    <link href="/images/favicon.png?1678104261" rel="icon" type="image/png">
     <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
-    <link href="/css/fontawesome-all.min.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1678099969" rel="stylesheet"></noscript>
-    <link href="/css/featherlight.min.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1678099969" rel="stylesheet"></noscript>
-    <link href="/css/auto-complete.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1678099969" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1678099969" rel="stylesheet">
-    <link href="/css/nucleus.css?1678099969" rel="stylesheet">
-    <link href="/css/fonts.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1678099969" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1678099969" rel="stylesheet">
-    <link href="/css/theme-blue.css?1678099969" rel="stylesheet" id="variant-style">
-    <link href="/css/ie.css?1678099969" rel="stylesheet">
-    <link href="/css/variant.css?1678099969" rel="stylesheet">
-    <link href="/css/print.css?1678099969" rel="stylesheet" media="print">
-    <link href="/css/format-print.css?1678099969" rel="stylesheet">
-    <script src="/js/url.js?1678099969"></script>
-    <script src="/js/variant.js?1678099969"></script>
+    <link href="/css/fontawesome-all.min.css?1678104262" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1678104262" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1678104262" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1678104262" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1678104262" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1678104262" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1678104262" rel="stylesheet">
+    <link href="/css/nucleus.css?1678104262" rel="stylesheet">
+    <link href="/css/fonts.css?1678104262" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1678104262" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1678104262" rel="stylesheet">
+    <link href="/css/theme-blue.css?1678104262" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1678104262" rel="stylesheet">
+    <link href="/css/variant.css?1678104262" rel="stylesheet">
+    <link href="/css/print.css?1678104262" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1678104262" rel="stylesheet">
+    <script src="/js/url.js?1678104262"></script>
+    <script src="/js/variant.js?1678104262"></script>
     <script>
       // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
       // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
@@ -42,7 +42,7 @@
       var baseUriFull='/';
       window.variants && variants.init( [ 'blue', 'green', 'relearn-dark' ] );
     </script>
-    <script src="/js/jquery.min.js?1678099969" defer></script>
+    <script src="/js/jquery.min.js?1678104262" defer></script>
   </head>
   <body class="mobile-support print" data-url="/hmicontrols/right-angle-link/index.html">
     <div id="body" class="default-animation">
@@ -105,96 +105,6 @@
           <section>
             <h1 class="a11y-only">Subsections of Right Angle Link</h1>
           <article class="default">
-<h1 id="adding-multiple-ra-stations">Adding Multiple RA Stations</h1>
-
-<p>Multiple RA stations can be linked to Praxis for the same or different bending machines. Use the installation steps listed in the [setup section](input/RightAngle Link). Select the Praxis desktop client with RightAngle Link when prompted by the Praxis setup.</p>
-<p>
-<a href="/images/MultipleRA.png" data-featherlight="image">
-<img src="/images/MultipleRA.png" alt="Multiple RA" style="height: auto; width: auto;" loading="lazy">
-</a></p>
-<p>Launch Praxis and connect it to the Praxis server. Now launch RightAngle. It should be linked to the Praxis for the same <strong>5130X 6A B23</strong> machine. And both stations display the same machine queue.</p>
-<p>
-<a href="/images/RAStations.png" data-featherlight="image">
-<img src="/images/RAStations.png" alt="RA Stations" style="height: auto; width: auto;" loading="lazy">
-</a></p>
-<p>Loading a program to run on one station, removes it from the queue such that the other stations can work on the remaining programs. This behavior would be useful in carrying out the load balanced, collaborative production.</p>
-<p>
-<a href="/images/MultipleStationRun.png" data-featherlight="image">
-<img src="/images/MultipleStationRun.png" alt="Multiple Stations" style="height: auto; width: auto;" loading="lazy">
-</a></p>
-<p>Use <strong>settings • other setting • machine settings</strong> RightAngle command in Service mode to change the machine. Now switch to Praxis and plan a few jobs/parts on <strong>5170 6A</strong> demo machine. The second RA station displays 5170 production queue.</p>
-<p>
-<a href="/images/Station5170A.png" data-featherlight="image">
-<img src="/images/Station5170A.png" alt="5170A" style="height: auto; width: auto;" loading="lazy">
-</a></p>
-
-            <footer class="footline">
-            </footer>
-          </article>
-
-          <article class="default">
-<h1 id="editing-programs">Editing Programs</h1>
-
-<p>Switch to the <strong>Edit</strong> page in RightAngle. Select the program you want to edit and press the edit toolbar command. RA check-out the program from the Praxis repository and opens it in the edit mode. The part tile and tooltip in Praxis reflects the check-out status and reason.</p>
-<p>
-<a href="/images/EditProgram.png" data-featherlight="image">
-<img src="/images/EditProgram.png" alt="Edit Program" style="height: auto; width: auto;" loading="lazy">
-</a></p>
-<p>Apply a tooling change and press done to save the program back to Praxis. The program is saved and used from next time onwards.</p>
-<p>
-<a href="/images/EditModel.png?classes=inline" data-featherlight="image">
-<img src="/images/EditModel.png?classes=inline" alt="Edit Model" class="inline" style="height: auto; width: auto;" loading="lazy">
-</a>
-
-<a href="/images/ModelUpdate.png?classes=inline" data-featherlight="image">
-<img src="/images/ModelUpdate.png?classes=inline" alt="Model Update" class="inline" style="height: auto; width: auto;" loading="lazy">
-</a></p>
-
-            <footer class="footline">
-            </footer>
-          </article>
-
-          <article class="default">
-<h1 id="running-programs">Running Programs</h1>
-
-<p>Select a program and use the run command to load the program for running.</p>
-<p>
-<a href="/images/RunningProgram.png" data-featherlight="image">
-<img src="/images/RunningProgram.png" alt="Run Program" style="height: auto; width: auto;" loading="lazy">
-</a></p>
-<p>Praxis Job and Part statuses are updated to reflect the parts-in-progress.</p>
-<p>
-<a href="/images/BendingQueueRA.png" data-featherlight="image">
-<img src="/images/BendingQueueRA.png" alt="Processing Job" style="height: auto; width: auto;" loading="lazy">
-</a></p>
-<p>Press the <strong>done</strong> button on the run page (depending on your screen height, you may have to press the <strong>more</strong> to bring this in). The job is updated with the completion status and the program is removed from the machine production queue.</p>
-<p>
-<a href="/images/Done.png?classes=inline" data-featherlight="image">
-<img src="/images/Done.png?classes=inline" alt="Done" class="inline" style="height: auto; width: auto;" loading="lazy">
-</a>
-
-<a href="/images/Done2.png?classes=inline" data-featherlight="image">
-<img src="/images/Done2.png?classes=inline" alt="Done" class="inline" style="height: auto; width: auto;" loading="lazy">
-</a></p>
-
-            <footer class="footline">
-            </footer>
-          </article>
-
-          <article class="default">
-<h1 id="searching-programs">Searching Programs</h1>
-
-<p>Launch the search prompt using the search button from the right. Type-in the search text and press OK. The programs are searched by the part name, job name and the job customer. And the list is updated with the programs matching the search text.</p>
-<p>
-<a href="/images/SearchProgram.png" data-featherlight="image">
-<img src="/images/SearchProgram.png" alt="Search Program" style="height: auto; width: auto;" loading="lazy">
-</a></p>
-
-            <footer class="footline">
-            </footer>
-          </article>
-
-          <article class="default">
 <h1 id="loading-programs-into-rightangle">Loading Programs into RightAngle</h1>
 
 <p>Launch Praxis and RightAngle. Switch to Praxis and import Job spreadsheets from the <em>C:\Program Files\Metamation\Praxis\Samples\Jobs</em> folder. (Or load some parts and create new Job from the part library). Select a job, right click, and use the Plan Job panel command. Select 5130X 6A B23 to add the selected parts to the production queue.</p>
@@ -239,12 +149,102 @@
             </footer>
           </article>
 
+          <article class="default">
+<h1 id="searching-programs">Searching Programs</h1>
+
+<p>Launch the search prompt using the search button from the right. Type-in the search text and press OK. The programs are searched by the part name, job name and the job customer. And the list is updated with the programs matching the search text.</p>
+<p>
+<a href="/images/SearchProgram.png" data-featherlight="image">
+<img src="/images/SearchProgram.png" alt="Search Program" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="running-programs">Running Programs</h1>
+
+<p>Select a program and use the run command to load the program for running.</p>
+<p>
+<a href="/images/RunningProgram.png" data-featherlight="image">
+<img src="/images/RunningProgram.png" alt="Run Program" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Praxis Job and Part statuses are updated to reflect the parts-in-progress.</p>
+<p>
+<a href="/images/BendingQueueRA.png" data-featherlight="image">
+<img src="/images/BendingQueueRA.png" alt="Processing Job" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Press the <strong>done</strong> button on the run page (depending on your screen height, you may have to press the <strong>more</strong> to bring this in). The job is updated with the completion status and the program is removed from the machine production queue.</p>
+<p>
+<a href="/images/Done.png?classes=inline" data-featherlight="image">
+<img src="/images/Done.png?classes=inline" alt="Done" class="inline" style="height: auto; width: auto;" loading="lazy">
+</a>
+
+<a href="/images/Done2.png?classes=inline" data-featherlight="image">
+<img src="/images/Done2.png?classes=inline" alt="Done" class="inline" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="editing-programs">Editing Programs</h1>
+
+<p>Switch to the <strong>Edit</strong> page in RightAngle. Select the program you want to edit and press the edit toolbar command. RA check-out the program from the Praxis repository and opens it in the edit mode. The part tile and tooltip in Praxis reflects the check-out status and reason.</p>
+<p>
+<a href="/images/EditProgram.png" data-featherlight="image">
+<img src="/images/EditProgram.png" alt="Edit Program" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Apply a tooling change and press done to save the program back to Praxis. The program is saved and used from next time onwards.</p>
+<p>
+<a href="/images/EditModel.png?classes=inline" data-featherlight="image">
+<img src="/images/EditModel.png?classes=inline" alt="Edit Model" class="inline" style="height: auto; width: auto;" loading="lazy">
+</a>
+
+<a href="/images/ModelUpdate.png?classes=inline" data-featherlight="image">
+<img src="/images/ModelUpdate.png?classes=inline" alt="Model Update" class="inline" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="adding-multiple-ra-stations">Adding Multiple RA Stations</h1>
+
+<p>Multiple RA stations can be linked to Praxis for the same or different bending machines. Use the installation steps listed in the [setup section](input/RightAngle Link). Select the Praxis desktop client with RightAngle Link when prompted by the Praxis setup.</p>
+<p>
+<a href="/images/MultipleRA.png" data-featherlight="image">
+<img src="/images/MultipleRA.png" alt="Multiple RA" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Launch Praxis and connect it to the Praxis server. Now launch RightAngle. It should be linked to the Praxis for the same <strong>5130X 6A B23</strong> machine. And both stations display the same machine queue.</p>
+<p>
+<a href="/images/RAStations.png" data-featherlight="image">
+<img src="/images/RAStations.png" alt="RA Stations" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Loading a program to run on one station, removes it from the queue such that the other stations can work on the remaining programs. This behavior would be useful in carrying out the load balanced, collaborative production.</p>
+<p>
+<a href="/images/MultipleStationRun.png" data-featherlight="image">
+<img src="/images/MultipleStationRun.png" alt="Multiple Stations" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Use <strong>settings • other setting • machine settings</strong> RightAngle command in Service mode to change the machine. Now switch to Praxis and plan a few jobs/parts on <strong>5170 6A</strong> demo machine. The second RA station displays 5170 production queue.</p>
+<p>
+<a href="/images/Station5170A.png" data-featherlight="image">
+<img src="/images/Station5170A.png" alt="5170A" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
           </section>        </div>
       </main>
     </div>
-    <script src="/js/clipboard.min.js?1678099969" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1678099969" defer></script>
-    <script src="/js/featherlight.min.js?1678099969" defer></script>
-    <script src="/js/theme.js?1678099969" defer></script>
+    <script src="/js/clipboard.min.js?1678104262" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1678104262" defer></script>
+    <script src="/js/featherlight.min.js?1678104262" defer></script>
+    <script src="/js/theme.js?1678104262" defer></script>
   </body>
 </html>
