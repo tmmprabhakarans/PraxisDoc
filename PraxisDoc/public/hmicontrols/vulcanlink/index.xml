@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vulcan Link on Praxis Manual</title>
+    <link>/hmicontrols/vulcanlink/index.html</link>
+    <description>Recent content in Vulcan Link on Praxis Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Mar 2023 15:24:25 +0530</lastBuildDate><atom:link href="/hmicontrols/vulcanlink/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Loading Programs into Vulcan</title>
+      <link>/hmicontrols/vulcanlink/loadingprogramsintovulcan/index.html</link>
+      <pubDate>Mon, 06 Mar 2023 15:32:09 +0530</pubDate>
+      <guid>/hmicontrols/vulcanlink/loadingprogramsintovulcan/index.html</guid>
+      <description>Launch Praxis and Vulcan. Switch to Praxis and import Job spreadsheets from the C:\Program Files\Metamation\Praxis\Samples\Jobs folder. (Or load some parts and create new Job from the part library).
+Select a job, right click, and use the Plan Job panel command. Select a bend machine.
+Repeat Plan Job (previous step) and select Proteck Dual Head machine from the menu.
+Nests start appearing after a few seconds. Right click and use Send to Machine… command to send the layouts to Vulcan.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Relearn 5.9.2+tip">
+    <meta name="description" content="">
+    <title>Material Mapping :: Praxis Manual</title>
+    <link href="/factory-settings/material-mapping/index.html" rel="canonical" type="text/html" title="Material Mapping :: Praxis Manual">
+    <link href="/factory-settings/material-mapping/index.xml" rel="alternate" type="application/rss+xml" title="Material Mapping :: Praxis Manual">
+    <link href="/images/favicon.png?1678099968" rel="icon" type="image/png">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1678099969" rel="stylesheet">
+    <link href="/css/nucleus.css?1678099969" rel="stylesheet">
+    <link href="/css/fonts.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1678099969" rel="stylesheet">
+    <link href="/css/theme-blue.css?1678099969" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1678099969" rel="stylesheet">
+    <link href="/css/variant.css?1678099969" rel="stylesheet">
+    <link href="/css/print.css?1678099969" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1678099969" rel="stylesheet">
+    <script src="/js/url.js?1678099969"></script>
+    <script src="/js/variant.js?1678099969"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="/index.search.js";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='/';
+      window.variants && variants.init( [ 'blue', 'green', 'relearn-dark' ] );
+    </script>
+    <script src="/js/jquery.min.js?1678099969" defer></script>
+  </head>
+  <body class="mobile-support print" data-url="/factory-settings/material-mapping/index.html">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable" dir="ltr">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Home Page</span></a><meta itemprop="position" content="1"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/factory-settings/index.html"><span itemprop="name">Factory Settings</span></a><meta itemprop="position" content="2"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Material Mapping</span><meta itemprop="position" content="3"></li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1 id="material-mapping">Material Mapping</h1>
+
+<p>When a new laser/hybrid/waterjet machine is added to the factory route, Praxis checks if the target machine contains the technology table for all available factory raw materials (material + thickness). Praxis prompts user with the page mapping UI, if it does not find them. The page-mapping can then be used to map the factory material to the laser pages.</p>
+<p>
+<a href="/images/CAMPages.png" data-featherlight="image">
+<img src="/images/CAMPages.png" alt="CAM Pages:" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The page-mapping dialog can also be launched  from the machine settings panel using the Map Pages… command and from the sheets factory settings page using MapàCAM Pages command. The later launches the mapping UI for all factory materials.</p>
+<p>
+<a href="/images/MapPages.png" data-featherlight="image">
+<img src="/images/MapPages.png" alt="Map Pages" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The mapping dialog displays factory raw-material in the left-side and the laser pages in the right. Mapping can be performed between the material and the pages of the same machine. An orange color means a missing entry implying that the raw material cannot be produced on the target machine.</p>
+<p>
+<a href="/images/MappingCAMPages.png" data-featherlight="image">
+<img src="/images/MappingCAMPages.png" alt="Mapping CAM Pages" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h1 id="mapping-factory-materials">Mapping Factory Materials</h1>
+<p>The mapping can be performed at two levels</p>
+<h2 id="factory-material--technology-material">Factory Material → Technology Material</h2>
+<p>When a factory material is mapped to a technology material, Praxis then looks up for the raw-materials (thicknesses) from the factory set into the technology pages. If a match is found, it is displayed mapped (in green status color). Select the material node from left and a double click the material node in right or use <strong>Assign</strong> command to perform this mapping. As the image displays below, thicknesses 1, 1.5, 2 etc. are found in the technology entries in right. Selecting a mapped node in left highlights its map in right.</p>
+<p>
+<a href="/images/FactoryMaterial.png" data-featherlight="image">
+<img src="/images/FactoryMaterial.png" alt="Factory Material" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="factory-raw-material-material--thickness--a-technology-page">Factory Raw-Material (material + thickness) → A Technology Page</h2>
+<p>The raw material from left can be mapped to the technology pages in the right. To perform this mapping, select the node in left and double click (or select and assign) the page node in right. As displayed in the image below, such maps are displayed with an arrow (→ ) key.</p>
+<p>
+<a href="/images/FactoryRawmaterial.png" data-featherlight="image">
+<img src="/images/FactoryRawmaterial.png" alt="Factory Rawmaterial" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="auto-assign-command">Auto-Assign Command</h2>
+<p>When this command is used the page-lookup is done with a <strong>thickness scaled fudge</strong>. This is useful in mapping inch thicknesses to metric pages and vice-versa. The fudge value is ~.03mm for 1mm thickness. Hence, this allows a 1mm steel to be mapped to a page created for 0.04 inches (STEEL#18) steel. 
+The command button is disabled if no such fudged mapping is possible. 
+The <strong>Reset mapping&hellip;</strong> command erases the mapping table and resets back to the default. The mapping table is also used to select the appropriate raw-material sheet during the nesting. </p>
+<h2 id="page-edit-commands">Page Edit Commands</h2>
+<p>Page edit commands have been implemented in the material mapping dialog. These commands can be used to:</p>
+<ul>
+<li>Edit existing laser pages</li>
+<li>Copy an individual page or pages under a material node</li>
+<li>Remove pages</li>
+</ul>
+<p>
+<a href="/images/PageEdit.png" data-featherlight="image">
+<img src="/images/PageEdit.png" alt="Page Edit:" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>These commands are helpful in setting up technology tables of a new laser machine from an existing, reference machine.</p>
+<p><strong>Edit Page</strong></p>
+<p>This command can be used to edit an individual page or set of all pages under a material node. When the individual page is edited, you can change parameters like material, thickness etc. The material node can be edited to change machine or material of the whole batch under the node. The edit dialog displays the New and Old values of the selected page(s) and pressing OK applies the changes to the laser database.</p>
+<p><strong>Copy Page</strong></p>
+<p>This command can be used to copy existing page(s) to new material or machine node. Same UI is presented with controls to changes page parameters.</p>
+<p><strong>Remove Page</strong></p>
+<p>This command can be used to remove selected page(s).</p>
+<p>Press OK to apply the changes to the MetaCAM laser database. Cancel command cancels all edits leaving the config.dat unchanged.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard.min.js?1678099969" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1678099969" defer></script>
+    <script src="/js/featherlight.min.js?1678099969" defer></script>
+    <script src="/js/theme.js?1678099969" defer></script>
+  </body>
+</html>

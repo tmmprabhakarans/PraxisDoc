@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Relearn 5.9.2+tip">
+    <meta name="description" content="">
+    <title>Adding Multiple RA Stations :: Praxis Manual</title>
+    <link href="/hmicontrols/right-angle-link/adding-multiple-ra-stations/index.html" rel="canonical" type="text/html" title="Adding Multiple RA Stations :: Praxis Manual">
+    <link href="/hmicontrols/right-angle-link/adding-multiple-ra-stations/index.xml" rel="alternate" type="application/rss+xml" title="Adding Multiple RA Stations :: Praxis Manual">
+    <link href="/images/favicon.png?1678099968" rel="icon" type="image/png">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1678099969" rel="stylesheet">
+    <link href="/css/nucleus.css?1678099969" rel="stylesheet">
+    <link href="/css/fonts.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1678099969" rel="stylesheet">
+    <link href="/css/theme-blue.css?1678099969" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1678099969" rel="stylesheet">
+    <link href="/css/variant.css?1678099969" rel="stylesheet">
+    <link href="/css/print.css?1678099969" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1678099969" rel="stylesheet">
+    <script src="/js/url.js?1678099969"></script>
+    <script src="/js/variant.js?1678099969"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="/index.search.js";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='/';
+      window.variants && variants.init( [ 'blue', 'green', 'relearn-dark' ] );
+    </script>
+    <script src="/js/jquery.min.js?1678099969" defer></script>
+  </head>
+  <body class="mobile-support print" data-url="/hmicontrols/right-angle-link/adding-multiple-ra-stations/index.html">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable" dir="ltr">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Home Page</span></a><meta itemprop="position" content="1"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/hmicontrols/index.html"><span itemprop="name">HMIControls</span></a><meta itemprop="position" content="2"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/hmicontrols/right-angle-link/index.html"><span itemprop="name">Right Angle Link</span></a><meta itemprop="position" content="3"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Adding Multiple RA Stations</span><meta itemprop="position" content="4"></li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1 id="adding-multiple-ra-stations">Adding Multiple RA Stations</h1>
+
+<p>Multiple RA stations can be linked to Praxis for the same or different bending machines. Use the installation steps listed in the [setup section](input/RightAngle Link). Select the Praxis desktop client with RightAngle Link when prompted by the Praxis setup.</p>
+<p>
+<a href="/images/MultipleRA.png" data-featherlight="image">
+<img src="/images/MultipleRA.png" alt="Multiple RA" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Launch Praxis and connect it to the Praxis server. Now launch RightAngle. It should be linked to the Praxis for the same <strong>5130X 6A B23</strong> machine. And both stations display the same machine queue.</p>
+<p>
+<a href="/images/RAStations.png" data-featherlight="image">
+<img src="/images/RAStations.png" alt="RA Stations" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Loading a program to run on one station, removes it from the queue such that the other stations can work on the remaining programs. This behavior would be useful in carrying out the load balanced, collaborative production.</p>
+<p>
+<a href="/images/MultipleStationRun.png" data-featherlight="image">
+<img src="/images/MultipleStationRun.png" alt="Multiple Stations" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Use <strong>settings • other setting • machine settings</strong> RightAngle command in Service mode to change the machine. Now switch to Praxis and plan a few jobs/parts on <strong>5170 6A</strong> demo machine. The second RA station displays 5170 production queue.</p>
+<p>
+<a href="/images/Station5170A.png" data-featherlight="image">
+<img src="/images/Station5170A.png" alt="5170A" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard.min.js?1678099969" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1678099969" defer></script>
+    <script src="/js/featherlight.min.js?1678099969" defer></script>
+    <script src="/js/theme.js?1678099969" defer></script>
+  </body>
+</html>

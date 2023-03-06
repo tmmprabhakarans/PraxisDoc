@@ -6,10 +6,10 @@ weight: 1
 ---
 
 {{% notice style="note" %}}
-Praxis setup displays the below mentioned warning message at the beginning of Installation if the Praxis setup is run without running the *Pre-Requisites*. Pre-Requisite installation is necessary only for the first time and can be ignored thereafter.
+Praxis setup displays the below mentioned warning message at the beginning of Installation if the Praxis setup is run without running the **Pre-Requisites**. Pre-Requisite installation is necessary only for the first time and can be ignored thereafter.
 {{% /notice %}}
 
-Praxis setup displays the below mentioned warning message at the beginning of Installation if the Praxis setup is run without running the *Pre-Requisites*. Pre-Requisite installation is necessary only for the first time and can be ignored thereafter.
+Praxis setup displays the below mentioned warning message at the beginning of Installation if the Praxis setup is run without running the **Pre-Requisites**. Pre-Requisite installation is necessary only for the first time and can be ignored thereafter.
 
 ![PreRequisite](/images/PreRequisiteUnavailable.png)
 

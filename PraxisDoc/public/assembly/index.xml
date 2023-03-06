@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assembly on Praxis Manual</title>
+    <link>/assembly/index.html</link>
+    <description>Recent content in Assembly on Praxis Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Mar 2023 15:06:08 +0530</lastBuildDate><atom:link href="/assembly/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Producing Assembly</title>
+      <link>/assembly/producing-assembly/index.html</link>
+      <pubDate>Wed, 01 Mar 2023 14:48:26 +0530</pubDate>
+      <guid>/assembly/producing-assembly/index.html</guid>
+      <description>To produce an assembly :
+Select the assembly from the assembly tree. Praxis displays the assembly parts with their repetition counts in the parts pane.
+Use new job command to bring the job dialog.
+Adjust the Assembly Count and press OK.</description>
+    </item>
+    <item>
+      <title>Import Non-Sheet metal Parts</title>
+      <link>/assembly/import-non-sheet-metal-parts/index.html</link>
+      <pubDate>Wed, 01 Mar 2023 15:01:30 +0530</pubDate>
+      <guid>/assembly/import-non-sheet-metal-parts/index.html</guid>
+      <description>When an assembly part is imported, Praxis :
+Extracts the sheet metal parts and adds them to the Part library.
+Separates the non sheet metal components and adds them to the Component library.
+Adds the assembly to the assemble library.
+If the part was imported earlier as a sheet metal part, it removes them from the part library
+The imported assembly BOM contains both components and parts. Selecting an assembly from the assembly tree, shows both parts and components contained inside the assembly.</description>
+    </item>
+    <item>
+      <title>Create Nests from Assembly</title>
+      <link>/assembly/create-nests-from-assembly/index.html</link>
+      <pubDate>Wed, 01 Mar 2023 15:06:08 +0530</pubDate>
+      <guid>/assembly/create-nests-from-assembly/index.html</guid>
+      <description>A new assembly can be imported from a CSV file.
+Use open • import assemblies… command and select a CSV file to import it as a new assembly. Update the assembly details, quantities or use the Add…/Remove… buttons to update the BOM before importing the assembly and the parts.
+Same CSV format used for creating new job can be used for importing new assemblies as well.
+Once imported, you can prepare and assign Static Nests to these assemblies.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,2768 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Relearn 5.9.2+tip">
+    <meta name="description" content="">
+    <title>Home Page :: Praxis Manual</title>
+    <link href="/index.html" rel="canonical" type="text/html" title="Home Page :: Praxis Manual">
+    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Home Page :: Praxis Manual">
+    <link href="/images/favicon.png?1678099968" rel="icon" type="image/png">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1678099969" rel="stylesheet">
+    <link href="/css/nucleus.css?1678099969" rel="stylesheet">
+    <link href="/css/fonts.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1678099969" rel="stylesheet">
+    <link href="/css/theme-blue.css?1678099969" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1678099969" rel="stylesheet">
+    <link href="/css/variant.css?1678099969" rel="stylesheet">
+    <link href="/css/print.css?1678099969" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1678099969" rel="stylesheet">
+    <script src="/js/url.js?1678099969"></script>
+    <script src="/js/variant.js?1678099969"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="/index.search.js";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='/';
+      window.variants && variants.init( [ 'blue', 'green', 'relearn-dark' ] );
+    </script>
+    <script src="/js/jquery.min.js?1678099969" defer></script>
+  </head>
+  <body class="mobile-support print" data-url="/index.html">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable" dir="ltr">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Home Page</span><meta itemprop="position" content="1"></li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable home" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="home deprecated">
+
+<h1 id="praxis-manual-20">Praxis Manual 2.0</h1>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+              <section>
+                <h1 class="a11y-only">Subsections of Home Page</h1>
+          <article class="chapter">
+<div class="article-subheading">Chapter 1</div>
+<h1 id="introduction">Introduction</h1>
+
+<h2 id="general-overview">General Overview</h2>
+<p>Praxis is an MES based Application which handles the complete workflow of production in Shop Floor. It interfaces with all other Flux modules like FluxBend, FluxCut, RA(Bend Control) and Vulcan(LaserControl).</p>
+<p>
+<a href="/images/Overview.png" data-featherlight="image">
+<img src="/images/Overview.png" alt="Overview" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ul>
+<li>
+<p>Manages all parts from different customers.</p>
+</li>
+<li>
+<p>Creates Jobs for the machines according to Orders.</p>
+</li>
+<li>
+<p>Interacts with FluxBend and FluxCut for you to focus on the creative tasks.</p>
+</li>
+<li>
+<p>Job with orders is created against customer. Order status can be tracked easily using color code.</p>
+</li>
+<li>
+<p>Search and Filters are used to get the user requirements which can be saved &amp; used by other users.</p>
+</li>
+<li>
+<p>Interactive Nesting makes nesting more simpler with fewer operational steps.</p>
+</li>
+<li>
+<p>Switching the Nest result from one machine to another machine and adding parts to the existing Nest can be done with few clicks.</p>
+</li>
+</ul>
+<h2 id="praxis-components">Praxis Components</h2>
+<p>
+<a href="/images/PraxisSystem.png" data-featherlight="image">
+<img src="/images/PraxisSystem.png" alt="Praxis System" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h3 id="praxis-desktop">Praxis Desktop</h3>
+<p>This is the primary driver  application which helps user interact with the praxis system. The application Prax.exe installs in Bin folder and uses other components like Praxis Engine, Flux, MetaCAM to drive the workflow.</p>
+<h3 id="praxis-engine">Praxis Engine</h3>
+<p>A background application which performs all automation tasks assigned to the Praxis System. Powered by Flux Core, the application PEngine instances to perform the automation tasks. The tasks performed by PEngine include: Part Import, Bend tooling, Cut tooling, Nesting and so on. MetaCAM Engine, Trek.exe, is used for cutting and Flux core is used for bending tasks.</p>
+<h3 id="flux-app">Flux App</h3>
+<p>Flux application is used for viewing, editing and simulating part’s bend tech tooling. Flux is also used to troubleshooting geometry errors. The application, Flux.exe is installed in the Bin folder.</p>
+<h3 id="metacam">MetaCAM</h3>
+<p>MetaCAM is used for viewing, editing and simulating cutting tech data. The application, MetaCAM.exe is installed in MetaCAM folder.</p>
+<h3 id="trek">Trek</h3>
+<p>Built over MetaCAM core. Trek is used to perform all cutting automation tasks like cut-tooling, auto-nesting. Multiple instances of Trek enable PEngine to perform multiple tasks in one-go. The application Trek.exe is installed in Bin\Trek folder.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Introduction</h1>
+          <article class="default">
+<h1 id="installation">Installation</h1>
+
+<p>Following sections explains the pre-requisites and steps required to install Praxis application and connect the same with Server/Client setup.</p>
+<ul>
+<li>
+<p><a href="/introduction/installation/pre-requisites/">Pre-Requisites</a></p>
+</li>
+<li>
+<p><a href="/introduction/installation/praxis-setup-installation/praxis-setup-installation/">Praxis Setup Installation</a></p>
+</li>
+<li>
+<p><a href="/introduction/installation/serverfull-installation/">Server Installation</a></p>
+</li>
+<li>
+<p><a href="/introduction/installation/client-installation/">Client Installation</a></p>
+</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Installation</h1>
+          <article class="default">
+<h1 id="pre-requisites">Pre-Requisites</h1>
+
+
+<div class="box notices cstyle note">
+  <div class="box-label"><i class="fa-fw fas fa-exclamation-circle"></i> Note</div>
+  <div class="box-content">
+<p>Praxis setup displays the below mentioned warning message at the beginning of Installation if the Praxis setup is run without running the <em>Pre-Requisites</em>. Pre-Requisite installation is necessary only for the first time and can be ignored thereafter.</p>
+  </div>
+</div>
+<p>Praxis setup displays the below mentioned warning message at the beginning of Installation if the Praxis setup is run without running the <em>Pre-Requisites</em>. Pre-Requisite installation is necessary only for the first time and can be ignored thereafter.</p>
+<p>
+<a href="/images/PreRequisiteUnavailable.png" data-featherlight="image">
+<img src="/images/PreRequisiteUnavailable.png" alt="PreRequisite" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Execute the <em>PreSetup.Praxis</em> to install all the Pre-Requisites required to run Praxis application.</p>
+<p>
+<a href="/images/PreRequisiteSetup.png" data-featherlight="image">
+<img src="/images/PreRequisiteSetup.png" alt="PreRequisite setup" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Click <em>Install</em> to begin the Installation.</p>
+<p>
+<a href="/images/Install.png" data-featherlight="image">
+<img src="/images/Install.png" alt="Install" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>This setup installs native redistributables, .Net Frameworks and other drivers used by Praxis.</p>
+<p>
+<a href="/images/PreRequisiteInstall.png" data-featherlight="image">
+<img src="/images/PreRequisiteInstall.png" alt="Pre-Requisite Install" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Click <em>Finish</em> to complete the setup and Restart the computer.</p>
+<p>
+<a href="/images/FinishInstall.png" data-featherlight="image">
+<img src="/images/FinishInstall.png" alt="Finish Install" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="praxis-setup-installation">Praxis Setup Installation</h1>
+
+<p>Execute Praxis Setup to begin the installation</p>
+<p>
+<a href="/images/PraxisSetup.png" data-featherlight="image">
+<img src="/images/PraxisSetup.png" alt="Praxis Setup" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Choose the installation directory or accept the installation default <em><strong>C:\Program Files\Metamation\Praxis</strong></em> and click <strong>Next</strong>.</p>
+<p>
+<a href="/images/InstallationPath.png" data-featherlight="image">
+<img src="/images/InstallationPath.png" alt="Installation Path" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="installation-packages">Installation Packages</h2>
+<p><em><strong>Full Installation</strong></em>  – In this mode all components (Server, Desktop and Engine) are installed on the same computer.</p>
+<p><em><strong>Server Installation</strong></em> – Only server and Desktop are installed.</p>
+<p><em><strong>Client Installation</strong></em> – Only Desktop is installed on the target computer. You can also pick Engine in this mode.</p>
+<p><em><strong>Stations</strong></em> – To set up stations for Flux, MetaCAM, RightAngle, Vulcan.</p>
+<p><em><strong>Custom Installation</strong></em> - Pick and choose the appropriate combination.</p>
+<ul>
+<li>
+<p>Please note that <strong>Praxis Desktop</strong> is included and installed with all packages. (Praxis Desktop consists of Praxis App + Monitor).</p>
+</li>
+<li>
+<p>In a typical installation, you would choose <strong>Full installation</strong> on a server computer and <strong>Client installation</strong> on others.</p>
+</li>
+<li>
+<p>In scenarios where the server computer doesn’t meet the graphics requirements, you can pick <strong>Server installation</strong> at the server, Client + Engine at the agent computer and just Client (Desktops only) at others.</p>
+</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="server/full-installation">Server/Full Installation</h1>
+
+<p>Praxis is a distributed, Server/Client application. Select <em>Full installation</em> option on the components selection page to perform the first install.</p>
+<p>
+<a href="/images/ServerInstallation.png" data-featherlight="image">
+<img src="/images/ServerInstallation.png" alt="Server Installation" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Check ON <em>Install SQL Express 2019</em> while installing Praxis on a new machine. This is necessary only for the first time and can be ignored thereafter.</p>
+<p>
+<a href="/images/InstallSQL.png" data-featherlight="image">
+<img src="/images/InstallSQL.png" alt="Install SQL" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+<div class="box notices cstyle note">
+  <div class="box-label"><i class="fa-fw fas fa-exclamation-circle"></i> Note</div>
+  <div class="box-content">
+<p>SQL Express 2019 installation is needed only for the Server.
+This option is not available for Client and Sync Installations.</p>
+  </div>
+</div>
+<p>Click <em>Install</em> to begin the Installation.</p>
+<p>
+<a href="/images/BeginSQLInstall.png" data-featherlight="image">
+<img src="/images/BeginSQLInstall.png" alt="BeginSQLInstall" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="sql-server-installation">SQL Server Installation</h2>
+<p>Once Praxis components are installed, the installer proceeds with the SQL server installation.
+Accept the License Agreement to proceed and install SQL express with the default options.</p>
+<p>
+<a href="/images/SQLServer2019.png" data-featherlight="image">
+<img src="/images/SQLServer2019.png" alt="SQLServer2019" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Once the installation is completed Click Close and complete the installation.</p>
+<p>
+<a href="/images/SQLServerComplete.png" data-featherlight="image">
+<img src="/images/SQLServerComplete.png" alt="SQL Server Complete" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Depending on the Windows version, closing the SQL installation may prompt a restart. After the Restart, launch Praxis to register the license and complete the installation.</p>
+<p>
+<a href="/images/LaunchPraxis.png" data-featherlight="image">
+<img src="/images/LaunchPraxis.png" alt="Launch Praxis" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Provide the appropriate Serial key and credentials to Register Praxis.</p>
+<p>
+<a href="/images/PraxisRegister.png" data-featherlight="image">
+<img src="/images/PraxisRegister.png" alt="PraxisRegister" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Check ON Use SQL Server and select the SQL server name to connect to the Database.</p>
+<p>
+<a href="/images/UseDatabase.png" data-featherlight="image">
+<img src="/images/UseDatabase.png" alt="Use Database" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Once connected, Welcome screen is seen with login credentials. Confirm the  credentials and Click <em>OK</em>.
+Check-ON <em><em>Remember me</em></em> to save the credentials for future reference.</p>
+<p>
+<a href="/images/WelcomePraxis.png" data-featherlight="image">
+<img src="/images/WelcomePraxis.png" alt="Welcome Praxis" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Upload(Open &ndash;&gt; Import) a new Part from the C:\Program Files\Metamation\Praxis\Samples\Parts and verify if the Part is imported successfully.</p>
+<p>
+<a href="/images/PraxisWelcomeScreen.png" data-featherlight="image">
+<img src="/images/PraxisWelcomeScreen.png" alt="Praxis Welcome screen" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="client-installation">Client Installation</h1>
+
+<p>Run <a href="/introduction/installation/pre-requisites/">Pre-Requisite </a> Installation like Server before beginning the Client setup.</p>
+<p>In the client machine, after executing the Installer, Select Client option on the component selection page.</p>
+<p>
+<a href="/images/ClientInstallation.png" data-featherlight="image">
+<img src="/images/ClientInstallation.png" alt="Client Installation" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Proceed with the standard installation steps and click Install to proceed with the Installation in Client Machine.</p>
+<p>
+<a href="/images/ClientInstall2.png" data-featherlight="image">
+<img src="/images/ClientInstall2.png" alt="Client Install2" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Once installation is completed, Praxis is automatically launched. Provide the Server name or IP address to connect with Praxis server.</p>
+<p>
+<a href="/images/ConnectServer.png" data-featherlight="image">
+<img src="/images/ConnectServer.png" alt="ConnectToServer" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Once connected, Praxis displays the Sign up prompt. Accept defaults and click <em>OK</em> to proceed. Praxis starts at the Library page and displays library parts.</p>
+<p>
+<a href="/images/ClientConnected.png" data-featherlight="image">
+<img src="/images/ClientConnected.png" alt="ClientConnected" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+          </section>
+          <article class="chapter">
+<div class="article-subheading">Chapter 2</div>
+<h1 id="part-library">Part Library</h1>
+
+<p>New parts can be imported and viewed using Part Library page.</p>
+<ul>
+<li>
+<p>The parts are added to the list and are submitted to the Praxis Engine for further processing.</p>
+</li>
+<li>
+<p>While dropping part in Part Library, it goes throught the following three stages
+i) Part Import ii) Bend/Fold tooling iii) Cut tooling.
+First two steps are carried out using Flux core whereas MetaCAM engine (Trek.exe) is used for the third.</p>
+</li>
+<li>
+<p>In the first stage:</p>
+<ul>
+<li>Depending on the CAD geometry type, a part is folded or sheet-metalized
+(equivalent to 3D cleanup + unfold in MetaCAM world).</li>
+<li>Material + Thickness is assigned to the part.</li>
+<li>Thumbnail is extracted along with other properties like size, weight etc., and Part is saved to the database for the second stage.</li>
+</ul>
+</li>
+<li>
+<p>In the second ingestion stage:</p>
+<ul>
+<li>Part is tooled for all available press-brake and panel bending machines</li>
+<li>A flat part is generated from the part’s 3D model and part is sent for third stage
+processing</li>
+</ul>
+</li>
+<li>
+<p>In the third stage:</p>
+<ul>
+<li>The flat geometry is imported to MetaCAM part format and the part is tooled for all available profile cutting machines like laser, punch, plasma, waterjet etc.</li>
+</ul>
+</li>
+</ul>
+<p>At the end of each stage, the part status is determined and assigned to the part. The changes are saved immediately to the database and the part library view reflects the changes instantaneously by updating the view live.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Part Library</h1>
+          <article class="default">
+<h1 id="cad-file-types">CAD File Types</h1>
+
+<p>The following file formats are supported while importing a part into the Part Library.</p>
+<ul>
+<li>
+<p>DXF</p>
+</li>
+<li>
+<p>DWG</p>
+</li>
+<li>
+<p>2D IGES</p>
+</li>
+<li>
+<p>SLDPRT</p>
+</li>
+<li>
+<p>SolidEdge</p>
+</li>
+<li>
+<p>3D IGES</p>
+</li>
+<li>
+<p>SAT files</p>
+</li>
+<li>
+<p>Creo Files</p>
+</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="part-library-tour">Part Library Tour</h1>
+
+<p>Use Shortcut key <em>P</em> to navigate to the Part Library</p>
+<p>
+<a href="/images/Library.png" data-featherlight="image">
+<img src="/images/Library.png" alt="Library" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ul>
+<li>
+<p>This view displays parts as tiles with each tile displaying part-picture with a few basic part properties like name, size, material, thickness etc.</p>
+</li>
+<li>
+<p>The tile also displays tooling status of the part for the available factory machines.</p>
+</li>
+<li>
+<p>The view refreshes automatically with the live data, however you can also force a refresh by pressing F5.</p>
+</li>
+<li>
+<p>Parts can be searched by Part-Name and Material via Search box. To search parts, click inside the search-box (or use shortcut key: Ctrl + F) and type-in the text. Praxis updates the list with parts with name of material matching the search-text. Pressing Escape key, while search-box has the keyboard focus, resets the search text.</p>
+</li>
+<li>
+<p>If the list contains more item than what can fit on the page, use mouse-wheel to scroll down the content.</p>
+</li>
+<li>
+<p>Double clicking a tile or pressing Enter key after selecting a tile changes the view into the details</p>
+</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="import-parts">Import Parts</h1>
+
+<p>To begin with, load parts into the Part Library. This can be done by</p>
+<p>(i) Selecting <em><strong>Open -&gt; Import</strong></em> option from the Part Library. This option can be used to import Parts, Jobs and Assemblies from the local and remote directories/folders. This option allows importing parts individually or in batches.</p>
+<p>
+<a href="/images/ImportPart.png?classes=left" data-featherlight="image">
+<img src="/images/ImportPart.png?classes=left" alt="Import:" class="left" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>(ii) Drag and drop a part into Praxis Part Library directly.</p>
+<h2 id="tooling">Tooling</h2>
+<p>
+<a href="/images/Tooling.png" data-featherlight="image">
+<img src="/images/Tooling.png" alt="Tooling:" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ul>
+<li>
+<p>After successful import, parts are auto-tooled and tooling status is updated.</p>
+</li>
+<li>
+<p>Material and Part details are updated.</p>
+</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="validate-cad-error">Validate CAD Error</h1>
+
+<p>The part is put in the error state if the material cannot be resolved or appropriate cut/bend solution is not found during the Part import.</p>
+<p>Following sections describes the various error states and ways to resolve them.</p>
+<ul>
+<li>
+<p><a href="/part-library/validate-cad-error/material-missing/">Material Missing</a></p>
+</li>
+<li>
+<p><a href="/part-library/validate-cad-error/material-not-assigned/">Material Not Assigned</a></p>
+</li>
+<li>
+<p><a href="/part-library/validate-cad-error/bendcut-infeasible/">Bend and Cut Infeasible</a></p>
+</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Validate CAD Error</h1>
+          <article class="default">
+<h1 id="material-missing">Material Missing</h1>
+
+<p>Material missing error is displayed when material is assigned but it is not found in the Praxis material database.</p>
+<p>
+<a href="/images/MatMissing.png" data-featherlight="image">
+<img src="/images/MatMissing.png" alt="Material Missing" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Make sure that you have the required material/ raw material entries (BRONZE, COPPER etc) in the database. Add material
+lookup key (For instance, PTC_MATERIAL_NAME in the below image) to help Praxis resolve the part material.</p>
+<h2 id="material-lookup">Material Lookup</h2>
+<ul>
+<li>
+<p>Open factory dialog and switch to Imports page.</p>
+</li>
+<li>
+<p>Click on the Material lookup keys Pick… hyperlink to select the custom field name from the part.</p>
+</li>
+<li>
+<p>Browse and open the ProE part in the Field picker dialog to extract and list all custom fields with their values.</p>
+</li>
+<li>
+<p>Select the custom field and press OK to add it to the look keys.</p>
+</li>
+</ul>
+<p>
+<a href="/images/MatLookup.png" data-featherlight="image">
+<img src="/images/MatLookup.png" alt="MaterialLookup" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Multiple lookup entries can be assigned using a comma separator between them. When a part is imported, Praxis uses these keys to search for material/revision values. The searched values and then to resolve the raw material. The original values are also stored in the part <strong>Misc . Properties</strong></p>
+<p>
+<a href="/images/MatProperties.png" data-featherlight="image">
+<img src="/images/MatProperties.png" alt="MaterialProperties" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="material-not-assigned">Material Not Assigned</h1>
+
+<p>Use the <strong>Assign Material…</strong> command to assign material to one or more parts. Praxis displays a dialog with the list of raw-materials when this command is used. The raw-materials are displayed as clickable buttons. Use the search box in top right to locate the raw-material and click on the corresponding button to assign it to the selected part(s).</p>
+<p>
+<a href="/images/MatNotAssigned.png" data-featherlight="image">
+<img src="/images/MatNotAssigned.png" alt="Material Not Assigned" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Depending on the selected part(s) and the user part library, the raw-material are displayed in Suggestions, Used and All sections.</p>
+<p>
+<a href="/images/AssignMat.png" data-featherlight="image">
+<img src="/images/AssignMat.png" alt="Assign Material" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="bend/cut-infeasible">Bend/Cut Infeasible</h1>
+
+<p>Praxis assigns Bend Infeasible state to the part if no valid bend solution is found during the auto tooling. User can ignore/fix the tooling error to resolve the Bend infeasible error. A similar change has also been applied to the cutting workflow. The part is put in Cut infeasible state if no feasible cutting solution is found.</p>
+<p>
+<a href="/images/CutInfeasibleError.png?classes=inline" data-featherlight="image">
+<img src="/images/CutInfeasibleError.png?classes=inline" alt="Cut Infeasible Error" class="inline" style="height: auto; width: auto;" loading="lazy">
+</a>
+
+<a href="/images/BendInfeasible.png?classes=inline" data-featherlight="image">
+<img src="/images/BendInfeasible.png?classes=inline" alt="Bend Infeasible" class="inline" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+          <article class="default">
+<h1 id="edit/update-tooling">Edit/Update Tooling</h1>
+
+<h2 id="cut-toolings">Cut Toolings</h2>
+<p>Praxis has been integrated with MetaCAM. To check MetaCAM- Praxis connection in MetaCAM,
+Launch MetaCAM and use Tools &ndash;&gt; Configuration &ndash;&gt; Sheet Database command. This should bring up Praxis sheet dialog.</p>
+<p>
+<a href="/images/PraxMeta.png" data-featherlight="image">
+<img src="/images/PraxMeta.png" alt="PraxMeta" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>
+<a href="/images/CheckoutLaser.png" data-featherlight="image">
+<img src="/images/CheckoutLaser.png" alt="Checkout Laser" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Check-out the part by choosing a laser/punch tooling solution to edit the part.<br>
+When a cutting solution is edited in Praxis, Praxis forwards the edit request to MetaCAM with the requested tooled PDG file. MetaCAM prompts with appropriate messages when the Save or Close command is used after the editing.</p>
+<p>Edit and save the part using 
+<a href="/images/save.png" data-featherlight="image">
+<img src="/images/save.png" alt="save" style="height: auto; width: auto;" loading="lazy">
+</a> icon. This brings the Praxis Checkin dialog.</p>
+<p>
+<a href="/images/SaveToPraxis.png" data-featherlight="image">
+<img src="/images/SaveToPraxis.png" alt="Save To Praxis" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="bend-toolings">Bend Toolings</h2>
+<p>
+<a href="/images/CheckOutBend.png" data-featherlight="image">
+<img src="/images/CheckOutBend.png" alt="Checkout Bend:" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Check-out the part by choosing a bend/fold tooling solution to edit the part.</p>
+<p>Praxis plugs into Flux to handle the praxis repository files. This enables Flux now to identify a Praxis file as Part/Tooling and prompt with appropriate messages when the Save or Close command is used after the editing.
+Apply a tooling change to introduce a solution error (e.g. delete a punch etc.) and Save/Close the part using the Flux menu command.
+The praxis Checkin dialog identifies the error and prompts with the Checkin options.</p>
+<p>
+<a href="/images/SaveToPraxisBend.png" data-featherlight="image">
+<img src="/images/SaveToPraxisBend.png" alt="Save To Praxis" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h3 id="save-to-praxis-check-in-options">Save to Praxis Check-In options</h3>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Ignore and Save</strong></td>
+<td>When this option is selected, the error is downgraded to a warning state and the part is saved to the repository. The edit session closes when this option is selected.</td>
+</tr>
+<tr>
+<td><strong>Check-in the file</strong></td>
+<td>The file is normally saved in the identified error state and the edit session closes.</td>
+</tr>
+<tr>
+<td><strong>Discard Changes</strong></td>
+<td>All changes are discarded, and the checkout is cancelled. The edit session closes.</td>
+</tr>
+<tr>
+<td><strong>Continue Editing</strong></td>
+<td>The check-in operation is cancelled and edit session continues.</td>
+</tr>
+</tbody>
+</table>
+<p>When the part is saved without any error, the Save to Praxis pop-up will be displayed as follows,</p>
+<p>
+<a href="/images/SaveWithNoError.png" data-featherlight="image">
+<img src="/images/SaveWithNoError.png" alt="Save with No Error" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h3 id="multiple-checkout">Multiple Checkout</h3>
+<p>To prevent multiple users from editing same document together, Praxis supports checking-out of a document for editing. The document (part, tooling, job etc.) can be checked-out by a user using the Check-out command. Once checked-out, the part displays the user icon with check-out details as tooltip.</p>
+<p>
+<a href="/images/CheckOut1.png" data-featherlight="image">
+<img src="/images/CheckOut1.png" alt="CheckOut" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>For users other than SiteAdmin/Admin and Programmer, the <strong>Checkout</strong> and <strong>Delete</strong> buttons in the command panel is replaced by the <strong>View</strong> button so that the other users cannot edit or delete the document.</p>
+<p>
+<a href="/images/Checkin.png" data-featherlight="image">
+<img src="/images/Checkin.png" alt="Checkin" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>To unlock the document for others, the <strong>Site Admins</strong> can cancel the checkout using Cancel Checkout command.</p>
+<p>Just like part, part-tooling can also be edited using the <strong>checkout . update . check-in</strong> workflow. Part also gets checked-out along with the tooling such that the parent is not modified accidently by other users while the tooling is being edited. Checking-in the tooling unlocks the part. Bend toolings are edited in Flux and Cut toolings are edited using MetaCAM.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="output-settings">Output Settings</h1>
+
+<h2 id="output-destination">Output Destination</h2>
+<p>Set Output Destination field of a machine to assign a specific target output folder for that machine. If this field is not set, the output settings set via <strong>factory • settings • cut/bend</strong> is used as the target output location.</p>
+<p>
+<a href="/images/OutputDestination.png" data-featherlight="image">
+<img src="/images/OutputDestination.png" alt="Output Destination" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="export-outputs">Export outputs</h2>
+<p>Tooling outputs and reports can be exported manually using the <strong>Export outputs</strong> panel command. This command can be used on a single part or multiple parts selected in a batch.</p>
+<p>
+<a href="/images/ExportCutOut.png" data-featherlight="image">
+<img src="/images/ExportCutOut.png" alt="Export Cut Output" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>
+<a href="/images/ExportBendOut.png" data-featherlight="image">
+<img src="/images/ExportBendOut.png" alt="Export Bend Output" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="save-output">Save Output</h2>
+<p>The tooling results are saved only if the tooling is in OK state and the export settings are enabled and configured in factory dialog.</p>
+<p>
+<a href="/images/SaveOutput.png" data-featherlight="image">
+<img src="/images/SaveOutput.png" alt="Save Output" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The following output files are stored in the output location.</p>
+<p>
+<a href="/images/OutputFiles.png" data-featherlight="image">
+<img src="/images/OutputFiles.png" alt="Output Files" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="ignore-errors">Ignore Errors</h2>
+<p>The Ignore Errors tooling panel command exports the outputs to the target output folder. The exported outputs are deleted from the target folders if the tooling is identified with errors.</p>
+<p>For instance, in the below example the part is imported with an overload error. Upon clicking the Ignore error the part is tooled with warning.</p>
+<p>
+<a href="/images/OverloadError.png" data-featherlight="image">
+<img src="/images/OverloadError.png" alt="Overload Error" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The output is automatically saved to the destination</p>
+<p>
+<a href="/images/OutputSaved.png" data-featherlight="image">
+<img src="/images/OutputSaved.png" alt="Output saved" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+          <article class="chapter">
+<div class="article-subheading">Chapter 3</div>
+<h1 id="assembly">Assembly</h1>
+
+<p>Praxis can import and explode assemblies into Parts and non-sheet metal components. To import assemblies : use open command, choose Import Parts… option and select assembly files in <em>open – file</em> dialog. <strong>All Assembly files</strong> filter can be used to filter <em>assembly – only</em> files in the file dialog.</p>
+<p>
+<a href="/images/Assembly.png" data-featherlight="image">
+<img src="/images/Assembly.png" alt="Assembly" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Once imported, Praxis displays the assembly list under the assemblies tree in the Part Library. Click on the assemblies toolbar button on the right to switch to this view. In this mode, the library displays the filtered list of assemblies abd respective parts. Selecting one or more parts in parts pane, highlights the respective assemblies.</p>
+<p>
+<a href="/images/AssemblyView.png" data-featherlight="image">
+<img src="/images/AssemblyView.png" alt="Assembly View" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Selecting an assembly from the tree in left, displays parts from the selected assembly with the total part quantity in the assembly. Apart from showing assembly part list, the rest of the UI is same as part library. (so, you can double click a part to switch to the details page.)</p>
+<p>
+<a href="/images/AssemblyTree.png" data-featherlight="image">
+<img src="/images/AssemblyTree.png" alt="Assembly Tree" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Part Library search/filters and saved searches can be applied on assembly – only parts in the assemblies view to search specific parts.</p>
+<p>
+<a href="/images/AssemblyFilter.png" data-featherlight="image">
+<img src="/images/AssemblyFilter.png" alt="Assembly Filter" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Assembly</h1>
+          <article class="default">
+<h1 id="producing-assembly">Producing Assembly</h1>
+
+<p>To produce an assembly :</p>
+<ul>
+<li>
+<p>Select the assembly from the assembly tree. Praxis displays the assembly parts with their repetition counts in the parts pane.</p>
+</li>
+<li>
+<p>Use new job command to bring the job dialog.</p>
+</li>
+<li>
+<p>Adjust the Assembly Count and press OK.</p>
+</li>
+</ul>
+<p>
+<a href="/images/ProduceAssembly.png" data-featherlight="image">
+<img src="/images/ProduceAssembly.png" alt="Producing Assembly" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="import-non-sheet-metal-parts">Import Non-Sheet metal Parts</h1>
+
+<p>When an assembly part is imported, Praxis :</p>
+<ul>
+<li>
+<p>Extracts the sheet metal parts and adds them to the Part library.</p>
+</li>
+<li>
+<p>Separates the non sheet metal components and adds them to the Component library.</p>
+</li>
+<li>
+<p>Adds the assembly to the assemble library.</p>
+</li>
+</ul>
+<p>If the part was imported earlier as a sheet metal part, it removes them from the part library</p>
+<p>
+<a href="/images/Components.png" data-featherlight="image">
+<img src="/images/Components.png" alt="Components" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The imported assembly BOM contains both components and parts. Selecting an assembly from the assembly tree, shows both parts and components contained inside the assembly. Component count (in the second assembly) is displayed below the component image.
+For instance, in the above image under <strong><em>Components</em></strong>, respective selected assembly component count(43) and total component count(305) is shown.</p>
+<p>The component tool – tip displays name, material and size. When the assembly is produced, the components are filtered out from the job.</p>
+<h2 id="samples">Samples</h2>
+<p>Along with the binaries, the installer installs sample assemblies with components in <em><strong>C:\ProgramFiles\Metamation\Praxis\Samples\Assys\Components folder</strong></em>. These parts and assemblies can be imported to test the component import feature.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="create-nests-from-assembly">Create Nests from Assembly</h1>
+
+<p>A new assembly can be imported from a CSV file.</p>
+<p>Use <strong>open • import assemblies…</strong> command and select a CSV file to import it as a new assembly.
+Update the assembly details, quantities or use the <strong>Add…/Remove…</strong> buttons to update the BOM before importing the assembly and the parts.</p>
+<p>
+<a href="/images/NewAssembly.png?classes=left" data-featherlight="image">
+<img src="/images/NewAssembly.png?classes=left" alt="New Assembly:" class="left" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Same CSV format used for creating new job can be used for importing new assemblies as well.</p>
+<p>Once imported, you can prepare and assign Static Nests to these assemblies.</p>
+<ol>
+<li>Switch to the assemblies’ tab, right click an assembly and use Create Nests… command to launch the assembly nesting wizard.</li>
+</ol>
+<p>
+<a href="/images/CreateNests.png" data-featherlight="image">
+<img src="/images/CreateNests.png" alt="Create Nests" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ol start="2">
+<li>This is an interactive wizard where you can select machine, sheets, update the quantities, nest and save the results. The generated nests are named after the parent assembly for an easier identification.</li>
+</ol>
+<p>
+<a href="/images/SaveNestResult.png" data-featherlight="image">
+<img src="/images/SaveNestResult.png" alt="Save Nest Result" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ol start="3">
+<li>Once saved, the nest results are assigned to the assembly as <strong>static nests</strong>. And the assembly part status is updated to reflect the nest status. (Notice part Roof~2 status as the nest <em>Roof-L5</em> was discarded from the results above).</li>
+</ol>
+<p>
+<a href="/images/AssemblyNest.png" data-featherlight="image">
+<img src="/images/AssemblyNest.png" alt="Assembly Nest" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ol start="4">
+<li>User can edit a static nest to insert un-nested parts from the parent assembly.</li>
+</ol>
+<p>
+<a href="/images/InsertPart.png" data-featherlight="image">
+<img src="/images/InsertPart.png" alt="Insert Part" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ol start="5">
+<li>Right click on an assembly and use <strong>Drop Nests…</strong> command to delete all assigned nests.</li>
+</ol>
+<p>
+<a href="/images/DropNest.png" data-featherlight="image">
+<img src="/images/DropNest.png" alt="Drop Nest" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+<div class="box notices cstyle note">
+  <div class="box-label"><i class="fa-fw fas fa-exclamation-circle"></i> Note</div>
+  <div class="box-content">
+<p>Unlike jobs, mixing parts from other assemblies is not allowed for static nests. If allowed, this would prevent an assembly from being released for production without releasing the other.</p>
+  </div>
+</div>
+<h2 id="producing-a-kit">Producing a kit</h2>
+<ol>
+<li>Right click and use <strong>New Job…</strong> command to produce the assembly. Praxis displays the New Job dialog. Update the assembly count and press OK. Use the regular New Job dialog with the part details to update due date and priority etc. and press OK.</li>
+</ol>
+<p>
+<a href="/images/ProduceKit.png" data-featherlight="image">
+<img src="/images/ProduceKit.png" alt="Produce kit" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Update the assembly count and press OK. Use the regular New Job dialog with the part details to update due date and priority etc. and press OK.</p>
+<ol start="2">
+<li>Praxis creates a job from the assembly, copies the static nests as job nests with the updated sheet counts. The copied nests are named with Job ID prefix. You can edit/delete the job nests without affecting the original kit. Or repack the nests using <strong>Adapt/Compact…</strong> and <strong>Add Parts…</strong> commands.</li>
+</ol>
+<p>
+<a href="/images/AssemblyJob.png" data-featherlight="image">
+<img src="/images/AssemblyJob.png" alt="Assembly Job" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ol start="3">
+<li>Right click the job and use Plan Job… command to select and assign the press brakes to parts with the bends.</li>
+</ol>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+          <article class="chapter">
+<div class="article-subheading">Chapter 4</div>
+<h1 id="job">Job</h1>
+
+<p>Praxis uses Jobs to capture and track customer orders. Typically, a job contains a collection of parts with varying quantities, due dates, priority and part order.</p>
+<p>New jobs can be xxxxx xxxxx</p>
+<ul>
+<li>
+<p>Imported from spreadsheets(csv, xlsx)</p>
+</li>
+<li>
+<p>Created from existing parts from the part library</p>
+</li>
+<li>
+<p>Drop parts directly into jobs page and manually provide job parameters</p>
+</li>
+<li>
+<p>From Assemblies.</p>
+</li>
+</ul>
+<h1 id="job-view">Job View</h1>
+<ul>
+<li>
+<p>Jobs are displayed in tiles view where each job is displayed with a few basic properties like Job ID, Job reference, Customer name, Total parts etc.</p>
+</li>
+<li>
+<p>A job title also displays ordered parts and quantities as stacked cards. Parts within a job can be scrolled by rolling the mouse wheel over the cards.</p>
+</li>
+<li>
+<p>Jobs can be searched by Job ID, Customer and Job Reference via Search box.</p>
+</li>
+<li>
+<p>Double clicking a tile or pressing <em>Enter</em> key after selecting a tile changes the view into the <em>detail mode</em>.</p>
+</li>
+</ul>
+<p>
+<a href="/images/JobPage.png" data-featherlight="image">
+<img src="/images/JobPage.png" alt="Job Page" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h1 id="job-details">Job Details</h1>
+<ul>
+<li>
+<p>The details page displays the parts list along with the nested sheets (layouts) if any.</p>
+</li>
+<li>
+<p>Use Up/Down key to change the job being displayed in the details page.</p>
+</li>
+<li>
+<p>Rolling the mouse-wheel over the part-stack highlights the part in part list as well as in the layouts.</p>
+</li>
+<li>
+<p>Selecting a layout highlights the layout as well as all parts nested on the layout in the part list. The highlights automatically go off after a minute.</p>
+</li>
+</ul>
+<p>
+<a href="/images/JobDetails.png" data-featherlight="image">
+<img src="/images/JobDetails.png" alt="Job Details" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Job</h1>
+          <article class="default">
+<h1 id="job-workflow">Job Workflow</h1>
+
+<h2 id="create-a-job">Create a job</h2>
+<h3 id="from-part-library">From part library</h3>
+<ul>
+<li>
+<p>Select a single part or in batches and right click to open the new Job command panel.</p>
+</li>
+<li>
+<p>Choose New Job. The new job dialog pops up with the selected parts.</p>
+</li>
+<li>
+<p>Job Ref is auto populated whereas Customer, Comments field can be filled in by the user if required.</p>
+</li>
+</ul>
+<p>
+<a href="/images/NewJob.png" data-featherlight="image">
+<img src="/images/NewJob.png" alt="New job" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h3 id="from-the-spreadsheet">From the spreadsheet</h3>
+<ul>
+<li>
+<p>Spreadsheets can be imported by dropping it on the jobs page or using the open • import jobs command.</p>
+</li>
+<li>
+<p>Browse and select one or more CSV, xls or xlsx files with the Job parts.</p>
+</li>
+<li>
+<p>The spreadsheet can also be imported via the Live Folder.</p>
+</li>
+</ul>
+<p>Check the Import Spreadsheet from &lsquo;Live Folder&rsquo; checkbox to enable the job import from spreadsheet dropped to the Live Folder.</p>
+<p>
+<a href="/images/SpreadsheetJob.png" data-featherlight="image">
+<img src="/images/SpreadsheetJob.png" alt="Spreadsheet" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Like the part import, the job import via Live Folder is a background activity and Praxis doesn’t prompt user on errors/warnings (like the part is missing, material is unspecified etc.,). Check the Do not import spreadsheet with errors to ignore such spreadsheets<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<h2 id="plan-job">Plan Job</h2>
+<p>The Job is planned in one of the following ways to extract a higher throughput in lesser work steps.</p>
+<ul>
+<li>
+<p>Mixed mode nesting and automated nest repacking</p>
+</li>
+<li>
+<p>Part level planning with part pull-back</p>
+</li>
+<li>
+<p>Interactive Nesting</p>
+</li>
+<li>
+<p>Pull scheduling (nest – on – demand)</p>
+</li>
+</ul>
+<p><em>Refer Planning Jobs Section for more details</em></p>
+<p>
+<a href="/images/PlanJob.png" data-featherlight="image">
+<img src="/images/PlanJob.png" alt="Plan Job" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="nesting">Nesting</h2>
+<ul>
+<li>
+<p>Once the Job is planned, parts are queued up for Nesting.</p>
+</li>
+<li>
+<p>Praxis engine complete the nest and layout starts to appear.</p>
+</li>
+</ul>
+<p>
+<a href="/images/layout.png" data-featherlight="image">
+<img src="/images/layout.png" alt="Layout" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="nest-outputs">Nest Outputs</h2>
+<p>The nest outputs are saved to the individual folders named after the nested layout.</p>
+<p>
+<a href="/images/NestOutput.png" data-featherlight="image">
+<img src="/images/NestOutput.png" alt="Nested Output" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>If not in the standard format, the spreadsheets dropped to the Live Folder must have a pre-defined mapping. Otherwise, Praxis doesn’t know how to read it and ignores it.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="auto-release-job">Auto Release Job</h1>
+
+<p>These nest settings can be used to control the auto-nest behavior in Praxis.</p>
+<p>
+<a href="/images/AutoRelease.png" data-featherlight="image">
+<img src="/images/AutoRelease.png" alt="Auto Release" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p><strong>Auto-release packing cut-off:</strong> This value is used to decide whether a nested layout is held in approval queue and is renested again when new parts are planned or they are released for production and related outputs are exported to the output folder.</p>
+<p><strong>Auto-release due date cut-off:</strong> This is not used by auto-nester right now.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="planning-jobs">Planning Jobs</h1>
+
+<p>The Job is planned in one of the following ways to extract a higher throughput in lesser work steps.</p>
+<ul>
+<li>
+<p><a href="/job/planning-jobs/mixed-nesting-workflow/">Mixed mode nesting</a></p>
+</li>
+<li>
+<p><a href="/job/planning-jobs/interactive-nesting/">Interactive Nesting</a></p>
+</li>
+<li>
+<p><a href="/job/planning-jobs/pull-workflow/">Pull Workflow</a></p>
+</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Planning Jobs</h1>
+          <article class="default">
+<h1 id="mixed-nesting-workflow">Mixed Nesting Workflow</h1>
+
+<ul>
+<li>
+<p>Select a Job or a job-part and right click. Praxis shows the command panel for job/part.</p>
+</li>
+<li>
+<p>Click on the Plan Job…/Plan Part… panel command. Praxis displays the list of bend machines with unique and total quantities to be planned.</p>
+</li>
+</ul>
+<p>
+<a href="/images/PlanJob.png" data-featherlight="image">
+<img src="/images/PlanJob.png" alt="Plan Job" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ul>
+<li>Select the bend machine. And repeat these steps to select the cutting machine. The parts are queue up for the nesting. Praxis engines complete the nest, generate layouts and move the parts to the cutting queue. Job and part status are updated at every step and the whole process is reflected in the jobs page.</li>
+</ul>
+<p>
+<a href="/images/BendQueue.png" data-featherlight="image">
+<img src="/images/BendQueue.png" alt="Bend Queue" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>
+<a href="/images/CutQueue.png" data-featherlight="image">
+<img src="/images/CutQueue.png" alt="Cutting Queue" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ul>
+<li>Once a Job is nested, layout starts to appear in the layout page</li>
+</ul>
+<p>
+<a href="/images/layout.png" data-featherlight="image">
+<img src="/images/layout.png" alt="Layout" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p><strong>Reset Part…</strong> command revokes all instances of a job-part from the existing nests. This command triggers a renest of the remaining parts and uses a smaller sheet if one is available to accommodate all the remaining parts. Overall, it tries to optimize the sheet usage even when a part is pulled back from existing nests. For the mixed mode layouts, parts from other jobs stay nested after the reset</p>
+<p>
+<a href="/images/ResetPart.png" data-featherlight="image">
+<img src="/images/ResetPart.png" alt="Reset Part" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p><em>In this image, when Reset Part is used for the Part 11-A-6149, the parts are withdrawn from Layout P145 and P146. As a result, all the remaining parts are nested in a single layout P146</em></p>
+<p><strong>Reset Job…</strong> command is less fancy and simply deletes all the nested layouts and resets all the parts back to the plannable state. If the layouts contain items from the other jobs – those parts are reset too.</p>
+<p>
+<a href="/images/ResetJob.png" data-featherlight="image">
+<img src="/images/ResetJob.png" alt="Reset Job" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="interactive-nesting">Interactive Nesting</h1>
+
+<p>
+<a href="/images/InteractiveNesting.png" data-featherlight="image">
+<img src="/images/InteractiveNesting.png" alt="Interactive Nesting" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>
+<a href="/images/RunInteractive.png" data-featherlight="image">
+<img src="/images/RunInteractive.png" alt="Run Interactive Nesting" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Select one or more parts/jobs to be nested and right click. And select <em><strong>Run Interactive Nesting…</strong></em></p>
+<p>The interactive nesting wizard is loaded in the main work area.</p>
+<p>
+<a href="/images/InteractiveWizard.png" data-featherlight="image">
+<img src="/images/InteractiveWizard.png" alt="Interactive Wizard" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Clicking next moves to the quantities page where the part quantities can be modified.</p>
+<p>
+<a href="/images/quantity.png" data-featherlight="image">
+<img src="/images/quantity.png" alt="Quantity" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Moving next begins the nesting and displays the nest progress and results as they are received. The nested quantity and estimated workload are reflected in the <em><em>Selected Parts, All Machines</em></em> tabs (in blue color). The nested layouts are drawn to the scale and are displayed in the Nest Results tab.</p>
+<p>
+<a href="/images/NestProgress.png" data-featherlight="image">
+<img src="/images/NestProgress.png" alt="Nest Progress" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The nest completes finally, completing the nesting steps. All the nest results can still be cancelled without saving them to the repository.</p>
+<p>
+<a href="/images/InteractiveNest.png" data-featherlight="image">
+<img src="/images/InteractiveNest.png" alt="Interactive Nest" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>When all the required parts are not nested, the final step displays a restart symbol, indicating that the nesting process would restart for the remaining parts which were not nested. This may happen for variety of reasons like setting the nest quantity to a lower than required value, infeasible parts on selected machine, discarding some of the nest results etc.</p>
+<p>
+<a href="/images/SaveResult.png" data-featherlight="image">
+<img src="/images/SaveResult.png" alt="Save Result" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The tick mark (✔) is displayed after the nest completion. Pressing next then, closes and unloads the nest wizard.</p>
+<p>
+<a href="/images/NestComplete.png" data-featherlight="image">
+<img src="/images/NestComplete.png" alt="Nest Complete" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="pull-workflow">Pull Workflow</h1>
+
+<p>Pull Workflow (or pull scheduling) is useful for users who need a highly autonomous planning and nesting system. When enabled, Praxis plans the nesting on-demand.</p>
+<p>
+<a href="/images/PullWorkflowSettings.png" data-featherlight="image">
+<img src="/images/PullWorkflowSettings.png" alt="Pull Workflow Settings" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>In the Pull workflow the Praxis Monitor watches over the machine output folders for NC reports. And if the NC count falls below the cut-off set via Nests per station, the monitor plans fresh nests. The nested outputs and NC are saved to the machine output locations:</p>
+<ul>
+<li>
+<p>If the layout packing efficiency is above the cut-off defined in Nest settings. (Sometimes there are multiple such acceptable layouts and all of them are retained and released, making the total layout count well above cut-off).</p>
+</li>
+<li>
+<p>If the packing efficiency is below the cut-off and there are no more parts available for the nest. These layouts are again tried for repacking if more parts are queued up before the layout is removed from the output queue. If there are more plannable parts, the layouts below the packing cut-off are discarded and nest is retried with more parts in next nest session.</p>
+</li>
+</ul>
+<p>Removing the nested layout outputs from the machine output location updates the queue size and triggers auto-planning when queue size goes below the cut-off. Check the <em><strong>Mark the task completed…</strong></em> option to move all job parts on the removed layout to the completed state and reflect it in the Job progress.</p>
+<p>
+<a href="/images/MarkComplete.png" data-featherlight="image">
+<img src="/images/MarkComplete.png" alt="Mark Complete" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Praxis uses a pre-filter heuristic to feed a smaller set of parts to the nesting engine. First, it sorts the available parts by Feasibility, Priority, Due-date and the Job number. And then they are run through the rectangular nest. A couple of lot sizes are selected and thus queued for nesting. This pre-filter heuristics makes sure that:</p>
+<ul>
+<li>
+<p>Overall nest time is not too much, and system is responsive to the nest triggers.</p>
+</li>
+<li>
+<p>A mix of different part sizes are nested together resulting in better efficiency.</p>
+</li>
+<li>
+<p>Parts from the same job are kept together as much as possible.</p>
+</li>
+</ul>
+<p>The image below displays the sheets nested in Pull Workflow.</p>
+<p>
+<a href="/images/PullWorkflowNest.png" data-featherlight="image">
+<img src="/images/PullWorkflowNest.png" alt="Pull Workflow Nest" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+          <article class="default">
+<h1 id="layout-commands">Layout Commands</h1>
+
+<h2 id="send-to-machine">Send to machine…</h2>
+<p>
+<a href="/images/Release.png" data-featherlight="image">
+<img src="/images/Release.png" alt="Release:" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The layouts are put in the release queue if they fall below the cut-off set via the nest settings. These layouts are retried for nesting when more parts are queued for nesting. The Send to Machine command moves such layouts from in-approval to the released state. Once released, they are no longer retried for repacking and the layout outputs are saved to the machine’s output location.</p>
+<h2 id="add-parts">Add Parts…</h2>
+<p>
+<a href="/images/AddParts.png" data-featherlight="image">
+<img src="/images/AddParts.png" alt="Add Parts:" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Use this command to add more parts to a relatively poorly packed layout. Like the Interactive Nesting, this is also a wizard driven command and can be used on a single or multiple layouts at the same time.</p>
+<p>Praxis mounts the Layout repack wizard in the main work area when this command is used. Hold Ctrl key and select one or more parts to packed on the layout(s) and press next.</p>
+<p>
+<a href="/images/LayoutRepack.png" data-featherlight="image">
+<img src="/images/LayoutRepack.png" alt="Layout Repack" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The selected parts are displayed in the next step with editable quantity column. Update the part quantities if needed in <em>Update Qty</em>. step and press next to proceed to the nesting. Note that quantity can only be increased and not decreased.</p>
+<p>
+<a href="/images/UpdateQuantity.png" data-featherlight="image">
+<img src="/images/UpdateQuantity.png" alt="Update Quantity" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>All the layouts are nested separately, and the nested results are displayed with the newly packed parts placed onto them. Selecting the layout displays all the existing layout parts. The result is auto-discarded if no new part is placed during the repacking. A layout with multiple copies may result in different patterns after the repacking.</p>
+<p>
+<a href="/images/Repacking.png" data-featherlight="image">
+<img src="/images/Repacking.png" alt="Repacking" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="adaptcompact">Adapt/Compact</h2>
+<p>This wizard-based command can be used to:</p>
+<ul>
+<li>
+<p>Adapt the layout from one machine to another. This is useful when a machine for which originally a layout was planned goes down and system needs to quickly respond to this change. Or machine loads need to be redistributed.</p>
+</li>
+<li>
+<p>Merge layouts packed on smaller sheets on bigger ones. Or split layouts packed on larger sheets into smaller ones. These are useful if material stocks are running low and the layouts using them need to be adapted to this change.</p>
+</li>
+<li>
+<p>Enhance the packing efficiency of multiple layouts (potentially nested on different machines) by merging them together.</p>
+</li>
+</ul>
+<p>Select one or more layouts and issue Adapt/Compact to load the command wizard into the work area. The UI displays all selected layouts in the left pane and the layout parts in the Parts pane.</p>
+<p>
+<a href="/images/SelectLayout.png" data-featherlight="image">
+<img src="/images/SelectLayout.png" alt="Select Layout" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Select machine and material and proceed next to perform layout adapt.
+Renesting is performed and nest results are displayed in the results pane. Press next to save the results</p>
+<p>
+<a href="/images/LayoutRenest.png" data-featherlight="image">
+<img src="/images/LayoutRenest.png" alt="Layout Renest" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="export-outputs--mark-complete">Export Outputs &amp; Mark Complete…</h2>
+<p>
+<a href="/images/ExportOutput2.png" data-featherlight="image">
+<img src="/images/ExportOutput2.png" alt="Export Output:" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ul>
+<li>
+<p>The <strong>Export Outputs</strong> layout command exports the NC, report and layout files to the respective machine output locations. This command regenerates the NC with current unit set to the layout. When used on a job, it exports outputs for all job layouts and parts.</p>
+</li>
+<li>
+<p>Use the <strong>Mark Complete</strong> command to mark a layout as completed. The layout is removed from the active layouts list and part &amp; job status are updated with the quantities moving to completed state. The outputs of a completed layout are removed from the machine output location.</p>
+</li>
+</ul>
+<h2 id="completed-layouts">Completed Layouts</h2>
+<p>
+<a href="/images/CompletedLayout.png" data-featherlight="image">
+<img src="/images/CompletedLayout.png" alt="Completed Layout:" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Completed layouts are displayed as grayed-out. And a tick-mark placed in bottom-right further indicates its completion status. The interactive commands like Adapt/Compact&hellip;, Add Parts&hellip; etc., which are used to prepare/refine layouts for production, are no longer displayed in the right-click command panel.
+Nests with respect to the completed layouts are removed from the Nest Page.</p>
+<h2 id="delete">Delete…</h2>
+<p>
+<a href="/images/delete.png" data-featherlight="image">
+<img src="/images/delete.png" alt="Delete:" style="height: auto; width: auto;" loading="lazy">
+</a>
+The delete command deletes the layout from the repository. If the layout is an active layout, the in-process quantities are returned to the available queue and can be planned again. The outputs of a deleted layout are removed from the machine output location.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="nest-output-settings">Nest Output Settings</h1>
+
+<p>Use Output settings from <strong>factory • settings • job</strong> to control the outputs generated by Praxis. The outputs generated are saved at Cut output destination set at <strong>factory • settings • cut page</strong>. The nest outputs are saved to the individual folders named after the nested layout.</p>
+<p>
+<a href="/images/NestOutput.png" data-featherlight="image">
+<img src="/images/NestOutput.png" alt="Nest Output" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p><strong>Save layout NC and reports:</strong> The NC file is saved to the output folder along with other outputs.</p>
+<p><strong>Save layout file:</strong> The nested layout along with the layout parts are saved to the output folder.</p>
+<p><strong>Output simulation preview in reports:</strong> Praxis outputs simulation animation to the html report it generates for the layouts. See the reports for more on this.</p>
+<h2 id="multiple-workstations">Multiple Workstations</h2>
+<p>
+<a href="/images/Workstations.png" data-featherlight="image">
+<img src="/images/Workstations.png" alt="Workstations:" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Often users have multiple machine instances of same make (aka workstations). Create a subfolder for each workstation with the name prefix Station inside the machine output folder. Now each subfolder is considered as an output queue for the workstation and nest outputs are routed to them.</p>
+<p>So, for instance in the example below, folders Station1, Station2 and Station3 are treated as output locations for 3 individual instances of machine Mits ML3015. And instead of a minimum of 3 nested layouts, a total of 9 are queued to them.</p>
+<p>
+<a href="/images/MultipleWorkstations.png" data-featherlight="image">
+<img src="/images/MultipleWorkstations.png" alt="Multiple Workstation" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>And the nesting triggers when the NC count in any of these folders fall below the cut-off. No additional configuration is needed apart from adding/removing the station folders. And this can be done without stopping and restarting the Praxis Monitor.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="layout-report">Layout Report</h1>
+
+<p>Praxis saves a html report along with the other outputs. This is a fixed template report, and it contains various estimation and composition details. The reports have multiple sections:</p>
+<p>The header section contains the key layout information like the machine, material, runtime, sheet count etc.</p>
+<p>
+<a href="/images/LayoutHeader.png" data-featherlight="image">
+<img src="/images/LayoutHeader.png" alt="Layout Header" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>This is followed by a <strong>layout picture.</strong> The layout picture displays parts colored by the nest instance (the job-item). Placing the mouse over the part instance displays basic part details like the Name, Job ID and the Instance#.</p>
+<p>
+<a href="/images/LayoutPicture.png" data-featherlight="image">
+<img src="/images/LayoutPicture.png" alt="Layout Picture" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>A simulation preview is generated, and the play button is placed on the right-top corner, if the <strong>Output simulation preview…</strong> option is enabled in <strong>factory • settings • job</strong> page.</p>
+<p>
+<a href="/images/SimulationPreview.png" data-featherlight="image">
+<img src="/images/SimulationPreview.png" alt="Simulation Preview" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Clicking on the <strong>play</strong> button runs the simulation preview for ~10s. It indefinitely loops over with a stop of 3s at the last frame. Use <strong>pause</strong> button to stop the simulation and switch back to the layout picture.</p>
+<p>
+<a href="/images/Pause.png" data-featherlight="image">
+<img src="/images/Pause.png" alt="Pause" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Layout picture is followed by the jobs table. This displays list of all the jobs listed on the layout.</p>
+<p>
+<a href="/images/JobsTable.png" data-featherlight="image">
+<img src="/images/JobsTable.png" alt="Jobs Table" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The Parts list display the nested parts in the same color as they appear in the layout. Please note that this list displays the parts by part-order (than just the part drawing). Therefore, separate entries are displayed for the same part from multiple jobs (orders) placed on this layout. The part details show the respective job IDs. These details also display the partwise resource usage which can be used in the quote preparation for individual parts.</p>
+<p>
+<a href="/images/AllParts.png" data-featherlight="image">
+<img src="/images/AllParts.png" alt="All Parts" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Used tools section follow the punch parts. It displays list of tools used sorted by station ID with the tool icons drawn proportional to the scale.</p>
+<p>
+<a href="/images/UsedTools.png" data-featherlight="image">
+<img src="/images/UsedTools.png" alt="Used Tools" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="out-of-date-layout">Out of Date Layout</h1>
+
+<p>When a part is imported in Praxis, it checks if a part with same name and content already exists. The import is skipped, if the part already exists and the content (or revision where applicable) is same. The existing content is replaced with the new one if they are different. Praxis also checks if the part is already nested in the active layouts (yet to be produced) or static nests (layouts assigned to Praxis Assemblies).</p>
+<ul>
+<li>
+<p>The Layouts are marked out-of-date if such layouts are found. The out-of-date (dirty) layouts are rendered with the light-yellow background.</p>
+</li>
+<li>
+<p>Praxis also flags the part-in-a-layout entry as out-of-date. This is set for a particular part when a layout is marked dirty due to the part revision. The parts are in the layout are also drawn with light-yellow background to highlight their out-of-date status.</p>
+</li>
+</ul>
+<p>
+<a href="/images/OutofDate.png" data-featherlight="image">
+<img src="/images/OutofDate.png" alt="Out of Date" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The <strong>Refresh Out-of-date…</strong> command can be used to refresh such out-of-date layouts with the revised parts. This command is available with waiting, out-of-date layouts, and kit nests. The refresh operation replaces the existing part instance in the layout with the new revision. This is an in-place replacement with no nest topology update. Use this command when the outer part contour stays same across the part revisions.</p>
+<p><strong>A Out-of-date Layouts</strong> selection filter has been added to select all out-of-date layouts in a single click and work with them.</p>
+<p>
+<a href="/images/RefreshOutofDate.png" data-featherlight="image">
+<img src="/images/RefreshOutofDate.png" alt="Out of Date Filters" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Check <strong>Auto-refresh Out-of-date layouts</strong> available in <strong>factory • settings • job • nest</strong> settings to automate layout refresh. When checked, Praxis refreshes all out-of-date layouts linked to a part after its cutting solutions are calculated.</p>
+<p>
+<a href="/images/AutoRefresh.png" data-featherlight="image">
+<img src="/images/AutoRefresh.png" alt="Auto Refresh" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The refresh, when the outer part contour is updated, may result in part overlap or overflow outside the machine stroke. Use Adapt/Compact to force the renest and fix overlap/overflow issues. Errors can also be fixed by editing the layouts.</p>
+<p>
+<a href="/images/Adapt_Compact.png" data-featherlight="image">
+<img src="/images/Adapt_Compact.png" alt="Adapt/compact" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+          <article class="chapter">
+<div class="article-subheading">Chapter 5</div>
+<h1 id="job-spread-sheet">Job Spread Sheet</h1>
+
+<p>While importing job via spreadsheet for the first time, Praxis displays the Spreadsheet Mapping dialog. Use it to map the Praxis fields to the Spreadsheet columns.
+The mapping UI displays Praxis fields in the left and the Spreadsheet columns preview in the right top. The
+Mapping preview is displayed in the bottom.</p>
+<p>
+<a href="/images/SpreadsheetMapping.png" data-featherlight="image">
+<img src="/images/SpreadsheetMapping.png" alt="Spreadsheet Mapping" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Job Spread Sheet</h1>
+          <article class="default">
+<h1 id="map/un-map">Map/Un-map</h1>
+
+<p>
+<a href="/images/Mapping.png" data-featherlight="image">
+<img src="/images/Mapping.png" alt="Mapping:" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>To map spreadsheet, first click on one of the Praxis fields (say Part name) followed by a spreadsheet cell under the desired column in the right to create the mapping between the Praxis and Spreadsheet columns. The mapping preview is updated in the bottom to reflect the mapping result. The mapped field is grayed-out to reflect the mapping status. Double click the grayed-out, mapped field to <em>un-map</em>. Click on a mapped field and click another spreadsheet column to alter the mapping.
+Repeat this all-required Praxis fields to complete the mapping.</p>
+<p>
+<a href="/images/MappingComplete.png" data-featherlight="image">
+<img src="/images/MappingComplete.png" alt="Mapping Complete" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Type-in the mapping name and press Save button to save the mapping. The saved mapping settings are synchronized across all stations and are used by Praxis by-default when spreadsheet is imported the next time.</p>
+<p>
+<a href="/images/SpreadsheetNewJob.png" data-featherlight="image">
+<img src="/images/SpreadsheetNewJob.png" alt="New Job" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p><strong>Note:</strong> Sometimes the spreadsheet uses the raw material (material + thickness) to define the part material. Therefore, the Thickness field mapping is optional, and the mapping can be skipped in those cases.
+Following schemas are currently supported while importing spreadsheet.</p>
+<h2 id="update-existing-mapping">Update Existing mapping</h2>
+<p>The mapping exercise explained above can used to create multiple such mappings for different spreadsheet formats. When a spreadsheet is dropped, Praxis compares the spreadsheet schema (the column definitions) with the saved mapping and uses the matching one to import the spreadsheet. Hold the Ctrl key when the spreadsheet is dropped to load and edit the existing mapping. Praxis launches the mapping dialog. Click on the Praxis field to highlight the column it is mapped to. Use the steps mentioned in the previous section to modify and save the mapping.</p>
+<p>
+<a href="/images/UpdateMapping.png" data-featherlight="image">
+<img src="/images/UpdateMapping.png" alt="Update Existing Mapping" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p><strong>Schema 1</strong></p>
+<p>PartName, Quantity, DueDate, Priority, RawMaterial</p>
+<p>038521~5, 2, 8/21/2016, Normal, STEEL#10</p>
+<p><strong>Schema 2</strong></p>
+<p>PartName, Quantity, DueDate, Priority, Material, Thickness</p>
+<p>038521~5, 2, 8/21/2016, Normal, DC01, 2</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="spreadsheet-mapping-error">Spreadsheet Mapping Error</h1>
+
+<p>When a new spreadsheet is imported, Praxis validates and job item entries and highlights the error rows in the New Job dialog.</p>
+<p>
+<a href="/images/MappingError.png" data-featherlight="image">
+<img src="/images/MappingError.png" alt="Mapping Error" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p><strong>Types of possible validation errors:</strong></p>
+<ul>
+<li>
+<p>Invalid quantity: The job item has zero or negative quantity.</p>
+</li>
+<li>
+<p>Invalid or Missing Material: The CSV material entry is missing, or it cannot be resolved as one of Praxis materials.</p>
+</li>
+<li>
+<p>Invalid due date: Due date entry is missing or points to the past.</p>
+</li>
+<li>
+<p>Blank part: The CAD entry from CSV does not exist in the Praxis library or in the CAD lookup directories</p>
+</li>
+</ul>
+<p><strong>Types of possible validation warnings:</strong></p>
+<ul>
+<li>
+<p>Material mismatch: The CAD material entry from CSV is different from its corresponding part&rsquo;s material in the Praxis library.</p>
+</li>
+<li>
+<p>Blank part: The CAD entry from CSV does not exist in the Praxis library or in the CAD lookup directories.</p>
+</li>
+</ul>
+<p>(If <em>factory • settings • job • create a blank part …</em> is enabled, the blank part is marked as warning, if not it is marked as an error)</p>
+<p>Check Show Errors checkbox to toggle the error description column and Switch to the Jobs to switch to the Jobs page after a new Job is created.</p>
+<p>
+<a href="/images/ShowError.png" data-featherlight="image">
+<img src="/images/ShowError.png" alt="Show Error" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="cad-lookup">CAD Lookup</h1>
+
+<p>The spreadsheet file refers to a part by part-name. When a spreadsheet file is imported, Praxis first searches for the part in the Part Library and if not found, then it imports it from the CAD lookup directories.</p>
+<p>
+<a href="/images/CADLookup.png" data-featherlight="image">
+<img src="/images/CADLookup.png" alt="CAD lookup" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Setup the lookup directories and look-up order using this setting.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="missing-part">Missing Part</h1>
+
+<p>If parts does not exist in Praxis library or lookup directories, Praxis will create a blank part for those unavailable parts.</p>
+<p>Check ON the <strong><em>Create blank part for missing part</em></strong> in the spreadsheet import settings to enable this feature.</p>
+<p>
+<a href="/images/blankpart.png" data-featherlight="image">
+<img src="/images/blankpart.png" alt="Blank part" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="recursive-cad-search">Recursive CAD search</h1>
+
+<p>Check ON <em><strong>Use recursive CAD</strong></em> available in <strong>factory • settings • jobs.</strong>  option to make Praxis use
+recursive search for the CAD lookup when a spreadsheet file is imported.</p>
+<p>
+<a href="/images/RecursiveCAD.png" data-featherlight="image">
+<img src="/images/RecursiveCAD.png" alt="Recursive CAD" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+          <article class="chapter">
+<div class="article-subheading">Chapter 6</div>
+<h1 id="factory-settings">Factory Settings</h1>
+
+<p>During the installation, Praxis imports CAM machines from Flux and MetaCAM and builds a routing table with possible workflow routes between. A route is a connection between the two processing stations in the routing view.</p>
+<p>
+<a href="/images/Route.png" data-featherlight="image">
+<img src="/images/Route.png" alt="Factory Settings" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>In this view:</p>
+<ul>
+<li>
+<p>Machines are displayed as processing stations. Each station is drawn with a picture and name.</p>
+</li>
+<li>
+<p>The stations are connected to each other with routes indicating a feasible workflow path which a part can take from start-to-finish.</p>
+</li>
+<li>
+<p>Station properties can be checked-out by placing the mouse over it.</p>
+</li>
+<li>
+<p>The station availability can be edited by clicking on it and toggling the enabled checkbox in the settings inspector dialog</p>
+</li>
+<li>
+<p>The inspector can also be used to edit tooling/nesting constraints and settings.</p>
+</li>
+<li>
+<p>The modified settings are automatically saved to data:/system/machine.curl file when the Factory dialog closes.</p>
+</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Factory Settings</h1>
+          <article class="default">
+<h1 id="add-remove-machine">Add Remove Machine</h1>
+
+<p>Use Edit command to launch Machine picker dialog. It displays a hierarchical list of all Cutting, Bending machines along with the current selections. Panel bending machines are listed under <strong>Trumpf • TruBendCenter</strong> node.</p>
+<p>
+<a href="/images/AddMachine.png" data-featherlight="image">
+<img src="/images/AddMachine.png" alt="Add Machine" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>
+<a href="/images/MachineSample.png" data-featherlight="image">
+<img src="/images/MachineSample.png" alt="Machine" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ul>
+<li>
+<p>In the hierarchical tree-view, simplified machine name is displayed as machine label and full name is displayed in the tooltip. The folder tooltip displays the node path (Ex: Trumpf • C Series • C60)</p>
+</li>
+<li>
+<p>Brand specific icon is displayed for non-Trumpf press-brakes. The machine tooltip also displays the machine brand (Ex – Brand: Bystronic).</p>
+</li>
+<li>
+<p>Search box can be used to search machines by Name, Full-name, Brand etc. Machine selection is retained during the search so you can pick-and-search at the same time.</p>
+</li>
+<li>
+<p>Search can also be used to search by machine technology, size. So, typing fold in the search box shows all folding (panel bender) machines. Similarly, typing 10ft displays all press brakes with 10ft table length (this is unit sensitive. Use m for meter in metric unit). Where available in the name, the axes count can also be used for searching (Ex: 2A, 5A etc.)</p>
+</li>
+<li>
+<p>Reset All command resets the machine selection to the demo configuration.</p>
+</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="add-new-material">Add New Material</h1>
+
+<h2 id="using-factory-settings">Using Factory Settings</h2>
+<p>Use <strong>factory . sheets . add&hellip;</strong> command and select <strong>New Material&hellip;</strong> menu option to add a new material or raw material.</p>
+<p>
+<a href="/images/NewMaterial.png" data-featherlight="image">
+<img src="/images/NewMaterial.png" alt="New Material" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Fill in the Material name, unique new Raw Material name and thickness(as per the working unit set in Praaxis settings)</p>
+<p>
+<a href="/images/NewRawmaterial.png" data-featherlight="image">
+<img src="/images/NewRawmaterial.png" alt="Raw Material" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+<div class="box notices cstyle note">
+  <div class="box-label"><i class="fa-fw fas fa-exclamation-circle"></i> Note</div>
+  <div class="box-content">
+<p>Pick <strong>View&hellip; Show All Materials</strong> option to  see the newly added materials. Otherwise Praxis show only the inventory material in the materials/sheets list.</p>
+  </div>
+</div>
+<p>
+<a href="/images/ShowMaterials.png" data-featherlight="image">
+<img src="/images/ShowMaterials.png" alt="Show Material" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="using-spreadsheet">Using Spreadsheet</h2>
+<p>
+<a href="/images/ExportSheet.png" data-featherlight="image">
+<img src="/images/ExportSheet.png" alt="ExportSheet" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The material/sheet list is exported to a text file in a hierarchical format, Material → Raw material → Sheets. This is terser and more expressive format than the regular CSV files. The exported data is structured as::</p>
+<pre><code>&lt;File – Version&gt;
+Material – Name = [Bend Material],[Density], [FName]
+    RawMaterial – Thickness, Name=[FName]
+        Sheet-Width, Height, Grain, Desc = Qty, [Factory], [Shelf], [Cost], [Comments]
+</code></pre>
+<p>Each next level hierarchy is intended by a single space than its parent::</p>
+<pre><code>1
+Bronze = Aluminium
+    0.5, Bronze-05
+        1500, 1500, Vertical=112
+</code></pre>
+<p>The exported data can be edited and imported back to apply the changes. You can also add additional fields (not exported by default) to the exported content. These optional fields are marked under the square bracket in the schema.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="delete-material">Delete Material</h1>
+
+<p>Use the <strong>Delete</strong> option to Delete Raw material and the respective sheets.</p>
+<p>
+<a href="/images/DeleteMaterial.png" data-featherlight="image">
+<img src="/images/DeleteMaterial.png" alt="Delete Material" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="material-mapping">Material Mapping</h1>
+
+<p>When a new laser/hybrid/waterjet machine is added to the factory route, Praxis checks if the target machine contains the technology table for all available factory raw materials (material + thickness). Praxis prompts user with the page mapping UI, if it does not find them. The page-mapping can then be used to map the factory material to the laser pages.</p>
+<p>
+<a href="/images/CAMPages.png" data-featherlight="image">
+<img src="/images/CAMPages.png" alt="CAM Pages:" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The page-mapping dialog can also be launched  from the machine settings panel using the Map Pages… command and from the sheets factory settings page using MapàCAM Pages command. The later launches the mapping UI for all factory materials.</p>
+<p>
+<a href="/images/MapPages.png" data-featherlight="image">
+<img src="/images/MapPages.png" alt="Map Pages" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The mapping dialog displays factory raw-material in the left-side and the laser pages in the right. Mapping can be performed between the material and the pages of the same machine. An orange color means a missing entry implying that the raw material cannot be produced on the target machine.</p>
+<p>
+<a href="/images/MappingCAMPages.png" data-featherlight="image">
+<img src="/images/MappingCAMPages.png" alt="Mapping CAM Pages" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h1 id="mapping-factory-materials">Mapping Factory Materials</h1>
+<p>The mapping can be performed at two levels</p>
+<h2 id="factory-material--technology-material">Factory Material → Technology Material</h2>
+<p>When a factory material is mapped to a technology material, Praxis then looks up for the raw-materials (thicknesses) from the factory set into the technology pages. If a match is found, it is displayed mapped (in green status color). Select the material node from left and a double click the material node in right or use <strong>Assign</strong> command to perform this mapping. As the image displays below, thicknesses 1, 1.5, 2 etc. are found in the technology entries in right. Selecting a mapped node in left highlights its map in right.</p>
+<p>
+<a href="/images/FactoryMaterial.png" data-featherlight="image">
+<img src="/images/FactoryMaterial.png" alt="Factory Material" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="factory-raw-material-material--thickness--a-technology-page">Factory Raw-Material (material + thickness) → A Technology Page</h2>
+<p>The raw material from left can be mapped to the technology pages in the right. To perform this mapping, select the node in left and double click (or select and assign) the page node in right. As displayed in the image below, such maps are displayed with an arrow (→ ) key.</p>
+<p>
+<a href="/images/FactoryRawmaterial.png" data-featherlight="image">
+<img src="/images/FactoryRawmaterial.png" alt="Factory Rawmaterial" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="auto-assign-command">Auto-Assign Command</h2>
+<p>When this command is used the page-lookup is done with a <strong>thickness scaled fudge</strong>. This is useful in mapping inch thicknesses to metric pages and vice-versa. The fudge value is ~.03mm for 1mm thickness. Hence, this allows a 1mm steel to be mapped to a page created for 0.04 inches (STEEL#18) steel. 
+The command button is disabled if no such fudged mapping is possible. 
+The <strong>Reset mapping&hellip;</strong> command erases the mapping table and resets back to the default. The mapping table is also used to select the appropriate raw-material sheet during the nesting. </p>
+<h2 id="page-edit-commands">Page Edit Commands</h2>
+<p>Page edit commands have been implemented in the material mapping dialog. These commands can be used to:</p>
+<ul>
+<li>Edit existing laser pages</li>
+<li>Copy an individual page or pages under a material node</li>
+<li>Remove pages</li>
+</ul>
+<p>
+<a href="/images/PageEdit.png" data-featherlight="image">
+<img src="/images/PageEdit.png" alt="Page Edit:" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>These commands are helpful in setting up technology tables of a new laser machine from an existing, reference machine.</p>
+<p><strong>Edit Page</strong></p>
+<p>This command can be used to edit an individual page or set of all pages under a material node. When the individual page is edited, you can change parameters like material, thickness etc. The material node can be edited to change machine or material of the whole batch under the node. The edit dialog displays the New and Old values of the selected page(s) and pressing OK applies the changes to the laser database.</p>
+<p><strong>Copy Page</strong></p>
+<p>This command can be used to copy existing page(s) to new material or machine node. Same UI is presented with controls to changes page parameters.</p>
+<p><strong>Remove Page</strong></p>
+<p>This command can be used to remove selected page(s).</p>
+<p>Press OK to apply the changes to the MetaCAM laser database. Cancel command cancels all edits leaving the config.dat unchanged.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="edit-factory-material">Edit Factory Material</h1>
+
+<p>
+<a href="/images/EditMaterial.png" data-featherlight="image">
+<img src="/images/EditMaterial.png" alt="Edit Material:" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Like the CAM page mapping, you can edit material aliases and bend material (material used in Flux Bend) using the <strong>Map &ndash;&gt; Materials</strong> command to map materials to the alternate names.</p>
+<p>This command brings up the material editor dialog as shown in the image above. This can be used to</p>
+<ul>
+<li>
+<p>Assign a bend-material to the selected material.</p>
+</li>
+<li>
+<p>Edit alternate name (aliases) of a material.</p>
+</li>
+<li>
+<p>Edit alternate names of a raw materials.</p>
+</li>
+</ul>
+<h2 id="bend-material">Bend-material</h2>
+<p>The factory materials defined in Praxis may be different from the known materials defined in Flux. Praxis  assigns the mapped bend material to the part before sending it to  Flux Engine for bend CAM. The bend material combo displayed in this UI displays all materials defined in Flux. Select one appropriate for selected material from the left.</p>
+<h2 id="material-aliases">Material Aliases</h2>
+<p>
+<a href="/images/AlreadyMapped.png" data-featherlight="image">
+<img src="/images/AlreadyMapped.png" alt="Already Mapped" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Enter an alias name of the material, one-per-line, in the Aliases textbox. When importing new parts, these aliases are used to map the external material names like
+ERP, CAD systems etc. to the one defined in Praxis. This is a many-to-one map where multiple aliases can be assigned to a single Praxis material. While an alias name must be used just once. The UI enforces this rule if the alias is used again for some other material.</p>
+<h2 id="raw-material-aliases">Raw Material Aliases</h2>
+<p>Like material-aliases, the raw-material aliases allow to provide alternate names for material + thicknesses. These short names later can be used in a spreadsheet to provide a single entry for both material + thickness. For instance, In the image above alias GALV#13 for the raw material QStE380TM-15 is used in spreadsheet below to assign the part-material::</p>
+<p>PartName, Quantity, DueDate, Priority, Material
+00.13,6,08/21/2016,Normal,GALV#13
+00.14,13,08/21/2016,Normal,GALV#13
+00.16,3,08/21/2016,Normal,GALV#13</p>
+<p>The imported part is assigned with the target raw material and the alias is displayed as the Drawing material part field. This part-field is used to capture the material/raw material alias which was used to resolve the actual material or raw material of the part. As displayed in the right below – the bend material is assigned to part bending solution.</p>
+<p>
+<a href="/images/FluxMaterial.png" data-featherlight="image">
+<img src="/images/FluxMaterial.png" alt="Flux Material" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The Export… and Import… commands can be used to assign mappings in batch. The exported file is a simple key-value CSV file. The section below describes the key-value schema with examples. (Note that there is not header row in the exported CSV).</p>
+<p><strong>Bend Material (Material, Bend-material)</strong></p>
+<pre><code>Aluminium, AlMg3
+QStE380TM, 1.8900
+Stainless, 1.4301
+</code></pre>
+<p><strong>Material alias (Alias, Material)</strong></p>
+<pre><code>AlMg3, Aluminium
+3.3535, Aluminium
+Al, Aluminium
+</code></pre>
+<p><strong>Raw Material alias (Alias, Raw Material)</strong></p>
+<pre><code>ALUM#10, Aluminium-05
+AL07, Aluminium-07
+Al07X, Aluminium-07
+</code></pre>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="update-metacam-laser-database">Update MetaCAM Laser Database</h1>
+
+<p>Praxis can rewrite MetaCAM laser database with Praxis material or raw-material entries. This is especially useful for users who integrate external production planning and nesting system like Aquila DMM with Praxis. To create laser pages by Praxis materials:</p>
+<ul>
+<li>Open the Page Mapping Dialog in Praxis and assign condition pages to the Praxis raw – materials.</li>
+</ul>
+<p>
+<a href="/images/BeforeRewrite.png" data-featherlight="image">
+<img src="/images/BeforeRewrite.png" alt="Before Rewrite" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ul>
+<li>Now select the parent level Material node from left – hand – side  Raw Materials tree and hit Create pages button to create new pages from the mapped ones.</li>
+</ul>
+<p>
+<a href="/images/AfterRewrite.png" data-featherlight="image">
+<img src="/images/AfterRewrite.png" alt="After Rewrite" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Sometimes, DMM is configured with raw – material names instead of the material, thickness hierarchy. In this scheme:</p>
+<ul>
+<li>
+<p>Raw material (material + thickness) itself is added to the material list in MetaCAM.</p>
+</li>
+<li>
+<p>And a single page is added for each material in the laser database</p>
+</li>
+</ul>
+<p>Set Lookup MetaCAM material by raw – materials… option in <strong>factory • settings • cut</strong> enable this style of page generation. When this style is enabled, Praxis generates pages by raw – material names and assigns them to parts at the time of auto – tooling.</p>
+<p>Below is the snapshot of pages generated in this style.</p>
+<p>
+<a href="/images/PagesGenerated.png" data-featherlight="image">
+<img src="/images/PagesGenerated.png" alt="Pages Generated" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="normalize-flat-along-the-part-width">Normalize Flat along the part Width</h1>
+
+<p>Generally cutting machine tables are rectangular and wider. To enhance the tooling feasibility, Praxis now rotates the part along the part width after the part is imported such that <em>wider</em> than <em>taller</em>.</p>
+<p>Use <strong>factory . settings . import</strong> settings to control the rotation parameters. Uncheck the <strong>Rotate flat horizontally</strong> switch to disable the rotation. Set the height cut-off to control the rotation.</p>
+<p>
+<a href="/images/RotateFlat.png" data-featherlight="image">
+<img src="/images/RotateFlat.png" alt="Rotate Flat" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="fudge-shape-identification">Fudge Shape Identification</h1>
+
+<p>The fudged shape identification is now supported. You can set the fudge value at:</p>
+<ul>
+<li>Global level by setting the Shape identification fudge on factory • settings • import page. This value is used as a default for all shapes.</li>
+<li>The default value set above can be overridden by setting the fudge value at individual shape level. Selecting the shape in the Shape Library dialog, displays the fudge value. By default this is set to 0, and default global value is used for such shapes.</li>
+</ul>
+<p>The application default: 0.001mm (1 micron) fudge is used if both the values are set to 0. (Please note that for the curved shapes the fudge values are used for radius comparison than the diameter comparison.)
+Image</p>
+<p>
+<a href="/images/ShapeFudge.png" data-featherlight="image">
+<img src="/images/ShapeFudge.png" alt="Shape Fudge" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="email-notification">Email Notification</h1>
+
+<p>Use <strong>Factory • Settings • Notifications</strong> to enable and configure the email notification. Praxis needs access to a SMTP service and account to send email. The second section of the settings page provides options to set-it-up.</p>
+<p>
+<a href="/images/Notification.png" data-featherlight="image">
+<img src="/images/Notification.png" alt="Notification" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Enter recipient details and use <em>Test…</em> button to check if email is delivered successfully. It should show an error message like shown in the image below on failure. You can enter more than one recipient by separating them using a comma or space.</p>
+<p>
+<a href="/images/MailFail.png" data-featherlight="image">
+<img src="/images/MailFail.png" alt="Mail Failed" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Praxis Engine starts sending notification mails once notification setting is enabled successfully and internet connection is up. Emails are sent on import, tooling and nesting errors.</p>
+<p>
+<a href="/images/MailNotification.png" data-featherlight="image">
+<img src="/images/MailNotification.png" alt="Mail Notification" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>
+<a href="/images/ImportFailed.png" data-featherlight="image">
+<img src="/images/ImportFailed.png" alt="Import Failed" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h1 id="send-mail-in-batch">Send mail in Batch</h1>
+<p>By default, the email is sent immediately. Use Send messages in batch option to combine multiple messages and send them in batch. To avoid large messages, messages sent within a finite duration are combined.</p>
+<p>
+<a href="/images/BatchMessage.png" data-featherlight="image">
+<img src="/images/BatchMessage.png" alt="Batch Message" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>
+<a href="/images/BendFailed.png" data-featherlight="image">
+<img src="/images/BendFailed.png" alt="Bend Failed" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h1 id="informative-notifications">Informative Notifications</h1>
+<p>For the tooling errors, now Praxis sends multiple tooling images instead of the single CAD thumbnail (old behavior) in the notification emails. To help visualize the coverage, the tooling items are exploded for the punch tooling. And a yellow/red marker is placed at the last punch hit.
+Preview of email message sent by Praxis.</p>
+<p>
+<a href="/images/MultipleTooling.png" data-featherlight="image">
+<img src="/images/MultipleTooling.png" alt="Multiple Tooling Images" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Here you can also opt for the tooling simulation preview instead of the static images. Praxis sends a smaller simulation animation of about 10 frames (&lt; 3s) when this option is selected.</p>
+<p>
+<a href="/images/AttachGif.png" data-featherlight="image">
+<img src="/images/AttachGif.png" alt="AttachGIF" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>
+<a href="/images/GifMail.png" data-featherlight="image">
+<img src="/images/GifMail.png" alt="Gif attached with Mail" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+<div class="box notices cstyle info">
+  <div class="box-label"><i class="fa-fw fas fa-info-circle"></i> Info</div>
+  <div class="box-content">
+<ul>
+<li>The email is sent by the Praxis from the Engine computer. The internet connection must be up at this computer for this feature to work properly.</li>
+<li>Email notification does not work in interactive mode. So, if you edit a tooling or part, apply a change and save. No notification would be sent even if there is a tooling/design error in the part being saved. This is by design. When the bad data is saved in interactive mode, we already prompt the user and update the item status graphically.</li>
+<li>Due to the nature of the email communication, the mail delivery can be much slower and therefore it is done in the background. So, you may lose notification if the engine is stopped/killed before all messages are delivered.</li>
+</ul>
+  </div>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="nest-settings">Nest Settings</h1>
+
+<p>These nest settings can be used to control the auto-nest behavior in Praxis.</p>
+<p>
+<a href="/images/NestSettings.png" data-featherlight="image">
+<img src="/images/NestSettings.png" alt="Nest Settings" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p><strong>Mix parts from multiple Jobs:</strong> When enabled, parts from multiple jobs are intermixed on a single layout. When unchecked, jobs are nested in a single-job-at-time standalone mode.</p>
+<p><strong>Interactive sheet-name prefix:</strong> Praxis uses English letter P as a prefix in the layout names it generates. The name is in format: <!-- raw HTML omitted --><!-- raw HTML omitted -->.<!-- raw HTML omitted -->. For example, a MetaCAM layout is named as P10.lyt, P11.lyt etc. If this value is not set, the default prefix P is used both for the interactive as well as the automatic nested layouts. When set, the prefix specified here is used for interactive nests whereas the default prefix is used for automatic nests.</p>
+<p><strong>Update sheet inventory&hellip; on nest (un)release:</strong></p>
+<p>Enable switch <strong>Update sheet inventory&hellip;</strong> on <strong>factory • settings • job</strong> page to update the sheet inventory when a nest is released to (or recalled from) a machine for production. Praxis displays Insufficient Sheets report when the available sheets fall short of the required to complete the production.</p>
+<p>(o) The required sheet count is pulled from the inventory when nests are released for production.</p>
+<p>(o) The sheets are added back to the inventory when the nest is recalled or deleted.</p>
+<p>
+<a href="/images/UpdateSheet.png" data-featherlight="image">
+<img src="/images/UpdateSheet.png" alt="Update Sheet" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+          <article class="chapter">
+<div class="article-subheading">Chapter 7</div>
+<h1 id="filters">Filters</h1>
+
+<p>It is possible to search parts, jobs and nest based on their tooling status, production feasibility, used punch and bend tools etc. Pre-defined filter choices enhance the filter usability further.</p>
+<p>Based on the selected column, the search icon changes to a drop-down button. Clicking this icon (or using <em><strong>Down</strong></em> Arrow keyboard shortcut, when the keyboard caret is on the search-box) brings up the choices dropdown. The dropdown contains list of items which can be selected to quickly apply a filter choice.</p>
+<p>
+<a href="/images/Dropdown.png" data-featherlight="image">
+<img src="/images/Dropdown.png" alt="Drop down" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Filters</h1>
+          <article class="default">
+<h1 id="drop-down-command-bar">Drop down Command Bar</h1>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Command</th>
+<th style="text-align:center">Shortcut</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><strong>Clear Selection</strong> 
+<a href="/images/clear.png" data-featherlight="image">
+<img src="/images/clear.png" alt="Clear" style="height: auto; width: auto;" loading="lazy">
+</a></td>
+<td style="text-align:center">Ctrl + X</td>
+<td>Unselects all selected choices and refreshes the filter items view.</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Select Highlighted</strong> 
+<a href="/images/Highlighted.png" data-featherlight="image">
+<img src="/images/Highlighted.png" alt="Highlighted" style="height: auto; width: auto;" loading="lazy">
+</a></td>
+<td style="text-align:center">Ctrl + A</td>
+<td>Selects all highlighted choices. This command stays disabled if item highlighting is not applicable for the selected field.</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Apply All</strong> 
+<a href="/images/ApplyAll.png" data-featherlight="image">
+<img src="/images/ApplyAll.png" alt="ApplyAll" style="height: auto; width: auto;" loading="lazy">
+</a></td>
+<td style="text-align:center">&amp;</td>
+<td>Applies ALL (vs ANY) selected choices to the filter match.</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Pin In/Out Menu</strong> 
+<a href="/images/PinOut.png" data-featherlight="image">
+<img src="/images/PinOut.png" alt="Pin out" style="height: auto; width: auto;" loading="lazy">
+</a></td>
+<td style="text-align:center">Ctrl + Down/Up</td>
+<td>When pinned, the dropdown menu stays open even when the current focus moves to another window.</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Close Menu</strong> 
+<a href="/images/close.png" data-featherlight="image">
+<img src="/images/close.png" alt="close" style="height: auto; width: auto;" loading="lazy">
+</a></td>
+<td style="text-align:center">Escape</td>
+<td>Closes the dropdown menu.</td>
+</tr>
+</tbody>
+</table>
+<p>Typically, choice items are prepared based on the field semantics. For instance, for all fields representing a datetime (aka timestamp), the choices display a date or a date range value – Today, Yesterday, Last 3 days etc. Images below display such range filters for <strong>Thickness</strong> and <strong>Weight</strong> fields.</p>
+<p>
+<a href="/images/RangeFilter.png" data-featherlight="image">
+<img src="/images/RangeFilter.png" alt="Range Filter" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Range filter values are unit aware and slightly different values are used for metric and inches units. This is done to show friendlier values which are easier to identify (so a length value 5” is used instead of 5.08”). Just like expression-based filters, these filters can be added to the filter list. The filter button label displays number of selected items, if multiple choices are selected. Placing the mouse over the filter button displays the selected choices. Click on the filter button again to edit in the search box.</p>
+<p>
+<a href="/images/RangeFilter2.png" data-featherlight="image">
+<img src="/images/RangeFilter2.png" alt="Range Filter2" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="part-library-filter">Part Library Filter</h1>
+
+<h3 id="filtering-parts-by-tooling-status">Filtering parts by tooling status</h3>
+<p>
+<a href="/images/ToolingStatus.png" data-featherlight="image">
+<img src="/images/ToolingStatus.png" alt="Tooling status:" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Select Tooling Status search field to filter parts by their tooling status. The dropdown displays states as colored checkboxes and machines where <strong>White</strong> is <strong>OK</strong>, <strong>Orange</strong> is <strong>Error</strong> and <strong>Yellow</strong> is a <strong>Warning</strong> state. The <strong>Apply All (&amp;)</strong> button is enabled in this case to apply the filter condition for all selected machines.</p>
+<table>
+<thead>
+<tr>
+<th>Filter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="/images/ToolingOK.png" data-featherlight="image">
+<img src="/images/ToolingOK.png" alt="Tooling OK" style="height: auto; width: auto;" loading="lazy">
+</a></td>
+<td>Displays parts which have at least one tooling error</td>
+</tr>
+<tr>
+<td>
+<a href="/images/ToolingTruLaser.png" data-featherlight="image">
+<img src="/images/ToolingTruLaser.png" alt="Tooling TruLaser" style="height: auto; width: auto;" loading="lazy">
+</a></td>
+<td>Displays parts which <strong>cannot be cut</strong> using <strong>TruLaser 3030</strong> machine</td>
+</tr>
+<tr>
+<td>
+<a href="/images/CutInfeasible.png" data-featherlight="image">
+<img src="/images/CutInfeasible.png" alt="Cut Infeasible" style="height: auto; width: auto;" loading="lazy">
+</a></td>
+<td>Cut Infeasible: These parts cannot be cut on any cutting machine. (Notice “&amp;” selection here)</td>
+</tr>
+<tr>
+<td>
+<a href="/images/BendingError.png" data-featherlight="image">
+<img src="/images/BendingError.png" alt="Bending Error" style="height: auto; width: auto;" loading="lazy">
+</a></td>
+<td>Bending Errors: Parts cannot be produced as there is no valid bend tooling</td>
+</tr>
+<tr>
+<td>
+<a href="/images/PanelBendOnly.png" data-featherlight="image">
+<img src="/images/PanelBendOnly.png" alt="PanelBend" style="height: auto; width: auto;" loading="lazy">
+</a></td>
+<td>Panel bend ONLY: These parts can be processed only because there is a valid panel bend tooling. These cannot be done on any of the press breaks.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="filtering-parts-by-bend-mount">Filtering parts by Bend mount</h3>
+<p>
+<a href="/images/BendMount.png" data-featherlight="image">
+<img src="/images/BendMount.png" alt="Bend Mount:" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Select <strong>Bend Mounts</strong> field to search parts by bend mount.</p>
+<ul>
+<li>
+<p>The dropdown, for this field, displays list of bend tools. Select a tool to find list of parts using this tool</p>
+</li>
+<li>
+<p>The tool list in the dropdown can be narrowed down by typing in the tool name, tool type (punch, gooseneck, radius etc.,) and tool description</p>
+</li>
+<li>
+<p>Select multiple tools and apply <strong>ALL (&amp;)</strong> modifier to list all parts using both tools.</p>
+</li>
+<li>
+<p>Select a part and double click to open part detail to highlight other tools used in the part for ALL bending machines. The tool description is updated with the mount details.</p>
+</li>
+<li>
+<p>Double click the machine to highlight the bend tools used in the selected part for the selected machine.</p>
+</li>
+</ul>
+<p>
+<a href="/images/BendMount2.png" data-featherlight="image">
+<img src="/images/BendMount2.png" alt="BendMounts" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Placing the mouse over the bend mount filter button displays tooltip with selected tool icons. A square bracket around the tool count means “ALL” match condition whereas the small bracket means ANY match.</p>
+<p>
+<a href="/images/BendTools.png" data-featherlight="image">
+<img src="/images/BendTools.png" alt="BendTools" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h3 id="filtering-parts-by-used-tools">Filtering parts by used tools</h3>
+<p>This is identical to filtering based on used mounts except:</p>
+<ul>
+<li>
+<p>The tool icons are drawn in a proportional size (not exactly proportion).</p>
+</li>
+<li>
+<p>When the tooling preview is open, moving the mouse over the highlighted tools highlights the corresponding tooling in the preview pane.</p>
+</li>
+</ul>
+<p>
+<a href="/images/UsedToolsFilter.png" data-featherlight="image">
+<img src="/images/UsedToolsFilter.png" alt="Used Tools" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h3 id="filtering-parts-by-state">Filtering parts by state</h3>
+<p>Library Parts can be filtered by <strong>State</strong> now. The options display list of ALL applicable states and therefore it changes depending on list of library parts and their current states. Pick <strong>Material Missing</strong> to list parts in unresolved material state.</p>
+<p>
+<a href="/images/StateFilter.png" data-featherlight="image">
+<img src="/images/StateFilter.png" alt="State Filter" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h3 id="filtering-parts-by-error-codes">Filtering parts by Error codes</h3>
+<p>In combination with the <strong>status</strong> and <strong>Machines</strong> now specific tooling <strong>Error codes</strong> can be used in search by <strong>Tooling Status</strong>.</p>
+<p>The image below shows the search scenario : Overload tooling errors for Machine 5170 6A</p>
+<p>
+<a href="/images/FilterErrors.png" data-featherlight="image">
+<img src="/images/FilterErrors.png" alt="Filter Error" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The error list displays the applicable errors for the machine and status selection. It refreshes on machine and status selection change to make the search more accurate. So, if you select warning status for a punch machine, only the available punch warnings are displayed in the error list.</p>
+<h3 id="suppressed-state-filter">Suppressed State filter</h3>
+<p>Often Part toolings are suppressed due to over – sized geometry or thickness. The tooling is also suppressed if it is specifically denied by a CAD route. Praxis displays the suppress reason in the tooling tooltip. Also, such parts can be searched using the newly added <strong>Suppressed state</strong> box in the <strong>Tooling Status</strong> search menu.</p>
+<p>
+<a href="/images/Suppressedstate.png" data-featherlight="image">
+<img src="/images/Suppressedstate.png" alt="Suppressed state" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="save-filter">Save Filter</h1>
+
+<h2 id="save-filter-by-name">Save Filter by Name</h2>
+<p>Use menu command <em><strong>Save Filter…</strong></em> or shortcut Ctrl+S to Save the filter by name. The Save Filter dialog can also be used to delete pre-existing filters. Selecting from an existing
+item, overwrites the item with the new filter.</p>
+<p>
+<a href="/images/Savefilter.png" data-featherlight="image">
+<img src="/images/Savefilter.png" alt="Save Filter" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="select-saved-filters">Select saved filters</h2>
+<p>
+<a href="/images/SelectFilter.png" data-featherlight="image">
+<img src="/images/SelectFilter.png" alt="Select Saved Filter:" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Click on the filter selection menu button 
+<a href="/images/selectSave.png?classes=inline" data-featherlight="image">
+<img src="/images/selectSave.png?classes=inline" alt="select save" class="inline" style="height: auto; width: auto;" loading="lazy">
+</a> from the right-hand-side or use <strong>V</strong> shortcut key to list and select a saved filter. Select <strong>All</strong> option to clear filters and list all items. You can also use the alpha-numeric hot key A-Z, to jump-select a filter from the list.</p>
+<p>Same sort/filter feature is also available in the jobs page.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="job-page-filter">Job Page Filter</h1>
+
+<p>The Jobs search functionality has significantly improved in this build. This makes it easier to locate Jobs, Active Parts and Nests based of various:</p>
+<ul>
+<li>
+<p>Order criteria like the <strong>priority, due date, customer, ordered part</strong> and <strong>quantity</strong> etc.</p>
+</li>
+<li>
+<p>Planning/Scheduling status like the scheduled <strong>machines</strong>, sheets <strong>to-do</strong>, sheets <strong>completed</strong>, <strong>nested parts, nested layouts</strong> etc.</p>
+</li>
+<li>
+<p>Nest attributes like <strong>nest efficiency, raw-material, unique</strong> and <strong>total parts, job IDs</strong> and counts.</p>
+</li>
+</ul>
+<p>
+<a href="/images/JobModuleFilter.png" data-featherlight="image">
+<img src="/images/JobModuleFilter.png" alt="Job" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="sample-filters">Sample Filters</h2>
+<h3 id="partlayout-name">Part/Layout Name</h3>
+<p>The <strong>Part name</strong> field appears in the Jobs and the Nests page. Keying-in the search text, lists all sheets/jobs containing the parts matching the search term.</p>
+<p>
+<a href="/images/PartNameFilter.png" data-featherlight="image">
+<img src="/images/PartNameFilter.png" alt="Part Name filter" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Selecting the items from the suggestion narrows down the search to the selected part(s).</p>
+<p>
+<a href="/images/PartNameFilter2.png" data-featherlight="image">
+<img src="/images/PartNameFilter2.png" alt="Part Name 2" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>This behavior extends to the jobs page as well. Job page can be searched using the Part name and the Layout name. Like the Part name field, a suggestion list is displayed for the layouts as well.</p>
+<h3 id="priority-and-due-date">Priority and Due date</h3>
+<p>Priorities and due dates are assigned to a part in a job. The Priority field, like the “Part name”, lets users find nests/jobs with higher priority parts. The high priority parts can be located on a nest by highlighting  them using mouse over the suggestion menu. Similarly, parts with specified due date can be searched and located on a nest using the highlight feature.</p>
+<p>
+<a href="/images/DueDate.png" data-featherlight="image">
+<img src="/images/DueDate.png" alt="Due Date" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Apart from pre-defined due date filters like <em>Today, Yesterday, tomorrow</em> etc., you can also key-in the custom date values/ranges in <strong>yymmdd</strong> format into the search textbox. The acceptable date expressions are:</p>
+<ul>
+<li>
+<p>Expressions with (in)equality operators 
+<a href="/images/specialCharacters.png?classes=inline" data-featherlight="image">
+<img src="/images/specialCharacters.png?classes=inline" alt="sc" class="inline" style="height: auto; width: auto;" loading="lazy">
+</a> followed by the date value. E.g., &gt;=<strong>220121</strong> would search all items which are due on or after 21st Jan 2022.</p>
+</li>
+<li>
+<p>Date range expressions like one in the image below. It searches for all nests due on or after 28th Jan 2022 and before 30th Jan 2022.</p>
+</li>
+</ul>
+<p>
+<a href="/images/DueDate2.png" data-featherlight="image">
+<img src="/images/DueDate2.png" alt="Due date" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h3 id="used-tools">Used Tools</h3>
+<p>Like the Part Library, nests can also be searched by the used punch tools. To search by used tools:</p>
+<ul>
+<li>
+<p>Select the Used tools field from the available filter columns. Praxis presents list of all available used tools.</p>
+</li>
+<li>
+<p>Generally, this is a long list, use search term like the tool name, shape, size etc. to narrow down this list to the tool you are looking for.</p>
+</li>
+<li>
+<p>Select one or more item from the list to filter parts where these tools are used. Switching to the details view, highlights the used tools and switching to simulation view reflects it back in the tooling preview.</p>
+</li>
+</ul>
+<p>
+<a href="/images/UsedToolsJob.png" data-featherlight="image">
+<img src="/images/UsedToolsJob.png" alt="Used Tools" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p><strong>Aside:</strong> Often the filter list hides the search content behind itself. Use <strong>Toggle opacity</strong> command to toggle the transparency. The transparency can also be toggled using the <strong>Right Mouse Click</strong> anywhere on the filter list.</p>
+<p>
+<a href="/images/ToggleOpacity.png" data-featherlight="image">
+<img src="/images/ToggleOpacity.png" alt="Toggle Opacity" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+          <article class="chapter">
+<div class="article-subheading">Chapter 8</div>
+<h1 id="cad-extensions">CAD Extensions</h1>
+
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of CAD Extensions</h1>
+          <article class="default">
+<h1 id="creo-family-parts">Creo Family Parts</h1>
+
+<p>Select <strong>Creo Reader</strong> option from component selection setup page to install the Creo command line emulator. The Creo tool, Creo.Cmd.exe, is installed in Bin\Apps folder.</p>
+<p>
+<a href="/images/CreoReader.png" data-featherlight="image">
+<img src="/images/CreoReader.png" alt="Creo Reader" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Check Enable pre-import external tools import option to enable Creo Reader. Now drop a family table PRT file on Praxis.</p>
+<p>
+<a href="/images/PreImport.png" data-featherlight="image">
+<img src="/images/PreImport.png" alt="Pre Import" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Praxis uploads the pre-extracted family instances of the dropped part. Please note that the instance extraction is performed during the part upload (as a pre-import operation), so the Creo software must be installed on computer from where the part is being uploaded.</p>
+<p>
+<a href="/images/CreoParts.png" data-featherlight="image">
+<img src="/images/CreoParts.png" alt="Creo Parts" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Set Emulation=1 in User/System environment variables for praxis to use emulation mode of Creo.Cmd.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Creo Family Parts</h1>
+          <article class="default">
+<h1 id="commands-supported">Commands Supported</h1>
+
+<p>Following Creo commands are currently supported.</p>
+<p><em><strong>Version</strong></em> - Returns this tool version and supported file extensions (.prt). This is used by Praxis in picking the appropriate pre-import tool for a file extension</p>
+<p><em><strong>Ping</strong></em> – Connects with Creo Parametric and returns Creo Parametric version and the SessionID of the connection. In the emulation mode (used during testing), it simply writes out <!-- raw HTML omitted --> as session id.</p>
+<p><em><strong>PreImport</strong></em> – Extracts and outputs family instances from a given family part, optionally, to a given output directory.</p>
+<p><em><strong>Reset</strong></em> – Closes all Creo Parametric applications.</p>
+<p>These commands are used by Praxis in same sequence as above to extract instances from the family – table PRT files. You can use it in interactive mode to troubleshoot if it does not work as expected from Praxis.</p>
+<p>
+<a href="/images/CreoCommands.png" data-featherlight="image">
+<img src="/images/CreoCommands.png" alt="Creo Command" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="emulation-mode">Emulation Mode</h1>
+
+<p>Setting environment variable Emulation = 1 before running any of the above commands activates the emulation mode. This is to make the Praxis simulate the workflow on systems where Creo Parametric is not installed.</p>
+<p>For the PreImport emulation, a pre-processed output folder with the same Creo part name containing the exploded part files, should be placed in the same folder as the part file. If placed, tool works as normal. If not, the following exception is shown.</p>
+<p>
+<a href="/images/Emulation.png" data-featherlight="image">
+<img src="/images/Emulation.png" alt="Emulation" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>To revert to the normal mode, set Emulation = 0 </p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+          <article class="default">
+<h1 id="solid-works-addin">Solid Works Addin</h1>
+
+<p><strong>Pre-requisite:</strong> The system must have SolidWorks Application installed to test this feature.</p>
+<h2 id="installation-steps">Installation Steps</h2>
+<ul>
+<li>Launch Praxis setup and select SolidWorks Extension option on the components selection page to install the Praxis-SolidWorks add-in<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. (Skip the Server option if add-in is being installed on a Praxis client).</li>
+</ul>
+<ul>
+<li>
+<p>Finish Praxis installation and make sure Praxis monitor is running in the notification area.</p>
+</li>
+<li>
+<p>Launch SolidWorks. It should prompt with the Praxis login dialog at the startup. Enter the password (if required) and press OK to continue to the SolidWorks home tab. Praxis remembers the credentials entered here and uses it from the next session onwards.</p>
+</li>
+</ul>
+<p>
+<a href="/images/SolidworksExtension.png" data-featherlight="image">
+<img src="/images/SolidworksExtension.png" alt="Solidworks" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ul>
+<li>
+<p>Finish Praxis installation and make sure Praxis monitor is running in the notification area.</p>
+</li>
+<li>
+<p>Launch SolidWorks. It should prompt with the Praxis login dialog at the startup. Enter the password (if required) and press OK to continue to the SolidWorks home tab. Praxis remembers the credentials entered here and uses it from the next session onwards.</p>
+</li>
+</ul>
+<p>
+<a href="/images/Solidworks_Login.png" data-featherlight="image">
+<img src="/images/Solidworks_Login.png" alt="Solidworks Login" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>You can use the <strong>tools • praxis • about praxis…</strong> SolidWorks command to check and verify the extension.</p>
+<p>
+<a href="/images/AboutPraxis.png" data-featherlight="image">
+<img src="/images/AboutPraxis.png" alt="About Praxis" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>And use <strong>tools • add-ins…</strong> dialog to enable/disable it at the SolidWorks startup. (The Praxis add-in is listed under <strong>Other Add-ins</strong> at the bottom.)</p>
+<p>
+<a href="/images/OtherAddin.png" data-featherlight="image">
+<img src="/images/OtherAddin.png" alt="Other Add-ins" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Terms add-in and extension are used interchangeably in this document&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Solid Works Addin</h1>
+          <article class="default">
+<h1 id="saving-sw-part-to-praxis">Saving SW Part to Praxis</h1>
+
+<ul>
+<li>
+<p>Open a sheetmetal part in SolidWorks. (Praxis already ships with a few. Locate them in C:\Program Files\Metamation\Praxis\Samples\Parts folder).</p>
+</li>
+<li>
+<p>Now switch to the Praxis tab. It should show the Praxis toolbar in SolidWorks.</p>
+</li>
+</ul>
+<p>
+<a href="/images/SaveSWPart.png" data-featherlight="image">
+<img src="/images/SaveSWPart.png" alt="Save Part to Praxis" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Press <strong>Save to Praxis</strong> toolbar button to save the part to Praxis. This displays the save dialog where you can choose the part-configuration and the Praxis raw-material. Press <strong>OK</strong> to save.</p>
+<p>
+<a href="/images/PartDetails.png" data-featherlight="image">
+<img src="/images/PartDetails.png" alt="Part Details" style="height: auto; width: auto;" loading="lazy">
+</a> 
+<a href="/images/PartSaved.png" data-featherlight="image">
+<img src="/images/PartSaved.png" alt="Part Saved" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="setting-up-the-auto-material-resolution">Setting up the auto-material resolution</h2>
+<p>This setting can be used to help Praxis convert the SolidWorks material and the part thickness to a Praxis raw-material during the part upload. To set it up:</p>
+<ul>
+<li>Click on Options button to launch the Options dialog. Switch to the Material Mapping page and define material mapping between SolidWorks and Praxis materials by clicking first on a SolidWorks material from the left list followed by the Praxis material from the right list. Now use Map button to define the mapping. The mapping is added to the bottom list.</li>
+</ul>
+<p>
+<a href="/images/MaterialMapping.png" data-featherlight="image">
+<img src="/images/MaterialMapping.png" alt="Material Mapping" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Select the mapped item and use Un-map button to delete the mapping.</p>
+<ul>
+<li>The mapping defined here is used to lookup the Praxis material from the SolidWorks material assigned to the Part. Thickness Fudge is another setting which affects the material lookup. This is the tolerance used when matching the model thickness to the raw-material thickness.</li>
+</ul>
+<p>
+<a href="/images/Miscellaneous.png" data-featherlight="image">
+<img src="/images/Miscellaneous.png" alt="Misc" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="reading-custom-part-properties">Reading custom part properties</h2>
+<p>This is another setting which can be used to read the material, revision etc. from a SolidWorks part. To set it up:</p>
+<ul>
+<li>Select the Custom Fields settings page.</li>
+</ul>
+<p>
+<a href="/images/CustField.png" data-featherlight="image">
+<img src="/images/CustField.png" alt="Custom Field" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Using <strong>Map/Un-map</strong> buttons, map the required Praxis fields with SolidWorks <em>Custom</em> and <em>Configuration</em> fields. (The field values displayed here are loaded from the active part).</p>
+
+<div class="box notices cstyle note">
+  <div class="box-label"><i class="fa-fw fas fa-exclamation-circle"></i> Note</div>
+  <div class="box-content">
+<p>The settings defined here are saved into Praxis repository and are synchronized across all Praxis-SW stations.</p>
+  </div>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+          </section>
+          <article class="chapter">
+<div class="article-subheading">Chapter 9</div>
+<h1 id="hmicontrols">HMIControls</h1>
+
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of HMIControls</h1>
+          <article class="default">
+<h1 id="vulcan-link">Vulcan Link</h1>
+
+<p>The Programs page in Vulcan displays layouts from Praxis’ production queue.</p>
+<ul>
+<li>
+<p>Operators can edit these layouts and save them back to Praxis.</p>
+</li>
+<li>
+<p>Operators can run the programs. The run progress is reported back and is reflected in Praxis.</p>
+</li>
+<li>
+<p>Operators can Add/Remove/Update LTT pages in Vulcan and push the updates to Praxis enabled Flux stations.</p>
+</li>
+</ul>
+<h2 id="setting-up-the-praxis-vulcan-link">Setting up the Praxis-Vulcan link</h2>
+<p>Download Vulcan setup and install Vulcan standalone first.</p>
+<ul>
+<li>
+<p>Activate and switch to the Programs page. You should see the sample demo programs (please contact Praxis support team for a Vulcan license).</p>
+</li>
+<li>
+<p>Install Praxis with Vulcan Link component.</p>
+</li>
+</ul>
+<p>
+<a href="/images/VulcanSetup.png" data-featherlight="image">
+<img src="/images/VulcanSetup.png" alt="Vulcan Seup" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ul>
+<li>Launch Praxis to complete the setup.</li>
+</ul>
+<p>Praxis installs <strong>Proteck Dual Head</strong> laser machine to test the Vulcan connection and updates the Vulcan machine automatically. There is no create page in Vulcan as it produces programs created from Praxis when connected.</p>
+<p>
+<a href="/images/ProteckDualHead.png" data-featherlight="image">
+<img src="/images/ProteckDualHead.png" alt="Proteck Dual Head" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+<div class="box notices cstyle note">
+  <div class="box-label"><i class="fa-fw fas fa-exclamation-circle"></i> Note</div>
+  <div class="box-content">
+<p>Install the dual head machine manually if the automatic machine installation fails. You will also need to set the Vulcan machine by editing <em>C:\ProgramData\Metamation\Vulcan\Data\Settings.curl file</em> (set MachineId:2230001) after installing the machine in Praxis.</p>
+  </div>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Vulcan Link</h1>
+          <article class="default">
+<h1 id="loading-programs-into-vulcan">Loading Programs into Vulcan</h1>
+
+<ul>
+<li>
+<p>Launch Praxis and Vulcan. Switch to Praxis and import Job spreadsheets from the <em>C:\Program Files\Metamation\Praxis\Samples\Jobs</em> folder. (Or load some parts and create new Job from the part library).</p>
+</li>
+<li>
+<p>Select a job, right click, and use the <strong>Plan Job</strong> panel command. Select a bend machine.</p>
+</li>
+<li>
+<p>Repeat <strong>Plan Job</strong> (previous step) and select <strong>Proteck Dual Head</strong> machine from the menu.</p>
+</li>
+</ul>
+<p>
+<a href="/images/ProteckVulcan.png" data-featherlight="image">
+<img src="/images/ProteckVulcan.png" alt="Proteck Dualhead" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Nests start appearing after a few seconds. Right click and use Send to Machine… command to send the layouts to Vulcan.</p>
+<p>
+<a href="/images/SendToMachine.png" data-featherlight="image">
+<img src="/images/SendToMachine.png" alt="Send To Machine" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Launch Vulcan and switch to Programs page. It lists programs to run in Proteck Dual Head queue. The program tiles display job details like sheets to run, estimated machine-time-per-sheet, Praxis raw-materials etc.</p>
+<p>
+<a href="/images/ProgramsPage.png" data-featherlight="image">
+<img src="/images/ProgramsPage.png" alt="Programs Page" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The program list is updated as layouts are sent/recalled from Praxis. Programs are automatically refreshed when layouts are edited in Praxis.</p>
+<p>Use the search box to search the programs by <em>name, raw-material</em> or <em>LTT table</em>. The examples below show results of programs searched by</p>
+<ul>
+<li>Raw-material</li>
+<li>LTT.</li>
+</ul>
+<p>
+<a href="/images/LayoutLTT.png" data-featherlight="image">
+<img src="/images/LayoutLTT.png" alt="Layout" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="removing-programs-from-the-queue">Removing programs from the queue</h2>
+<ul>
+<li>
+<p>Switch to Praxis Job page or go to the nests tab.</p>
+</li>
+<li>
+<p>Select one or more layouts, right click, and use the Recall from Machine… panel command to remove the layouts from the production queue.</p>
+</li>
+</ul>
+<p>
+<a href="/images/RecallFromMachine.png" data-featherlight="image">
+<img src="/images/RecallFromMachine.png" alt="Recall" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ul>
+<li>The Vulcan program list is automatically updated with the updated queue.</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+          <article class="default">
+<h1 id="right-angle-link">Right Angle Link</h1>
+
+<h2 id="setting-up-praxis-ra-link">Setting up Praxis-RA link</h2>
+<ul>
+<li>
+<p>Download RA setup and install RightAngle standalone first.</p>
+</li>
+<li>
+<p>Activate RA (please contact Praxis/RA support team for a RA license) and make sure you can import a sample part (you can find RA samples in C:\ProgramData\Metamation\RA\Samples folder).</p>
+</li>
+<li>
+<p>Install Praxis with <strong>RightAngle Link</strong>.</p>
+</li>
+</ul>
+<p>
+<a href="/images/RALink.png" data-featherlight="image">
+<img src="/images/RALink.png" alt="RA Link" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ul>
+<li>
+<p>Launch Praxis to complete the setup.</p>
+</li>
+<li>
+<p>Launch RA and click on the Metamation logo at the bottom-right. Notice the Praxis machine in the Version dialog. Also notice that there is no Create page in the Praxis mode.</p>
+</li>
+</ul>
+<p>
+<a href="/images/MachineID.png" data-featherlight="image">
+<img src="/images/MachineID.png" alt="MachineID" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Right Angle Link</h1>
+          <article class="default">
+<h1 id="adding-multiple-ra-stations">Adding Multiple RA Stations</h1>
+
+<p>Multiple RA stations can be linked to Praxis for the same or different bending machines. Use the installation steps listed in the [setup section](input/RightAngle Link). Select the Praxis desktop client with RightAngle Link when prompted by the Praxis setup.</p>
+<p>
+<a href="/images/MultipleRA.png" data-featherlight="image">
+<img src="/images/MultipleRA.png" alt="Multiple RA" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Launch Praxis and connect it to the Praxis server. Now launch RightAngle. It should be linked to the Praxis for the same <strong>5130X 6A B23</strong> machine. And both stations display the same machine queue.</p>
+<p>
+<a href="/images/RAStations.png" data-featherlight="image">
+<img src="/images/RAStations.png" alt="RA Stations" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Loading a program to run on one station, removes it from the queue such that the other stations can work on the remaining programs. This behavior would be useful in carrying out the load balanced, collaborative production.</p>
+<p>
+<a href="/images/MultipleStationRun.png" data-featherlight="image">
+<img src="/images/MultipleStationRun.png" alt="Multiple Stations" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Use <strong>settings • other setting • machine settings</strong> RightAngle command in Service mode to change the machine. Now switch to Praxis and plan a few jobs/parts on <strong>5170 6A</strong> demo machine. The second RA station displays 5170 production queue.</p>
+<p>
+<a href="/images/Station5170A.png" data-featherlight="image">
+<img src="/images/Station5170A.png" alt="5170A" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="editing-programs">Editing Programs</h1>
+
+<p>Switch to the <strong>Edit</strong> page in RightAngle. Select the program you want to edit and press the edit toolbar command. RA check-out the program from the Praxis repository and opens it in the edit mode. The part tile and tooltip in Praxis reflects the check-out status and reason.</p>
+<p>
+<a href="/images/EditProgram.png" data-featherlight="image">
+<img src="/images/EditProgram.png" alt="Edit Program" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Apply a tooling change and press done to save the program back to Praxis. The program is saved and used from next time onwards.</p>
+<p>
+<a href="/images/EditModel.png?classes=inline" data-featherlight="image">
+<img src="/images/EditModel.png?classes=inline" alt="Edit Model" class="inline" style="height: auto; width: auto;" loading="lazy">
+</a>
+
+<a href="/images/ModelUpdate.png?classes=inline" data-featherlight="image">
+<img src="/images/ModelUpdate.png?classes=inline" alt="Model Update" class="inline" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="running-programs">Running Programs</h1>
+
+<p>Select a program and use the run command to load the program for running.</p>
+<p>
+<a href="/images/RunningProgram.png" data-featherlight="image">
+<img src="/images/RunningProgram.png" alt="Run Program" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Praxis Job and Part statuses are updated to reflect the parts-in-progress.</p>
+<p>
+<a href="/images/BendingQueueRA.png" data-featherlight="image">
+<img src="/images/BendingQueueRA.png" alt="Processing Job" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Press the <strong>done</strong> button on the run page (depending on your screen height, you may have to press the <strong>more</strong> to bring this in). The job is updated with the completion status and the program is removed from the machine production queue.</p>
+<p>
+<a href="/images/Done.png?classes=inline" data-featherlight="image">
+<img src="/images/Done.png?classes=inline" alt="Done" class="inline" style="height: auto; width: auto;" loading="lazy">
+</a>
+
+<a href="/images/Done2.png?classes=inline" data-featherlight="image">
+<img src="/images/Done2.png?classes=inline" alt="Done" class="inline" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="searching-programs">Searching Programs</h1>
+
+<p>Launch the search prompt using the search button from the right. Type-in the search text and press OK. The programs are searched by the part name, job name and the job customer. And the list is updated with the programs matching the search text.</p>
+<p>
+<a href="/images/SearchProgram.png" data-featherlight="image">
+<img src="/images/SearchProgram.png" alt="Search Program" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="loading-programs-into-rightangle">Loading Programs into RightAngle</h1>
+
+<p>Launch Praxis and RightAngle. Switch to Praxis and import Job spreadsheets from the <em>C:\Program Files\Metamation\Praxis\Samples\Jobs</em> folder. (Or load some parts and create new Job from the part library). Select a job, right click, and use the Plan Job panel command. Select 5130X 6A B23 to add the selected parts to the production queue.</p>
+<p>
+<a href="/images/PlanJobRA.png" data-featherlight="image">
+<img src="/images/PlanJobRA.png" alt="Plan Job" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The queued part’s status is updated back in Praxis.</p>
+<p>
+<a href="/images/BendingQueue.png" data-featherlight="image">
+<img src="/images/BendingQueue.png" alt="Bending Queue" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Switch to RightAngle <strong>Run</strong> page. It displays the programs in 5130X 6A B23 queue. The program tiles display the job details like job name, quantity to run, customer name etc. The tile also displays the Praxis raw-material name instead of the material name.</p>
+<p>
+<a href="/images/RunProgram.png" data-featherlight="image">
+<img src="/images/RunProgram.png" alt="Run Program" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The program list displays the programs sorted by the priority and the due-date and it automatically refreshes when:</p>
+<ul>
+<li>
+<p>The production queue is updated in Praxis by adding new programs or removing existing ones.</p>
+</li>
+<li>
+<p>Job details like the job-name, customer name etc. are updated.</p>
+</li>
+<li>
+<p>The Part geometry is revised, and the part is reprogrammed.</p>
+</li>
+</ul>
+<h2 id="removing-programs-from-the-queue">Removing programs from the queue</h2>
+<p>Switch to Praxis Job page and select one or more Jobs or Job-parts.</p>
+<ul>
+<li>
+<p>Right click and use the Reset Job/Reset Part panel command to revoke the job parts from the production queue.</p>
+</li>
+<li>
+<p>The RA program list is automatically updated with the updated queue.</p>
+</li>
+</ul>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>
+          </section>
+              </section>        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard.min.js?1678099969" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1678099969" defer></script>
+    <script src="/js/featherlight.min.js?1678099969" defer></script>
+    <script src="/js/theme.js?1678099969" defer></script>
+  </body>
+</html>

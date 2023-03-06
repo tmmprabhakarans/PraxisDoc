@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Relearn 5.9.2+tip">
+    <meta name="description" content="">
+    <title>Assembly :: Praxis Manual</title>
+    <link href="/assembly/index.html" rel="canonical" type="text/html" title="Assembly :: Praxis Manual">
+    <link href="/assembly/index.xml" rel="alternate" type="application/rss+xml" title="Assembly :: Praxis Manual">
+    <link href="/images/favicon.png?1678099968" rel="icon" type="image/png">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1678099969" rel="stylesheet">
+    <link href="/css/nucleus.css?1678099969" rel="stylesheet">
+    <link href="/css/fonts.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1678099969" rel="stylesheet">
+    <link href="/css/theme-blue.css?1678099969" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1678099969" rel="stylesheet">
+    <link href="/css/variant.css?1678099969" rel="stylesheet">
+    <link href="/css/print.css?1678099969" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1678099969" rel="stylesheet">
+    <script src="/js/url.js?1678099969"></script>
+    <script src="/js/variant.js?1678099969"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="/index.search.js";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='/';
+      window.variants && variants.init( [ 'blue', 'green', 'relearn-dark' ] );
+    </script>
+    <script src="/js/jquery.min.js?1678099969" defer></script>
+  </head>
+  <body class="mobile-support print" data-url="/assembly/index.html">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable" dir="ltr">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Home Page</span></a><meta itemprop="position" content="1"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Assembly</span><meta itemprop="position" content="2"></li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable chapter narrow" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="chapter">
+<div class="article-subheading">Chapter 3</div>
+<h1 id="assembly">Assembly</h1>
+
+<p>Praxis can import and explode assemblies into Parts and non-sheet metal components. To import assemblies : use open command, choose Import Parts… option and select assembly files in <em>open – file</em> dialog. <strong>All Assembly files</strong> filter can be used to filter <em>assembly – only</em> files in the file dialog.</p>
+<p>
+<a href="/images/Assembly.png" data-featherlight="image">
+<img src="/images/Assembly.png" alt="Assembly" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Once imported, Praxis displays the assembly list under the assemblies tree in the Part Library. Click on the assemblies toolbar button on the right to switch to this view. In this mode, the library displays the filtered list of assemblies abd respective parts. Selecting one or more parts in parts pane, highlights the respective assemblies.</p>
+<p>
+<a href="/images/AssemblyView.png" data-featherlight="image">
+<img src="/images/AssemblyView.png" alt="Assembly View" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Selecting an assembly from the tree in left, displays parts from the selected assembly with the total part quantity in the assembly. Apart from showing assembly part list, the rest of the UI is same as part library. (so, you can double click a part to switch to the details page.)</p>
+<p>
+<a href="/images/AssemblyTree.png" data-featherlight="image">
+<img src="/images/AssemblyTree.png" alt="Assembly Tree" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Part Library search/filters and saved searches can be applied on assembly – only parts in the assemblies view to search specific parts.</p>
+<p>
+<a href="/images/AssemblyFilter.png" data-featherlight="image">
+<img src="/images/AssemblyFilter.png" alt="Assembly Filter" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Assembly</h1>
+          <article class="default">
+<h1 id="producing-assembly">Producing Assembly</h1>
+
+<p>To produce an assembly :</p>
+<ul>
+<li>
+<p>Select the assembly from the assembly tree. Praxis displays the assembly parts with their repetition counts in the parts pane.</p>
+</li>
+<li>
+<p>Use new job command to bring the job dialog.</p>
+</li>
+<li>
+<p>Adjust the Assembly Count and press OK.</p>
+</li>
+</ul>
+<p>
+<a href="/images/ProduceAssembly.png" data-featherlight="image">
+<img src="/images/ProduceAssembly.png" alt="Producing Assembly" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="import-non-sheet-metal-parts">Import Non-Sheet metal Parts</h1>
+
+<p>When an assembly part is imported, Praxis :</p>
+<ul>
+<li>
+<p>Extracts the sheet metal parts and adds them to the Part library.</p>
+</li>
+<li>
+<p>Separates the non sheet metal components and adds them to the Component library.</p>
+</li>
+<li>
+<p>Adds the assembly to the assemble library.</p>
+</li>
+</ul>
+<p>If the part was imported earlier as a sheet metal part, it removes them from the part library</p>
+<p>
+<a href="/images/Components.png" data-featherlight="image">
+<img src="/images/Components.png" alt="Components" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>The imported assembly BOM contains both components and parts. Selecting an assembly from the assembly tree, shows both parts and components contained inside the assembly. Component count (in the second assembly) is displayed below the component image.
+For instance, in the above image under <strong><em>Components</em></strong>, respective selected assembly component count(43) and total component count(305) is shown.</p>
+<p>The component tool – tip displays name, material and size. When the assembly is produced, the components are filtered out from the job.</p>
+<h2 id="samples">Samples</h2>
+<p>Along with the binaries, the installer installs sample assemblies with components in <em><strong>C:\ProgramFiles\Metamation\Praxis\Samples\Assys\Components folder</strong></em>. These parts and assemblies can be imported to test the component import feature.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="create-nests-from-assembly">Create Nests from Assembly</h1>
+
+<p>A new assembly can be imported from a CSV file.</p>
+<p>Use <strong>open • import assemblies…</strong> command and select a CSV file to import it as a new assembly.
+Update the assembly details, quantities or use the <strong>Add…/Remove…</strong> buttons to update the BOM before importing the assembly and the parts.</p>
+<p>
+<a href="/images/NewAssembly.png?classes=left" data-featherlight="image">
+<img src="/images/NewAssembly.png?classes=left" alt="New Assembly:" class="left" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Same CSV format used for creating new job can be used for importing new assemblies as well.</p>
+<p>Once imported, you can prepare and assign Static Nests to these assemblies.</p>
+<ol>
+<li>Switch to the assemblies’ tab, right click an assembly and use Create Nests… command to launch the assembly nesting wizard.</li>
+</ol>
+<p>
+<a href="/images/CreateNests.png" data-featherlight="image">
+<img src="/images/CreateNests.png" alt="Create Nests" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ol start="2">
+<li>This is an interactive wizard where you can select machine, sheets, update the quantities, nest and save the results. The generated nests are named after the parent assembly for an easier identification.</li>
+</ol>
+<p>
+<a href="/images/SaveNestResult.png" data-featherlight="image">
+<img src="/images/SaveNestResult.png" alt="Save Nest Result" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ol start="3">
+<li>Once saved, the nest results are assigned to the assembly as <strong>static nests</strong>. And the assembly part status is updated to reflect the nest status. (Notice part Roof~2 status as the nest <em>Roof-L5</em> was discarded from the results above).</li>
+</ol>
+<p>
+<a href="/images/AssemblyNest.png" data-featherlight="image">
+<img src="/images/AssemblyNest.png" alt="Assembly Nest" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ol start="4">
+<li>User can edit a static nest to insert un-nested parts from the parent assembly.</li>
+</ol>
+<p>
+<a href="/images/InsertPart.png" data-featherlight="image">
+<img src="/images/InsertPart.png" alt="Insert Part" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ol start="5">
+<li>Right click on an assembly and use <strong>Drop Nests…</strong> command to delete all assigned nests.</li>
+</ol>
+<p>
+<a href="/images/DropNest.png" data-featherlight="image">
+<img src="/images/DropNest.png" alt="Drop Nest" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+<div class="box notices cstyle note">
+  <div class="box-label"><i class="fa-fw fas fa-exclamation-circle"></i> Note</div>
+  <div class="box-content">
+<p>Unlike jobs, mixing parts from other assemblies is not allowed for static nests. If allowed, this would prevent an assembly from being released for production without releasing the other.</p>
+  </div>
+</div>
+<h2 id="producing-a-kit">Producing a kit</h2>
+<ol>
+<li>Right click and use <strong>New Job…</strong> command to produce the assembly. Praxis displays the New Job dialog. Update the assembly count and press OK. Use the regular New Job dialog with the part details to update due date and priority etc. and press OK.</li>
+</ol>
+<p>
+<a href="/images/ProduceKit.png" data-featherlight="image">
+<img src="/images/ProduceKit.png" alt="Produce kit" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Update the assembly count and press OK. Use the regular New Job dialog with the part details to update due date and priority etc. and press OK.</p>
+<ol start="2">
+<li>Praxis creates a job from the assembly, copies the static nests as job nests with the updated sheet counts. The copied nests are named with Job ID prefix. You can edit/delete the job nests without affecting the original kit. Or repack the nests using <strong>Adapt/Compact…</strong> and <strong>Add Parts…</strong> commands.</li>
+</ol>
+<p>
+<a href="/images/AssemblyJob.png" data-featherlight="image">
+<img src="/images/AssemblyJob.png" alt="Assembly Job" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ol start="3">
+<li>Right click the job and use Plan Job… command to select and assign the press brakes to parts with the bends.</li>
+</ol>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard.min.js?1678099969" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1678099969" defer></script>
+    <script src="/js/featherlight.min.js?1678099969" defer></script>
+    <script src="/js/theme.js?1678099969" defer></script>
+  </body>
+</html>

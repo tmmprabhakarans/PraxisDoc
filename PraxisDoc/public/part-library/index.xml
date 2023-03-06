@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Part Library on Praxis Manual</title>
+    <link>/part-library/index.html</link>
+    <description>Recent content in Part Library on Praxis Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Feb 2023 17:12:50 +0530</lastBuildDate><atom:link href="/part-library/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CAD File Types</title>
+      <link>/part-library/cad-file-types/index.html</link>
+      <pubDate>Tue, 28 Feb 2023 15:36:11 +0530</pubDate>
+      <guid>/part-library/cad-file-types/index.html</guid>
+      <description>The following file formats are supported while importing a part into the Part Library.
+DXF
+DWG
+2D IGES
+SLDPRT
+SolidEdge
+3D IGES
+SAT files
+Creo Files</description>
+    </item>
+    <item>
+      <title>Part Library Tour</title>
+      <link>/part-library/part-library-tour/index.html</link>
+      <pubDate>Tue, 28 Feb 2023 15:39:28 +0530</pubDate>
+      <guid>/part-library/part-library-tour/index.html</guid>
+      <description>Use Shortcut key P to navigate to the Part Library
+This view displays parts as tiles with each tile displaying part-picture with a few basic part properties like name, size, material, thickness etc.
+The tile also displays tooling status of the part for the available factory machines.
+The view refreshes automatically with the live data, however you can also force a refresh by pressing F5.
+Parts can be searched by Part-Name and Material via Search box.</description>
+    </item>
+    <item>
+      <title>Import Parts</title>
+      <link>/part-library/import-parts/index.html</link>
+      <pubDate>Tue, 28 Feb 2023 15:44:43 +0530</pubDate>
+      <guid>/part-library/import-parts/index.html</guid>
+      <description>To begin with, load parts into the Part Library. This can be done by
+(i) Selecting Open -&amp;gt; Import option from the Part Library. This option can be used to import Parts, Jobs and Assemblies from the local and remote directories/folders. This option allows importing parts individually or in batches.
+(ii) Drag and drop a part into Praxis Part Library directly.
+Tooling After successful import, parts are auto-tooled and tooling status is updated.</description>
+    </item>
+    <item>
+      <title>Validate CAD Error</title>
+      <link>/part-library/validate-cad-error/index.html</link>
+      <pubDate>Tue, 28 Feb 2023 16:27:22 +0530</pubDate>
+      <guid>/part-library/validate-cad-error/index.html</guid>
+      <description>The part is put in the error state if the material cannot be resolved or appropriate cut/bend solution is not found during the Part import.
+Following sections describes the various error states and ways to resolve them.
+Material Missing
+Material Not Assigned
+Bend and Cut Infeasible</description>
+    </item>
+    <item>
+      <title>Edit/Update Tooling</title>
+      <link>/part-library/editupdate-tooling/index.html</link>
+      <pubDate>Tue, 28 Feb 2023 16:51:00 +0530</pubDate>
+      <guid>/part-library/editupdate-tooling/index.html</guid>
+      <description>Cut Toolings Praxis has been integrated with MetaCAM. To check MetaCAM- Praxis connection in MetaCAM, Launch MetaCAM and use Tools &amp;ndash;&amp;gt; Configuration &amp;ndash;&amp;gt; Sheet Database command. This should bring up Praxis sheet dialog.
+Check-out the part by choosing a laser/punch tooling solution to edit the part.
+When a cutting solution is edited in Praxis, Praxis forwards the edit request to MetaCAM with the requested tooled PDG file. MetaCAM prompts with appropriate messages when the Save or Close command is used after the editing.</description>
+    </item>
+    <item>
+      <title>Output Settings</title>
+      <link>/part-library/output-settings/index.html</link>
+      <pubDate>Tue, 28 Feb 2023 17:12:50 +0530</pubDate>
+      <guid>/part-library/output-settings/index.html</guid>
+      <description>Output Destination Set Output Destination field of a machine to assign a specific target output folder for that machine. If this field is not set, the output settings set via factory • settings • cut/bend is used as the target output location.
+Export outputs Tooling outputs and reports can be exported manually using the Export outputs panel command. This command can be used on a single part or multiple parts selected in a batch.</description>
+    </item>
+  </channel>
+</rss>

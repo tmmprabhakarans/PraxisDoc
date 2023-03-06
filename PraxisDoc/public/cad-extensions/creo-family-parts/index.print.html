@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Relearn 5.9.2+tip">
+    <meta name="description" content="">
+    <title>Creo Family Parts :: Praxis Manual</title>
+    <link href="/cad-extensions/creo-family-parts/index.html" rel="canonical" type="text/html" title="Creo Family Parts :: Praxis Manual">
+    <link href="/cad-extensions/creo-family-parts/index.xml" rel="alternate" type="application/rss+xml" title="Creo Family Parts :: Praxis Manual">
+    <link href="/images/favicon.png?1678099968" rel="icon" type="image/png">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1678099969" rel="stylesheet">
+    <link href="/css/nucleus.css?1678099969" rel="stylesheet">
+    <link href="/css/fonts.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1678099969" rel="stylesheet">
+    <link href="/css/theme-blue.css?1678099969" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1678099969" rel="stylesheet">
+    <link href="/css/variant.css?1678099969" rel="stylesheet">
+    <link href="/css/print.css?1678099969" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1678099969" rel="stylesheet">
+    <script src="/js/url.js?1678099969"></script>
+    <script src="/js/variant.js?1678099969"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="/index.search.js";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='/';
+      window.variants && variants.init( [ 'blue', 'green', 'relearn-dark' ] );
+    </script>
+    <script src="/js/jquery.min.js?1678099969" defer></script>
+  </head>
+  <body class="mobile-support print" data-url="/cad-extensions/creo-family-parts/index.html">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable" dir="ltr">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Home Page</span></a><meta itemprop="position" content="1"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/cad-extensions/index.html"><span itemprop="name">CAD Extensions</span></a><meta itemprop="position" content="2"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Creo Family Parts</span><meta itemprop="position" content="3"></li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1 id="creo-family-parts">Creo Family Parts</h1>
+
+<p>Select <strong>Creo Reader</strong> option from component selection setup page to install the Creo command line emulator. The Creo tool, Creo.Cmd.exe, is installed in Bin\Apps folder.</p>
+<p>
+<a href="/images/CreoReader.png" data-featherlight="image">
+<img src="/images/CreoReader.png" alt="Creo Reader" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Check Enable pre-import external tools import option to enable Creo Reader. Now drop a family table PRT file on Praxis.</p>
+<p>
+<a href="/images/PreImport.png" data-featherlight="image">
+<img src="/images/PreImport.png" alt="Pre Import" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Praxis uploads the pre-extracted family instances of the dropped part. Please note that the instance extraction is performed during the part upload (as a pre-import operation), so the Creo software must be installed on computer from where the part is being uploaded.</p>
+<p>
+<a href="/images/CreoParts.png" data-featherlight="image">
+<img src="/images/CreoParts.png" alt="Creo Parts" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Set Emulation=1 in User/System environment variables for praxis to use emulation mode of Creo.Cmd.</p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Creo Family Parts</h1>
+          <article class="default">
+<h1 id="commands-supported">Commands Supported</h1>
+
+<p>Following Creo commands are currently supported.</p>
+<p><em><strong>Version</strong></em> - Returns this tool version and supported file extensions (.prt). This is used by Praxis in picking the appropriate pre-import tool for a file extension</p>
+<p><em><strong>Ping</strong></em> – Connects with Creo Parametric and returns Creo Parametric version and the SessionID of the connection. In the emulation mode (used during testing), it simply writes out <!-- raw HTML omitted --> as session id.</p>
+<p><em><strong>PreImport</strong></em> – Extracts and outputs family instances from a given family part, optionally, to a given output directory.</p>
+<p><em><strong>Reset</strong></em> – Closes all Creo Parametric applications.</p>
+<p>These commands are used by Praxis in same sequence as above to extract instances from the family – table PRT files. You can use it in interactive mode to troubleshoot if it does not work as expected from Praxis.</p>
+<p>
+<a href="/images/CreoCommands.png" data-featherlight="image">
+<img src="/images/CreoCommands.png" alt="Creo Command" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <article class="default">
+<h1 id="emulation-mode">Emulation Mode</h1>
+
+<p>Setting environment variable Emulation = 1 before running any of the above commands activates the emulation mode. This is to make the Praxis simulate the workflow on systems where Creo Parametric is not installed.</p>
+<p>For the PreImport emulation, a pre-processed output folder with the same Creo part name containing the exploded part files, should be placed in the same folder as the part file. If placed, tool works as normal. If not, the following exception is shown.</p>
+<p>
+<a href="/images/Emulation.png" data-featherlight="image">
+<img src="/images/Emulation.png" alt="Emulation" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>To revert to the normal mode, set Emulation = 0 </p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard.min.js?1678099969" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1678099969" defer></script>
+    <script src="/js/featherlight.min.js?1678099969" defer></script>
+    <script src="/js/theme.js?1678099969" defer></script>
+  </body>
+</html>

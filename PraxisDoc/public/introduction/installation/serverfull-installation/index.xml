@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Server/Full Installation on Praxis Manual</title>
+    <link>/introduction/installation/serverfull-installation/index.html</link>
+    <description>Recent content in Server/Full Installation on Praxis Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Feb 2023 15:00:21 +0530</lastBuildDate><atom:link href="/introduction/installation/serverfull-installation/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Job Spread Sheet on Praxis Manual</title>
+    <link>/job-spread-sheet/index.html</link>
+    <description>Recent content in Job Spread Sheet on Praxis Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2023 12:18:20 +0530</lastBuildDate><atom:link href="/job-spread-sheet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Map/Un-map</title>
+      <link>/job-spread-sheet/map-un-map/index.html</link>
+      <pubDate>Thu, 02 Mar 2023 11:49:15 +0530</pubDate>
+      <guid>/job-spread-sheet/map-un-map/index.html</guid>
+      <description>To map spreadsheet, first click on one of the Praxis fields (say Part name) followed by a spreadsheet cell under the desired column in the right to create the mapping between the Praxis and Spreadsheet columns. The mapping preview is updated in the bottom to reflect the mapping result. The mapped field is grayed-out to reflect the mapping status. Double click the grayed-out, mapped field to un-map. Click on a mapped field and click another spreadsheet column to alter the mapping.</description>
+    </item>
+    <item>
+      <title>Spreadsheet Mapping Error</title>
+      <link>/job-spread-sheet/spreadsheet-mapping-error/index.html</link>
+      <pubDate>Thu, 02 Mar 2023 11:57:34 +0530</pubDate>
+      <guid>/job-spread-sheet/spreadsheet-mapping-error/index.html</guid>
+      <description>When a new spreadsheet is imported, Praxis validates and job item entries and highlights the error rows in the New Job dialog.
+Types of possible validation errors:
+Invalid quantity: The job item has zero or negative quantity.
+Invalid or Missing Material: The CSV material entry is missing, or it cannot be resolved as one of Praxis materials.
+Invalid due date: Due date entry is missing or points to the past.</description>
+    </item>
+    <item>
+      <title>CAD Lookup</title>
+      <link>/job-spread-sheet/cad-lookup/index.html</link>
+      <pubDate>Thu, 02 Mar 2023 11:57:39 +0530</pubDate>
+      <guid>/job-spread-sheet/cad-lookup/index.html</guid>
+      <description>The spreadsheet file refers to a part by part-name. When a spreadsheet file is imported, Praxis first searches for the part in the Part Library and if not found, then it imports it from the CAD lookup directories.
+Setup the lookup directories and look-up order using this setting.</description>
+    </item>
+    <item>
+      <title>Missing Part</title>
+      <link>/job-spread-sheet/missing-part/index.html</link>
+      <pubDate>Thu, 02 Mar 2023 11:57:42 +0530</pubDate>
+      <guid>/job-spread-sheet/missing-part/index.html</guid>
+      <description>If parts does not exist in Praxis library or lookup directories, Praxis will create a blank part for those unavailable parts.
+Check ON the Create blank part for missing part in the spreadsheet import settings to enable this feature.</description>
+    </item>
+    <item>
+      <title>Recursive CAD search</title>
+      <link>/job-spread-sheet/recursive-cad-search/index.html</link>
+      <pubDate>Thu, 02 Mar 2023 12:18:20 +0530</pubDate>
+      <guid>/job-spread-sheet/recursive-cad-search/index.html</guid>
+      <description>Check ON Use recursive CAD available in factory • settings • jobs. option to make Praxis use recursive search for the CAD lookup when a spreadsheet file is imported.</description>
+    </item>
+  </channel>
+</rss>

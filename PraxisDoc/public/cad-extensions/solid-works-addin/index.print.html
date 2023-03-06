@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Relearn 5.9.2+tip">
+    <meta name="description" content="">
+    <title>Solid Works Addin :: Praxis Manual</title>
+    <link href="/cad-extensions/solid-works-addin/index.html" rel="canonical" type="text/html" title="Solid Works Addin :: Praxis Manual">
+    <link href="/cad-extensions/solid-works-addin/index.xml" rel="alternate" type="application/rss+xml" title="Solid Works Addin :: Praxis Manual">
+    <link href="/images/favicon.png?1678099968" rel="icon" type="image/png">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1678099969" rel="stylesheet">
+    <link href="/css/nucleus.css?1678099969" rel="stylesheet">
+    <link href="/css/fonts.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1678099969" rel="stylesheet">
+    <link href="/css/theme-blue.css?1678099969" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1678099969" rel="stylesheet">
+    <link href="/css/variant.css?1678099969" rel="stylesheet">
+    <link href="/css/print.css?1678099969" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1678099969" rel="stylesheet">
+    <script src="/js/url.js?1678099969"></script>
+    <script src="/js/variant.js?1678099969"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="/index.search.js";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='/';
+      window.variants && variants.init( [ 'blue', 'green', 'relearn-dark' ] );
+    </script>
+    <script src="/js/jquery.min.js?1678099969" defer></script>
+  </head>
+  <body class="mobile-support print" data-url="/cad-extensions/solid-works-addin/index.html">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable" dir="ltr">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Home Page</span></a><meta itemprop="position" content="1"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/cad-extensions/index.html"><span itemprop="name">CAD Extensions</span></a><meta itemprop="position" content="2"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Solid Works Addin</span><meta itemprop="position" content="3"></li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1 id="solid-works-addin">Solid Works Addin</h1>
+
+<p><strong>Pre-requisite:</strong> The system must have SolidWorks Application installed to test this feature.</p>
+<h2 id="installation-steps">Installation Steps</h2>
+<ul>
+<li>Launch Praxis setup and select SolidWorks Extension option on the components selection page to install the Praxis-SolidWorks add-in<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. (Skip the Server option if add-in is being installed on a Praxis client).</li>
+</ul>
+<ul>
+<li>
+<p>Finish Praxis installation and make sure Praxis monitor is running in the notification area.</p>
+</li>
+<li>
+<p>Launch SolidWorks. It should prompt with the Praxis login dialog at the startup. Enter the password (if required) and press OK to continue to the SolidWorks home tab. Praxis remembers the credentials entered here and uses it from the next session onwards.</p>
+</li>
+</ul>
+<p>
+<a href="/images/SolidworksExtension.png" data-featherlight="image">
+<img src="/images/SolidworksExtension.png" alt="Solidworks" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ul>
+<li>
+<p>Finish Praxis installation and make sure Praxis monitor is running in the notification area.</p>
+</li>
+<li>
+<p>Launch SolidWorks. It should prompt with the Praxis login dialog at the startup. Enter the password (if required) and press OK to continue to the SolidWorks home tab. Praxis remembers the credentials entered here and uses it from the next session onwards.</p>
+</li>
+</ul>
+<p>
+<a href="/images/Solidworks_Login.png" data-featherlight="image">
+<img src="/images/Solidworks_Login.png" alt="Solidworks Login" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>You can use the <strong>tools • praxis • about praxis…</strong> SolidWorks command to check and verify the extension.</p>
+<p>
+<a href="/images/AboutPraxis.png" data-featherlight="image">
+<img src="/images/AboutPraxis.png" alt="About Praxis" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>And use <strong>tools • add-ins…</strong> dialog to enable/disable it at the SolidWorks startup. (The Praxis add-in is listed under <strong>Other Add-ins</strong> at the bottom.)</p>
+<p>
+<a href="/images/OtherAddin.png" data-featherlight="image">
+<img src="/images/OtherAddin.png" alt="Other Add-ins" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Terms add-in and extension are used interchangeably in this document&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Solid Works Addin</h1>
+          <article class="default">
+<h1 id="saving-sw-part-to-praxis">Saving SW Part to Praxis</h1>
+
+<ul>
+<li>
+<p>Open a sheetmetal part in SolidWorks. (Praxis already ships with a few. Locate them in C:\Program Files\Metamation\Praxis\Samples\Parts folder).</p>
+</li>
+<li>
+<p>Now switch to the Praxis tab. It should show the Praxis toolbar in SolidWorks.</p>
+</li>
+</ul>
+<p>
+<a href="/images/SaveSWPart.png" data-featherlight="image">
+<img src="/images/SaveSWPart.png" alt="Save Part to Praxis" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Press <strong>Save to Praxis</strong> toolbar button to save the part to Praxis. This displays the save dialog where you can choose the part-configuration and the Praxis raw-material. Press <strong>OK</strong> to save.</p>
+<p>
+<a href="/images/PartDetails.png" data-featherlight="image">
+<img src="/images/PartDetails.png" alt="Part Details" style="height: auto; width: auto;" loading="lazy">
+</a> 
+<a href="/images/PartSaved.png" data-featherlight="image">
+<img src="/images/PartSaved.png" alt="Part Saved" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="setting-up-the-auto-material-resolution">Setting up the auto-material resolution</h2>
+<p>This setting can be used to help Praxis convert the SolidWorks material and the part thickness to a Praxis raw-material during the part upload. To set it up:</p>
+<ul>
+<li>Click on Options button to launch the Options dialog. Switch to the Material Mapping page and define material mapping between SolidWorks and Praxis materials by clicking first on a SolidWorks material from the left list followed by the Praxis material from the right list. Now use Map button to define the mapping. The mapping is added to the bottom list.</li>
+</ul>
+<p>
+<a href="/images/MaterialMapping.png" data-featherlight="image">
+<img src="/images/MaterialMapping.png" alt="Material Mapping" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Select the mapped item and use Un-map button to delete the mapping.</p>
+<ul>
+<li>The mapping defined here is used to lookup the Praxis material from the SolidWorks material assigned to the Part. Thickness Fudge is another setting which affects the material lookup. This is the tolerance used when matching the model thickness to the raw-material thickness.</li>
+</ul>
+<p>
+<a href="/images/Miscellaneous.png" data-featherlight="image">
+<img src="/images/Miscellaneous.png" alt="Misc" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<h2 id="reading-custom-part-properties">Reading custom part properties</h2>
+<p>This is another setting which can be used to read the material, revision etc. from a SolidWorks part. To set it up:</p>
+<ul>
+<li>Select the Custom Fields settings page.</li>
+</ul>
+<p>
+<a href="/images/CustField.png" data-featherlight="image">
+<img src="/images/CustField.png" alt="Custom Field" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>Using <strong>Map/Un-map</strong> buttons, map the required Praxis fields with SolidWorks <em>Custom</em> and <em>Configuration</em> fields. (The field values displayed here are loaded from the active part).</p>
+
+<div class="box notices cstyle note">
+  <div class="box-label"><i class="fa-fw fas fa-exclamation-circle"></i> Note</div>
+  <div class="box-content">
+<p>The settings defined here are saved into Praxis repository and are synchronized across all Praxis-SW stations.</p>
+  </div>
+</div>
+
+            <footer class="footline">
+            </footer>
+          </article>
+
+          </section>        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard.min.js?1678099969" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1678099969" defer></script>
+    <script src="/js/featherlight.min.js?1678099969" defer></script>
+    <script src="/js/theme.js?1678099969" defer></script>
+  </body>
+</html>

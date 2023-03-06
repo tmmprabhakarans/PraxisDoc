@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Relearn 5.9.2+tip">
+    <meta name="description" content="">
+    <title>Mixed Nesting Workflow :: Praxis Manual</title>
+    <link href="/job/planning-jobs/mixed-nesting-workflow/index.html" rel="canonical" type="text/html" title="Mixed Nesting Workflow :: Praxis Manual">
+    <link href="/job/planning-jobs/mixed-nesting-workflow/index.xml" rel="alternate" type="application/rss+xml" title="Mixed Nesting Workflow :: Praxis Manual">
+    <link href="/images/favicon.png?1678099968" rel="icon" type="image/png">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1678099969" rel="stylesheet">
+    <link href="/css/nucleus.css?1678099969" rel="stylesheet">
+    <link href="/css/fonts.css?1678099969" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1678099969" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1678099969" rel="stylesheet">
+    <link href="/css/theme-blue.css?1678099969" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1678099969" rel="stylesheet">
+    <link href="/css/variant.css?1678099969" rel="stylesheet">
+    <link href="/css/print.css?1678099969" rel="stylesheet" media="print">
+    <link href="/css/format-print.css?1678099969" rel="stylesheet">
+    <script src="/js/url.js?1678099969"></script>
+    <script src="/js/variant.js?1678099969"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="/index.search.js";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='/';
+      window.variants && variants.init( [ 'blue', 'green', 'relearn-dark' ] );
+    </script>
+    <script src="/js/jquery.min.js?1678099969" defer></script>
+  </head>
+  <body class="mobile-support print" data-url="/job/planning-jobs/mixed-nesting-workflow/index.html">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable" dir="ltr">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Home Page</span></a><meta itemprop="position" content="1"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/job/index.html"><span itemprop="name">Job</span></a><meta itemprop="position" content="2"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/job/planning-jobs/index.html"><span itemprop="name">Planning Jobs</span></a><meta itemprop="position" content="3"> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Mixed Nesting Workflow</span><meta itemprop="position" content="4"></li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1 id="mixed-nesting-workflow">Mixed Nesting Workflow</h1>
+
+<ul>
+<li>
+<p>Select a Job or a job-part and right click. Praxis shows the command panel for job/part.</p>
+</li>
+<li>
+<p>Click on the Plan Job…/Plan Part… panel command. Praxis displays the list of bend machines with unique and total quantities to be planned.</p>
+</li>
+</ul>
+<p>
+<a href="/images/PlanJob.png" data-featherlight="image">
+<img src="/images/PlanJob.png" alt="Plan Job" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ul>
+<li>Select the bend machine. And repeat these steps to select the cutting machine. The parts are queue up for the nesting. Praxis engines complete the nest, generate layouts and move the parts to the cutting queue. Job and part status are updated at every step and the whole process is reflected in the jobs page.</li>
+</ul>
+<p>
+<a href="/images/BendQueue.png" data-featherlight="image">
+<img src="/images/BendQueue.png" alt="Bend Queue" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p>
+<a href="/images/CutQueue.png" data-featherlight="image">
+<img src="/images/CutQueue.png" alt="Cutting Queue" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<ul>
+<li>Once a Job is nested, layout starts to appear in the layout page</li>
+</ul>
+<p>
+<a href="/images/layout.png" data-featherlight="image">
+<img src="/images/layout.png" alt="Layout" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p><strong>Reset Part…</strong> command revokes all instances of a job-part from the existing nests. This command triggers a renest of the remaining parts and uses a smaller sheet if one is available to accommodate all the remaining parts. Overall, it tries to optimize the sheet usage even when a part is pulled back from existing nests. For the mixed mode layouts, parts from other jobs stay nested after the reset</p>
+<p>
+<a href="/images/ResetPart.png" data-featherlight="image">
+<img src="/images/ResetPart.png" alt="Reset Part" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+<p><em>In this image, when Reset Part is used for the Part 11-A-6149, the parts are withdrawn from Layout P145 and P146. As a result, all the remaining parts are nested in a single layout P146</em></p>
+<p><strong>Reset Job…</strong> command is less fancy and simply deletes all the nested layouts and resets all the parts back to the plannable state. If the layouts contain items from the other jobs – those parts are reset too.</p>
+<p>
+<a href="/images/ResetJob.png" data-featherlight="image">
+<img src="/images/ResetJob.png" alt="Reset Job" style="height: auto; width: auto;" loading="lazy">
+</a></p>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <script src="/js/clipboard.min.js?1678099969" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1678099969" defer></script>
+    <script src="/js/featherlight.min.js?1678099969" defer></script>
+    <script src="/js/theme.js?1678099969" defer></script>
+  </body>
+</html>
