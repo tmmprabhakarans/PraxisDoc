@@ -1,7 +1,6 @@
 ---
 title: "Drop down Command Bar"
 date: 2023-03-02T15:15:47+05:30
-draft: false
 weight: 1
 ---
 

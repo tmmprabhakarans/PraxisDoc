@@ -1,7 +1,6 @@
 ---
 title: "Material Not Assigned"
 date: 2023-02-28T16:38:40+05:30
-draft: false
 weight: 2
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "Missing Part"
 date: 2023-03-02T11:57:42+05:30
-draft: false
 weight: 4
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "CAD File Types"
 date: 2023-02-28T15:36:11+05:30
-draft: false
 weight: 1
 ---
 

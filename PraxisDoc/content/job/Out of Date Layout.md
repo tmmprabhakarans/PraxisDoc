@@ -1,7 +1,6 @@
 ---
 title: "Out of Date Layout"
 date: 2023-03-01T17:37:08+05:30
-draft: false
 weight: 7
 ---
 

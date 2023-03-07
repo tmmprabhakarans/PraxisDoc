@@ -1,7 +1,6 @@
 ---
 title: "Update MetaCAM Laser Database"
 date: 2023-03-02T12:31:54+05:30
-draft: false
 weight: 6
 ---
 

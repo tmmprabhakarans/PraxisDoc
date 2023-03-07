@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Auto Release Job on Praxis Manual</title>
-    <link>/job/auto-release-job/auto-release-job/index.html</link>
+    <link>https://endearing-halva-664fec.netlify.app/job/auto-release-job/auto-release-job/index.html</link>
     <description>Recent content in Auto Release Job on Praxis Manual</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Mar 2023 16:17:00 +0530</lastBuildDate><atom:link href="/job/auto-release-job/auto-release-job/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Mar 2023 16:17:00 +0530</lastBuildDate><atom:link href="https://endearing-halva-664fec.netlify.app/job/auto-release-job/auto-release-job/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

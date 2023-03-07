@@ -1,7 +1,6 @@
 ---
 title: "Add New Material"
 date: 2023-03-02T12:30:35+05:30
-draft: false
 weight: 2
 ---
 

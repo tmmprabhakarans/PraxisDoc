@@ -1,7 +1,6 @@
 ---
 title: "Recursive CAD search"
 date: 2023-03-02T12:18:20+05:30
-draft: false
 weight: 5
 ---
 

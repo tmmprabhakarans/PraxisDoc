@@ -1,7 +1,6 @@
 ---
 title: "Material Missing"
 date: 2023-02-28T16:30:39+05:30
-draft: false
 weight: 1
 ---
 

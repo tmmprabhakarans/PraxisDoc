@@ -1,7 +1,6 @@
 ---
 title: "Tools and Settings synchronization"
 date: 2023-03-06T15:07:45+05:30
-draft: true
 ---
 
 The tools catalogs, tool inventories and machine settings are synchronized across all Praxis linked applications. The steps below take you through the tool inventory synchronization between Flux and RA running on two different computers.

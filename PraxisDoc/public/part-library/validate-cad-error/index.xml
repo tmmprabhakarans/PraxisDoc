@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Validate CAD Error on Praxis Manual</title>
-    <link>/part-library/validate-cad-error/index.html</link>
+    <link>https://endearing-halva-664fec.netlify.app/part-library/validate-cad-error/index.html</link>
     <description>Recent content in Validate CAD Error on Praxis Manual</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Feb 2023 16:27:22 +0530</lastBuildDate><atom:link href="/part-library/validate-cad-error/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Feb 2023 16:27:22 +0530</lastBuildDate><atom:link href="https://endearing-halva-664fec.netlify.app/part-library/validate-cad-error/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Material Missing</title>
-      <link>/part-library/validate-cad-error/material-missing/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/part-library/validate-cad-error/material-missing/index.html</link>
       <pubDate>Tue, 28 Feb 2023 16:30:39 +0530</pubDate>
-      <guid>/part-library/validate-cad-error/material-missing/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/part-library/validate-cad-error/material-missing/index.html</guid>
       <description>Material missing error is displayed when material is assigned but it is not found in the Praxis material database.
 Make sure that you have the required material/ raw material entries (BRONZE, COPPER etc) in the database. Add material lookup key (For instance, PTC_MATERIAL_NAME in the below image) to help Praxis resolve the part material.
 Material Lookup Open factory dialog and switch to Imports page.
@@ -19,17 +19,17 @@ Click on the Material lookup keys Pick… hyperlink to select the custom field n
     </item>
     <item>
       <title>Material Not Assigned</title>
-      <link>/part-library/validate-cad-error/material-not-assigned/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/part-library/validate-cad-error/material-not-assigned/index.html</link>
       <pubDate>Tue, 28 Feb 2023 16:38:40 +0530</pubDate>
-      <guid>/part-library/validate-cad-error/material-not-assigned/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/part-library/validate-cad-error/material-not-assigned/index.html</guid>
       <description>Use the Assign Material… command to assign material to one or more parts. Praxis displays a dialog with the list of raw-materials when this command is used. The raw-materials are displayed as clickable buttons. Use the search box in top right to locate the raw-material and click on the corresponding button to assign it to the selected part(s).
 Depending on the selected part(s) and the user part library, the raw-material are displayed in Suggestions, Used and All sections.</description>
     </item>
     <item>
       <title>Bend/Cut Infeasible</title>
-      <link>/part-library/validate-cad-error/bendcut-infeasible/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/part-library/validate-cad-error/bendcut-infeasible/index.html</link>
       <pubDate>Tue, 28 Feb 2023 16:38:52 +0530</pubDate>
-      <guid>/part-library/validate-cad-error/bendcut-infeasible/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/part-library/validate-cad-error/bendcut-infeasible/index.html</guid>
       <description>Praxis assigns Bend Infeasible state to the part if no valid bend solution is found during the auto tooling. User can ignore/fix the tooling error to resolve the Bend infeasible error. A similar change has also been applied to the cutting workflow. The part is put in Cut infeasible state if no feasible cutting solution is found.</description>
     </item>
   </channel>

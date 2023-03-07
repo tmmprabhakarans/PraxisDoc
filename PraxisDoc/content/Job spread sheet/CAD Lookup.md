@@ -1,7 +1,6 @@
 ---
 title: "CAD Lookup"
 date: 2023-03-02T11:57:39+05:30
-draft: false
 weight: 3
 ---
 

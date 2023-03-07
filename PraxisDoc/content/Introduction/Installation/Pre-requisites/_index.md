@@ -1,7 +1,6 @@
 ---
 title: "Pre-Requisites"
 date: 2023-02-28T14:15:34+05:30
-draft: false
 weight: 1
 ---
 

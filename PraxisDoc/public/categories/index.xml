@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Praxis Manual</title>
-    <link>/categories/index.html</link>
+    <link>https://endearing-halva-664fec.netlify.app/categories/index.html</link>
     <description>Recent content in Categories on Praxis Manual</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://endearing-halva-664fec.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

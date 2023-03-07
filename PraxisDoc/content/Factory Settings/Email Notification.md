@@ -1,7 +1,6 @@
 ---
 title: "Email Notification"
 date: 2023-03-02T12:32:42+05:30
-draft: false
 weight: 9
 ---
 

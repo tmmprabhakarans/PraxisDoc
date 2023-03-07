@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vulcan Link on Praxis Manual</title>
-    <link>/hmicontrols/vulcanlink/index.html</link>
+    <link>https://endearing-halva-664fec.netlify.app/hmicontrols/vulcanlink/index.html</link>
     <description>Recent content in Vulcan Link on Praxis Manual</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Mar 2023 15:24:25 +0530</lastBuildDate><atom:link href="/hmicontrols/vulcanlink/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Mar 2023 15:24:25 +0530</lastBuildDate><atom:link href="https://endearing-halva-664fec.netlify.app/hmicontrols/vulcanlink/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Loading Programs into Vulcan</title>
-      <link>/hmicontrols/vulcanlink/loadingprogramsintovulcan/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/hmicontrols/vulcanlink/loadingprogramsintovulcan/index.html</link>
       <pubDate>Mon, 06 Mar 2023 15:32:09 +0530</pubDate>
-      <guid>/hmicontrols/vulcanlink/loadingprogramsintovulcan/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/hmicontrols/vulcanlink/loadingprogramsintovulcan/index.html</guid>
       <description>Launch Praxis and Vulcan. Switch to Praxis and import Job spreadsheets from the C:\Program Files\Metamation\Praxis\Samples\Jobs folder. (Or load some parts and create new Job from the part library).
 Select a job, right click, and use the Plan Job panel command. Select a bend machine.
 Repeat Plan Job (previous step) and select Proteck Dual Head machine from the menu.
@@ -19,26 +19,26 @@ Nests start appearing after a few seconds. Right click and use Send to Machineâ€
     </item>
     <item>
       <title>Running Programs</title>
-      <link>/hmicontrols/vulcanlink/runningprograms/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/hmicontrols/vulcanlink/runningprograms/index.html</link>
       <pubDate>Mon, 06 Mar 2023 16:45:00 +0530</pubDate>
-      <guid>/hmicontrols/vulcanlink/runningprograms/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/hmicontrols/vulcanlink/runningprograms/index.html</guid>
       <description>Select a program and use the run command to load the program for running.
 Praxis Job and Part statuses are updated to reflect the parts-in-progress. The Layout is checked-out to prevent updates while program is loaded on the machine.
 Press the stop1 button on the run page to mark the current sheet as complete. The job is updated with the completion status. Repeat this to mark all sheets as completed. Once completed program is unloaded, it is removed from the machine production queue and the job/part/layout statuses are updated in Praxis.</description>
     </item>
     <item>
       <title>Editing Programs</title>
-      <link>/hmicontrols/vulcanlink/editingprograms/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/hmicontrols/vulcanlink/editingprograms/index.html</link>
       <pubDate>Mon, 06 Mar 2023 16:48:09 +0530</pubDate>
-      <guid>/hmicontrols/vulcanlink/editingprograms/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/hmicontrols/vulcanlink/editingprograms/index.html</guid>
       <description>Select a Program in the programs list and use edit command to edit the program. The layout is checkout from the Praxis and is locked for editing. Update the program in Vulcan and press on done button to save the changes back to Praxis. Praxis checks the layout for validation errors and adds it back to the production queue if everything is OK.
 Linking Vulcan only station to Praxis The installation steps suggested in the start of this notes is more useful for testing and demo where both Vulcan, Praxis are needed on the same computer.</description>
     </item>
     <item>
       <title>LTT Synchronization</title>
-      <link>/hmicontrols/vulcanlink/lttsynchronization/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/hmicontrols/vulcanlink/lttsynchronization/index.html</link>
       <pubDate>Mon, 06 Mar 2023 16:49:51 +0530</pubDate>
-      <guid>/hmicontrols/vulcanlink/lttsynchronization/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/hmicontrols/vulcanlink/lttsynchronization/index.html</guid>
       <description>When linked to Praxis, the same LTT is used in Vulcan, Praxis and Flux. Vulcan becomes the LTT master and owns the technology tables. All edits made at Vulcan are pushed to all Praxis + Flux stations on the network.
 Walkthrough: Switch to the Configure page and click on the Laser Database button. Open Praxis or Flux to confirm the existing laser data. In Vulcan select a material + thickness and use clone page to clone the selected page.</description>
     </item>

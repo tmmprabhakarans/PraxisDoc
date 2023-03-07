@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LTT Synchronization on Praxis Manual</title>
-    <link>/hmicontrols/vulcanlink/lttsynchronization/index.html</link>
+    <link>https://endearing-halva-664fec.netlify.app/hmicontrols/vulcanlink/lttsynchronization/index.html</link>
     <description>Recent content in LTT Synchronization on Praxis Manual</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Mar 2023 16:49:51 +0530</lastBuildDate><atom:link href="/hmicontrols/vulcanlink/lttsynchronization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Mar 2023 16:49:51 +0530</lastBuildDate><atom:link href="https://endearing-halva-664fec.netlify.app/hmicontrols/vulcanlink/lttsynchronization/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

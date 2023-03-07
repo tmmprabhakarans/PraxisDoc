@@ -2,51 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Right Angle Link on Praxis Manual</title>
-    <link>/hmicontrols/right-angle-link/index.html</link>
+    <link>https://endearing-halva-664fec.netlify.app/hmicontrols/right-angle-link/index.html</link>
     <description>Recent content in Right Angle Link on Praxis Manual</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Mar 2023 14:40:28 +0530</lastBuildDate><atom:link href="/hmicontrols/right-angle-link/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Mar 2023 14:40:28 +0530</lastBuildDate><atom:link href="https://endearing-halva-664fec.netlify.app/hmicontrols/right-angle-link/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Loading Programs into RightAngle</title>
-      <link>/hmicontrols/right-angle-link/loading-programs-into-right-angle/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/hmicontrols/right-angle-link/loading-programs-into-right-angle/index.html</link>
       <pubDate>Mon, 06 Mar 2023 14:47:02 +0530</pubDate>
-      <guid>/hmicontrols/right-angle-link/loading-programs-into-right-angle/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/hmicontrols/right-angle-link/loading-programs-into-right-angle/index.html</guid>
       <description>Launch Praxis and RightAngle. Switch to Praxis and import Job spreadsheets from the C:\Program Files\Metamation\Praxis\Samples\Jobs folder. (Or load some parts and create new Job from the part library). Select a job, right click, and use the Plan Job panel command. Select 5130X 6A B23 to add the selected parts to the production queue.
 The queued part’s status is updated back in Praxis.
 Switch to RightAngle Run page. It displays the programs in 5130X 6A B23 queue.</description>
     </item>
     <item>
       <title>Searching Programs</title>
-      <link>/hmicontrols/right-angle-link/searching-programs/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/hmicontrols/right-angle-link/searching-programs/index.html</link>
       <pubDate>Mon, 06 Mar 2023 14:50:40 +0530</pubDate>
-      <guid>/hmicontrols/right-angle-link/searching-programs/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/hmicontrols/right-angle-link/searching-programs/index.html</guid>
       <description>Launch the search prompt using the search button from the right. Type-in the search text and press OK. The programs are searched by the part name, job name and the job customer. And the list is updated with the programs matching the search text.</description>
     </item>
     <item>
       <title>Running Programs</title>
-      <link>/hmicontrols/right-angle-link/running-programs/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/hmicontrols/right-angle-link/running-programs/index.html</link>
       <pubDate>Mon, 06 Mar 2023 14:52:42 +0530</pubDate>
-      <guid>/hmicontrols/right-angle-link/running-programs/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/hmicontrols/right-angle-link/running-programs/index.html</guid>
       <description>Select a program and use the run command to load the program for running.
 Praxis Job and Part statuses are updated to reflect the parts-in-progress.
 Press the done button on the run page (depending on your screen height, you may have to press the more to bring this in). The job is updated with the completion status and the program is removed from the machine production queue.</description>
     </item>
     <item>
       <title>Editing Programs</title>
-      <link>/hmicontrols/right-angle-link/editing-programs/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/hmicontrols/right-angle-link/editing-programs/index.html</link>
       <pubDate>Mon, 06 Mar 2023 14:57:49 +0530</pubDate>
-      <guid>/hmicontrols/right-angle-link/editing-programs/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/hmicontrols/right-angle-link/editing-programs/index.html</guid>
       <description>Switch to the Edit page in RightAngle. Select the program you want to edit and press the edit toolbar command. RA check-out the program from the Praxis repository and opens it in the edit mode. The part tile and tooltip in Praxis reflects the check-out status and reason.
 Apply a tooling change and press done to save the program back to Praxis. The program is saved and used from next time onwards.</description>
     </item>
     <item>
       <title>Adding Multiple RA Stations</title>
-      <link>/hmicontrols/right-angle-link/adding-multiple-ra-stations/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/hmicontrols/right-angle-link/adding-multiple-ra-stations/index.html</link>
       <pubDate>Mon, 06 Mar 2023 15:04:17 +0530</pubDate>
-      <guid>/hmicontrols/right-angle-link/adding-multiple-ra-stations/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/hmicontrols/right-angle-link/adding-multiple-ra-stations/index.html</guid>
       <description>Multiple RA stations can be linked to Praxis for the same or different bending machines. Use the installation steps listed in the [setup section](input/RightAngle Link). Select the Praxis desktop client with RightAngle Link when prompted by the Praxis setup.
 Launch Praxis and connect it to the Praxis server. Now launch RightAngle. It should be linked to the Praxis for the same 5130X 6A B23 machine. And both stations display the same machine queue.</description>
+    </item>
+    <item>
+      <title>Tools and Settings synchronization</title>
+      <link>https://endearing-halva-664fec.netlify.app/hmicontrols/right-angle-link/tools-and-settings-synchronization/index.html</link>
+      <pubDate>Mon, 06 Mar 2023 15:07:45 +0530</pubDate>
+      <guid>https://endearing-halva-664fec.netlify.app/hmicontrols/right-angle-link/tools-and-settings-synchronization/index.html</guid>
+      <description>The tools catalogs, tool inventories and machine settings are synchronized across all Praxis linked applications. The steps below take you through the tool inventory synchronization between Flux and RA running on two different computers.
+Launch Flux and RightAngle on separate Praxis liked computers. Browse to same tool inventory on Flux and RightAngle.
+Change the inventory on RA station by adding new sets. And press done button to commit the change to Praxis.</description>
     </item>
   </channel>
 </rss>

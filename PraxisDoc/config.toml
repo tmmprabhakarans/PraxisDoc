@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = 'https://endearing-halva-664fec.netlify.app/'
 languageCode = 'en-us'
 title = 'Praxis Manual'
 themesDir="themes"
@@ -12,4 +12,4 @@ page = ["HTML", "RSS", "PRINT"]
 [params]
 alwaysOpen = false
 collapsibleMenu = true
-themeVariant = ["blue","green","relearn-dark"]
+themeVariant = ["blue","green","red","relearn-dark"]

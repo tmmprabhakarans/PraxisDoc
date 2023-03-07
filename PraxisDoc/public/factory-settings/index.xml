@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Factory Settings on Praxis Manual</title>
-    <link>/factory-settings/index.html</link>
+    <link>https://endearing-halva-664fec.netlify.app/factory-settings/index.html</link>
     <description>Recent content in Factory Settings on Praxis Manual</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Mar 2023 12:32:55 +0530</lastBuildDate><atom:link href="/factory-settings/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Mar 2023 12:32:55 +0530</lastBuildDate><atom:link href="https://endearing-halva-664fec.netlify.app/factory-settings/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Add Remove Machine</title>
-      <link>/factory-settings/add-remove-machine/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/factory-settings/add-remove-machine/index.html</link>
       <pubDate>Thu, 02 Mar 2023 12:30:14 +0530</pubDate>
-      <guid>/factory-settings/add-remove-machine/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/factory-settings/add-remove-machine/index.html</guid>
       <description>Use Edit command to launch Machine picker dialog. It displays a hierarchical list of all Cutting, Bending machines along with the current selections. Panel bending machines are listed under Trumpf • TruBendCenter node.
 In the hierarchical tree-view, simplified machine name is displayed as machine label and full name is displayed in the tooltip. The folder tooltip displays the node path (Ex: Trumpf • C Series • C60)
 Brand specific icon is displayed for non-Trumpf press-brakes.</description>
     </item>
     <item>
       <title>Add New Material</title>
-      <link>/factory-settings/add-new-material/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/factory-settings/add-new-material/index.html</link>
       <pubDate>Thu, 02 Mar 2023 12:30:35 +0530</pubDate>
-      <guid>/factory-settings/add-new-material/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/factory-settings/add-new-material/index.html</guid>
       <description>Using Factory Settings Use factory . sheets . add&amp;hellip; command and select New Material&amp;hellip; menu option to add a new material or raw material.
 Fill in the Material name, unique new Raw Material name and thickness(as per the working unit set in Praaxis settings)
 Note Pick View&amp;hellip; Show All Materials option to see the newly added materials. Otherwise Praxis show only the inventory material in the materials/sheets list.
@@ -28,24 +28,24 @@ Using Spreadsheet The material/sheet list is exported to a text file in a hierar
     </item>
     <item>
       <title>Delete Material</title>
-      <link>/factory-settings/delete-material/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/factory-settings/delete-material/index.html</link>
       <pubDate>Thu, 02 Mar 2023 12:30:56 +0530</pubDate>
-      <guid>/factory-settings/delete-material/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/factory-settings/delete-material/index.html</guid>
       <description>Use the Delete option to Delete Raw material and the respective sheets.</description>
     </item>
     <item>
       <title>Material Mapping</title>
-      <link>/factory-settings/material-mapping/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/factory-settings/material-mapping/index.html</link>
       <pubDate>Thu, 02 Mar 2023 12:31:12 +0530</pubDate>
-      <guid>/factory-settings/material-mapping/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/factory-settings/material-mapping/index.html</guid>
       <description>When a new laser/hybrid/waterjet machine is added to the factory route, Praxis checks if the target machine contains the technology table for all available factory raw materials (material + thickness). Praxis prompts user with the page mapping UI, if it does not find them. The page-mapping can then be used to map the factory material to the laser pages.
 The page-mapping dialog can also be launched from the machine settings panel using the Map Pages… command and from the sheets factory settings page using MapàCAM Pages command.</description>
     </item>
     <item>
       <title>Edit Factory Material</title>
-      <link>/factory-settings/edit-factory-material/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/factory-settings/edit-factory-material/index.html</link>
       <pubDate>Thu, 02 Mar 2023 12:31:36 +0530</pubDate>
-      <guid>/factory-settings/edit-factory-material/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/factory-settings/edit-factory-material/index.html</guid>
       <description>Like the CAM page mapping, you can edit material aliases and bend material (material used in Flux Bend) using the Map &amp;ndash;&amp;gt; Materials command to map materials to the alternate names.
 This command brings up the material editor dialog as shown in the image above. This can be used to
 Assign a bend-material to the selected material.
@@ -54,41 +54,41 @@ Edit alternate names of a raw materials.</description>
     </item>
     <item>
       <title>Update MetaCAM Laser Database</title>
-      <link>/factory-settings/update-metacam-laser-database/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/factory-settings/update-metacam-laser-database/index.html</link>
       <pubDate>Thu, 02 Mar 2023 12:31:54 +0530</pubDate>
-      <guid>/factory-settings/update-metacam-laser-database/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/factory-settings/update-metacam-laser-database/index.html</guid>
       <description>Praxis can rewrite MetaCAM laser database with Praxis material or raw-material entries. This is especially useful for users who integrate external production planning and nesting system like Aquila DMM with Praxis. To create laser pages by Praxis materials:
 Open the Page Mapping Dialog in Praxis and assign condition pages to the Praxis raw – materials. Now select the parent level Material node from left – hand – side Raw Materials tree and hit Create pages button to create new pages from the mapped ones.</description>
     </item>
     <item>
       <title>Normalize Flat along the part Width</title>
-      <link>/factory-settings/normalize-flat-along-the-part-width/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/factory-settings/normalize-flat-along-the-part-width/index.html</link>
       <pubDate>Thu, 02 Mar 2023 12:32:13 +0530</pubDate>
-      <guid>/factory-settings/normalize-flat-along-the-part-width/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/factory-settings/normalize-flat-along-the-part-width/index.html</guid>
       <description>Generally cutting machine tables are rectangular and wider. To enhance the tooling feasibility, Praxis now rotates the part along the part width after the part is imported such that wider than taller.
 Use factory . settings . import settings to control the rotation parameters. Uncheck the Rotate flat horizontally switch to disable the rotation. Set the height cut-off to control the rotation.</description>
     </item>
     <item>
       <title>Fudge Shape Identification</title>
-      <link>/factory-settings/fudge-shape-identification/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/factory-settings/fudge-shape-identification/index.html</link>
       <pubDate>Thu, 02 Mar 2023 12:32:28 +0530</pubDate>
-      <guid>/factory-settings/fudge-shape-identification/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/factory-settings/fudge-shape-identification/index.html</guid>
       <description>The fudged shape identification is now supported. You can set the fudge value at:
 Global level by setting the Shape identification fudge on factory • settings • import page. This value is used as a default for all shapes. The default value set above can be overridden by setting the fudge value at individual shape level. Selecting the shape in the Shape Library dialog, displays the fudge value. By default this is set to 0, and default global value is used for such shapes.</description>
     </item>
     <item>
       <title>Email Notification</title>
-      <link>/factory-settings/email-notification/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/factory-settings/email-notification/index.html</link>
       <pubDate>Thu, 02 Mar 2023 12:32:42 +0530</pubDate>
-      <guid>/factory-settings/email-notification/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/factory-settings/email-notification/index.html</guid>
       <description>Use Factory • Settings • Notifications to enable and configure the email notification. Praxis needs access to a SMTP service and account to send email. The second section of the settings page provides options to set-it-up.
 Enter recipient details and use Test… button to check if email is delivered successfully. It should show an error message like shown in the image below on failure. You can enter more than one recipient by separating them using a comma or space.</description>
     </item>
     <item>
       <title>Nest Settings</title>
-      <link>/factory-settings/nest-settings/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/factory-settings/nest-settings/index.html</link>
       <pubDate>Thu, 02 Mar 2023 12:32:55 +0530</pubDate>
-      <guid>/factory-settings/nest-settings/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/factory-settings/nest-settings/index.html</guid>
       <description>These nest settings can be used to control the auto-nest behavior in Praxis.
 Mix parts from multiple Jobs: When enabled, parts from multiple jobs are intermixed on a single layout. When unchecked, jobs are nested in a single-job-at-time standalone mode.
 Interactive sheet-name prefix: Praxis uses English letter P as a prefix in the layout names it generates. The name is in format: .. For example, a MetaCAM layout is named as P10.</description>

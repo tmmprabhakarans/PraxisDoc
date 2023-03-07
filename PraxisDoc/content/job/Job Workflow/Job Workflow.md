@@ -1,7 +1,6 @@
 ---
 title: "Job Workflow"
 date: 2023-03-01T15:54:30+05:30
-draft: false
 weight: 1
 ---
 

@@ -98,18 +98,18 @@ var relearn_search_index = [
     "uri": "/part-library/cad-file-types/index.html"
   },
   {
-    "content": "Following sections explains the pre-requisites and steps required to install Praxis application and connect the same with Server/Client setup.\nPre-Requisites\nPraxis Setup Installation\nServer Installation\nClient Installation\n",
-    "description": "",
-    "tags": null,
-    "title": "Installation",
-    "uri": "/introduction/installation/index.html"
-  },
-  {
     "content": " sample video\nGeneral Overview Praxis is an MES based Application which handles the complete workflow of production in Shop Floor. It interfaces with all other Flux modules like FluxBend, FluxCut, RA(Bend Control) and Vulcan(LaserControl).\nThere should have been a video here but your browser does not seem\rto support it.\rsample video\nManages all parts from different customers.\nCreates Jobs for the machines according to Orders.\nInteracts with FluxBend and FluxCut for you to focus on the creative tasks.\nJob with orders is created against customer. Order status can be tracked easily using color code.\nSearch and Filters are used to get the user requirements which can be saved \u0026 used by other users.\nInteractive Nesting makes nesting more simpler with fewer operational steps.\nSwitching the Nest result from one machine to another machine and adding parts to the existing Nest can be done with few clicks.\nPraxis Components Fig 1: Praxis system\nPraxis Desktop This is the primary driver application which helps user interact with the praxis system. The application Prax.exe installs in Bin folder and uses other components like Praxis Engine, Flux, MetaCAM to drive the workflow.\nPraxis Engine A background application which performs all automation tasks assigned to the Praxis System. Powered by Flux Core, the application PEngine instances to perform the automation tasks. The tasks performed by PEngine include: Part Import, Bend tooling, Cut tooling, Nesting and so on. MetaCAM Engine, Trek.exe, is used for cutting and Flux core is used for bending tasks.\nFlux App Flux application is used for viewing, editing and simulating part’s bend tech tooling. Flux is also used to troubleshooting geometry errors. The application, Flux.exe is installed in the Bin folder.\nMetaCAM MetaCAM is used for viewing, editing and simulating cutting tech data. The application, MetaCAM.exe is installed in MetaCAM folder.\nTrek Built over MetaCAM core. Trek is used to perform all cutting automation tasks like cut-tooling, auto-nesting. Multiple instances of Trek enable PEngine to perform multiple tasks in one-go. The application Trek.exe is installed in Bin\\Trek folder.\n",
     "description": "",
     "tags": null,
     "title": "Introduction",
     "uri": "/introduction/index.html"
+  },
+  {
+    "content": "Following sections explains the pre-requisites and steps required to install Praxis application and connect the same with Server/Client setup.\nPre-Requisites\nPraxis Setup Installation\nServer Installation\nClient Installation\n",
+    "description": "",
+    "tags": null,
+    "title": "Installation",
+    "uri": "/introduction/installation/index.html"
   },
   {
     "content": " Note Praxis setup displays the below mentioned warning message at the beginning of Installation if the Praxis setup is run without running the Pre-Requisites. Pre-Requisite installation is necessary only for the first time and can be ignored thereafter.\nPraxis setup displays the below mentioned warning message at the beginning of Installation if the Praxis setup is run without running the Pre-Requisites. Pre-Requisite installation is necessary only for the first time and can be ignored thereafter.\nExecute the PreSetup.Praxis to install all the Pre-Requisites required to run Praxis application.\nClick Install to begin the Installation.\nThis setup installs native redistributables, .Net Frameworks and other drivers used by Praxis.\nClick Finish to complete the setup and Restart the computer.\n",
@@ -350,6 +350,13 @@ var relearn_search_index = [
     "uri": "/job/layout-commands/index.html"
   },
   {
+    "content": "Part tiles display tooling status of the part for all available Praxis machines. The sections below display various icons and icon-colors used to indicate the machine technology and tooling status.\nTechnology Legends Symbol Description Laser Machine Punch Machine Panel bending Machine Bending Machine Status Legends Symbol Description Tooling is OK NC is generated but tooling has warnings Tooling has errors Part tooling is not available for this machine ",
+    "description": "",
+    "tags": null,
+    "title": "Tooling Status",
+    "uri": "/part-library/tooling-status/index.html"
+  },
+  {
     "content": "Multiple RA stations can be linked to Praxis for the same or different bending machines. Use the installation steps listed in the [setup section](input/RightAngle Link). Select the Praxis desktop client with RightAngle Link when prompted by the Praxis setup.\nLaunch Praxis and connect it to the Praxis server. Now launch RightAngle. It should be linked to the Praxis for the same 5130X 6A B23 machine. And both stations display the same machine queue.\nLoading a program to run on one station, removes it from the queue such that the other stations can work on the remaining programs. This behavior would be useful in carrying out the load balanced, collaborative production.\nUse settings • other setting • machine settings RightAngle command in Service mode to change the machine. Now switch to Praxis and plan a few jobs/parts on 5170 6A demo machine. The second RA station displays 5170 production queue.\n",
     "description": "",
     "tags": null,
@@ -483,11 +490,25 @@ var relearn_search_index = [
     "uri": "/factory-settings/nest-settings/index.html"
   },
   {
+    "content": "The tools catalogs, tool inventories and machine settings are synchronized across all Praxis linked applications. The steps below take you through the tool inventory synchronization between Flux and RA running on two different computers.\nLaunch Flux and RightAngle on separate Praxis liked computers. Browse to same tool inventory on Flux and RightAngle.\nChange the inventory on RA station by adding new sets. And press done button to commit the change to Praxis.\nClose and open the tool catalog window in Flux and browse the same tool. The inventory should reflect the updated counts. Please note that you do not need to restart Flux for the inventory synchronization. This should work similarly for other databases like custom tools, tool lists, machine settings etc. (There is a known issue with material database sync.)\n",
+    "description": "",
+    "tags": null,
+    "title": "Tools and Settings synchronization",
+    "uri": "/hmicontrols/right-angle-link/tools-and-settings-synchronization/index.html"
+  },
+  {
     "content": "A new assembly can be imported from a CSV file.\nUse open • import assemblies… command and select a CSV file to import it as a new assembly. Update the assembly details, quantities or use the Add…/Remove… buttons to update the BOM before importing the assembly and the parts.\nSame CSV format used for creating new job can be used for importing new assemblies as well.\nOnce imported, you can prepare and assign Static Nests to these assemblies.\nSwitch to the assemblies’ tab, right click an assembly and use Create Nests… command to launch the assembly nesting wizard. This is an interactive wizard where you can select machine, sheets, update the quantities, nest and save the results. The generated nests are named after the parent assembly for an easier identification. Once saved, the nest results are assigned to the assembly as static nests. And the assembly part status is updated to reflect the nest status. (Notice part Roof~2 status as the nest Roof-L5 was discarded from the results above). User can edit a static nest to insert un-nested parts from the parent assembly. Right click on an assembly and use Drop Nests… command to delete all assigned nests. Note Unlike jobs, mixing parts from other assemblies is not allowed for static nests. If allowed, this would prevent an assembly from being released for production without releasing the other.\nProducing a kit Right click and use New Job… command to produce the assembly. Praxis displays the New Job dialog. Update the assembly count and press OK. Use the regular New Job dialog with the part details to update due date and priority etc. and press OK. Update the assembly count and press OK. Use the regular New Job dialog with the part details to update due date and priority etc. and press OK.\nPraxis creates a job from the assembly, copies the static nests as job nests with the updated sheet counts. The copied nests are named with Job ID prefix. You can edit/delete the job nests without affecting the original kit. Or repack the nests using Adapt/Compact… and Add Parts… commands. Right click the job and use Plan Job… command to select and assign the press brakes to parts with the bends. ",
     "description": "",
     "tags": null,
     "title": "Create Nests from Assembly",
     "uri": "/assembly/create-nests-from-assembly/index.html"
+  },
+  {
+    "content": "Following flow chart represents the Basic Workflow of Praxis.\n",
+    "description": "",
+    "tags": null,
+    "title": "Basic Workflow",
+    "uri": "/introduction/basic-workflow/index.html"
   },
   {
     "content": "Run Pre-Requisite Installation like Server before beginning the Client setup.\nIn the client machine, after executing the Installer, Select Client option on the component selection page.\nProceed with the standard installation steps and click Install to proceed with the Installation in Client Machine.\nOnce installation is completed, Praxis is automatically launched. Provide the Server name or IP address to connect with Praxis server.\nOnce connected, Praxis displays the Sign up prompt. Accept defaults and click OK to proceed. Praxis starts at the Library page and displays library parts.\n",

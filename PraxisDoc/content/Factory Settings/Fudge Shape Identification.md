@@ -1,7 +1,6 @@
 ---
 title: "Fudge Shape Identification"
 date: 2023-03-02T12:32:28+05:30
-draft: false
 weight: 8
 ---
 

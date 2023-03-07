@@ -1,7 +1,6 @@
 ---
 title: "Edit Factory Material"
 date: 2023-03-02T12:31:36+05:30
-draft: false
 weight: 5
 ---
 

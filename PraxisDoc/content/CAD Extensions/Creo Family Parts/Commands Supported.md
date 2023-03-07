@@ -1,7 +1,6 @@
 ---
 title: "Commands Supported"
 date: 2023-03-02T17:35:43+05:30
-draft: false
 weight: 1
 ---
 

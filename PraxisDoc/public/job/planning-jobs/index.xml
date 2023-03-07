@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Planning Jobs on Praxis Manual</title>
-    <link>/job/planning-jobs/index.html</link>
+    <link>https://endearing-halva-664fec.netlify.app/job/planning-jobs/index.html</link>
     <description>Recent content in Planning Jobs on Praxis Manual</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Mar 2023 16:18:41 +0530</lastBuildDate><atom:link href="/job/planning-jobs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Mar 2023 16:18:41 +0530</lastBuildDate><atom:link href="https://endearing-halva-664fec.netlify.app/job/planning-jobs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mixed Nesting Workflow</title>
-      <link>/job/planning-jobs/mixed-nesting-workflow/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/job/planning-jobs/mixed-nesting-workflow/index.html</link>
       <pubDate>Wed, 01 Mar 2023 16:26:54 +0530</pubDate>
-      <guid>/job/planning-jobs/mixed-nesting-workflow/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/job/planning-jobs/mixed-nesting-workflow/index.html</guid>
       <description>Select a Job or a job-part and right click. Praxis shows the command panel for job/part.
 Click on the Plan Job…/Plan Part… panel command. Praxis displays the list of bend machines with unique and total quantities to be planned.
 Select the bend machine. And repeat these steps to select the cutting machine. The parts are queue up for the nesting. Praxis engines complete the nest, generate layouts and move the parts to the cutting queue.</description>
     </item>
     <item>
       <title>Interactive Nesting</title>
-      <link>/job/planning-jobs/interactive-nesting/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/job/planning-jobs/interactive-nesting/index.html</link>
       <pubDate>Wed, 01 Mar 2023 16:27:00 +0530</pubDate>
-      <guid>/job/planning-jobs/interactive-nesting/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/job/planning-jobs/interactive-nesting/index.html</guid>
       <description>Select one or more parts/jobs to be nested and right click. And select Run Interactive Nesting…
 The interactive nesting wizard is loaded in the main work area.
 Clicking next moves to the quantities page where the part quantities can be modified.
@@ -28,9 +28,9 @@ Moving next begins the nesting and displays the nest progress and results as the
     </item>
     <item>
       <title>Pull Workflow</title>
-      <link>/job/planning-jobs/pull-workflow/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/job/planning-jobs/pull-workflow/index.html</link>
       <pubDate>Wed, 01 Mar 2023 16:27:06 +0530</pubDate>
-      <guid>/job/planning-jobs/pull-workflow/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/job/planning-jobs/pull-workflow/index.html</guid>
       <description>Pull Workflow (or pull scheduling) is useful for users who need a highly autonomous planning and nesting system. When enabled, Praxis plans the nesting on-demand.
 In the Pull workflow the Praxis Monitor watches over the machine output folders for NC reports. And if the NC count falls below the cut-off set via Nests per station, the monitor plans fresh nests. The nested outputs and NC are saved to the machine output locations:</description>
     </item>

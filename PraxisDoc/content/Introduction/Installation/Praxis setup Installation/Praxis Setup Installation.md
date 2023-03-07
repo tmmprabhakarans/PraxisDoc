@@ -1,7 +1,6 @@
 ---
 title: "Praxis Setup Installation"
 date: 2023-02-28T14:46:47+05:30
-draft: false
 weight: 2
 ---
 

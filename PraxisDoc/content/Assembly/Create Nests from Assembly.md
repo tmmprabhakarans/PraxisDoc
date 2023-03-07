@@ -1,7 +1,6 @@
 ---
 title: "Create Nests from Assembly"
 date: 2023-03-01T15:06:08+05:30
-draft: false
 ---
 
 A new assembly can be imported from a CSV file. 

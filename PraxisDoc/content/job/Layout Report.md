@@ -1,7 +1,6 @@
 ---
 title: "Layout Report"
 date: 2023-03-01T17:37:05+05:30
-draft: false
 weight: 6
 ---
 

@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Commands Supported on Praxis Manual</title>
-    <link>/cad-extensions/creo-family-parts/commands-supported/index.html</link>
+    <link>https://endearing-halva-664fec.netlify.app/cad-extensions/creo-family-parts/commands-supported/index.html</link>
     <description>Recent content in Commands Supported on Praxis Manual</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Mar 2023 17:35:43 +0530</lastBuildDate><atom:link href="/cad-extensions/creo-family-parts/commands-supported/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Mar 2023 17:35:43 +0530</lastBuildDate><atom:link href="https://endearing-halva-664fec.netlify.app/cad-extensions/creo-family-parts/commands-supported/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

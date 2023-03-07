@@ -1,7 +1,6 @@
 ---
 title: "Planning Jobs"
 date: 2023-03-01T16:18:41+05:30
-draft: false
 weight: 3
 ---
 

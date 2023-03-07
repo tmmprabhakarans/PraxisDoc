@@ -1,7 +1,6 @@
 ---
 title: "Bend/Cut Infeasible"
 date: 2023-02-28T16:38:52+05:30
-draft: false
 weight: 3
 ---
 

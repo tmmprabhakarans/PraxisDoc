@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CAD Extensions on Praxis Manual</title>
-    <link>/cad-extensions/index.html</link>
+    <link>https://endearing-halva-664fec.netlify.app/cad-extensions/index.html</link>
     <description>Recent content in CAD Extensions on Praxis Manual</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Mar 2023 17:55:13 +0530</lastBuildDate><atom:link href="/cad-extensions/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Mar 2023 17:55:13 +0530</lastBuildDate><atom:link href="https://endearing-halva-664fec.netlify.app/cad-extensions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creo Family Parts</title>
-      <link>/cad-extensions/creo-family-parts/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/cad-extensions/creo-family-parts/index.html</link>
       <pubDate>Thu, 02 Mar 2023 17:30:06 +0530</pubDate>
-      <guid>/cad-extensions/creo-family-parts/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/cad-extensions/creo-family-parts/index.html</guid>
       <description>Select Creo Reader option from component selection setup page to install the Creo command line emulator. The Creo tool, Creo.Cmd.exe, is installed in Bin\Apps folder.
 Check Enable pre-import external tools import option to enable Creo Reader. Now drop a family table PRT file on Praxis.
 Praxis uploads the pre-extracted family instances of the dropped part. Please note that the instance extraction is performed during the part upload (as a pre-import operation), so the Creo software must be installed on computer from where the part is being uploaded.</description>
     </item>
     <item>
       <title>Solid Works Addin</title>
-      <link>/cad-extensions/solid-works-addin/index.html</link>
+      <link>https://endearing-halva-664fec.netlify.app/cad-extensions/solid-works-addin/index.html</link>
       <pubDate>Thu, 02 Mar 2023 17:39:37 +0530</pubDate>
-      <guid>/cad-extensions/solid-works-addin/index.html</guid>
+      <guid>https://endearing-halva-664fec.netlify.app/cad-extensions/solid-works-addin/index.html</guid>
       <description>Pre-requisite: The system must have SolidWorks Application installed to test this feature.
 Installation Steps Launch Praxis setup and select SolidWorks Extension option on the components selection page to install the Praxis-SolidWorks add-in1. (Skip the Server option if add-in is being installed on a Praxis client). Finish Praxis installation and make sure Praxis monitor is running in the notification area.
 Launch SolidWorks. It should prompt with the Praxis login dialog at the startup.</description>

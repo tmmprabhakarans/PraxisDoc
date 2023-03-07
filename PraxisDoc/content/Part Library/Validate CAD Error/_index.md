@@ -1,7 +1,6 @@
 ---
 title: "Validate CAD Error"
 date: 2023-02-28T16:27:22+05:30
-draft: false
 weight: 5
 ---
 

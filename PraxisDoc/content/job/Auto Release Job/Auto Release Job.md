@@ -1,7 +1,6 @@
 ---
 title: "Auto Release Job"
 date: 2023-03-01T16:17:00+05:30
-draft: false
 weight: 2
 ---
 
