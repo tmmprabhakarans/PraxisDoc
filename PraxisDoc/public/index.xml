@@ -12,11 +12,12 @@
       <link>/introduction/index.html</link>
       <pubDate>Tue, 28 Feb 2023 15:06:41 +0530</pubDate>
       <guid>/introduction/index.html</guid>
-      <description>General Overview Praxis is an MES based Application which handles the complete workflow of production in Shop Floor. It interfaces with all other Flux modules like FluxBend, FluxCut, RA(Bend Control) and Vulcan(LaserControl).
+      <description>sample video
+General Overview Praxis is an MES based Application which handles the complete workflow of production in Shop Floor. It interfaces with all other Flux modules like FluxBend, FluxCut, RA(Bend Control) and Vulcan(LaserControl).
+There should have been a video here but your browser does not seemto support it.sample video
 Manages all parts from different customers.
 Creates Jobs for the machines according to Orders.
-Interacts with FluxBend and FluxCut for you to focus on the creative tasks.
-Job with orders is created against customer. Order status can be tracked easily using color code.</description>
+Interacts with FluxBend and FluxCut for you to focus on the creative tasks.</description>
     </item>
     <item>
       <title>Part Library</title>
