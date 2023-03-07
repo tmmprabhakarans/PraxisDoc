@@ -4,9 +4,14 @@ title = "Introduction"
 weight = 1
 +++
 
+{{< youtube crTaQVBL8ks >}}*sample video*
+
 General Overview
 ----------------
-Praxis is an MES based Application which handles the complete workflow of production in Shop Floor. It interfaces with all other Flux modules like FluxBend, FluxCut, RA(Bend Control) and Vulcan(LaserControl).
+Praxis is an MES based Application which handles the complete workflow of production in Shop Floor. It interfaces with all other Flux modules like FluxBend, FluxCut, RA(Bend Control) and Vulcan(LaserControl).  
+
+{{< video src="/videos/2.mp4" type="video/mp4" >}}*sample video*
+
 
 ![Overview](/images/Overview.png)
 
@@ -26,7 +31,7 @@ Praxis is an MES based Application which handles the complete workflow of produc
 
 Praxis Components
 -----------------
-![Praxis System](/images/PraxisSystem.png)
+![Praxis System](/images/PraxisSystem.png)*Fig 1: Praxis system*
 
 ### Praxis Desktop
 This is the primary driver  application which helps user interact with the praxis system. The application Prax.exe installs in Bin folder and uses other components like Praxis Engine, Flux, MetaCAM to drive the workflow.
@@ -42,3 +47,4 @@ MetaCAM is used for viewing, editing and simulating cutting tech data. The appli
 
 ### Trek
 Built over MetaCAM core. Trek is used to perform all cutting automation tasks like cut-tooling, auto-nesting. Multiple instances of Trek enable PEngine to perform multiple tasks in one-go. The application Trek.exe is installed in Bin\Trek folder.
+
