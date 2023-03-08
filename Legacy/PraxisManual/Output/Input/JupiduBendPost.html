@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>Jupidu Bend Post</title>
+<link rel="stylesheet" href="../std.css" type="text/css" media="all" />
+</head>
+<body>
+<div><span class="breadcrumbleft">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\PraxisManualVersion2.0.html">Praxis Manual Version 2.0</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\Tools.html">Misc Tools</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;</span><span class="breadcrumbright">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\Tools.html">&#8672;Prev</a>&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\Forms.html">Next&#8674;</a></span><div style="clear:both"></div>
+</div><hr />
+<h1>Jupidu Bend Post</h1>
+<p>The jupidu attachment has been implemented as a bend code finisher.</p>
+<ol>
+<li>Select <b>Bend Code Finishers</b> in the component installation options to install this code-fnisher alongwith the others.</li>
+<li>Open Flux settings for the target machine and enable <b>Attach reports to NC code if possible</b> option. (You can also enable this option at the application level).</li>
+<li>Assign <b>JupiduCF</b> code-fnisher to the target machine in Praxis machine settings.</li>
+</ol>
+<p><img src="img/Jupidu.png" alt="Jupidu"/></p>
+<p>The code-finisher expects the <b>Jupidu Attachment</b> folder as parameter. Praxis passes this as an argument when calling up this tool to finish the jupidu code. The tool looks-up the folder for an attachment with same name as the part. And attaches to the Jupidu code if found one. The supported attachments types are: <b>pdf, stl, png, jpg, bmp, gif, tiff</b> and <b>txt</b>. Other file types are ignored.</p>
+<p>Check the <b>Attached NC Report</b> code-finisher option to attach the setup sheet report inside the jupidu file.</p>
+<p><img src="img/AttachedNC.png" alt="Attached NC"/></p>
+</body>
+</html>

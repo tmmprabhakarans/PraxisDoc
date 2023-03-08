@@ -1,0 +1,13 @@
+----------------------------------------
+Cut Finisher for EHRT Machines
+--------------------------------------
+
+Praxis applies the “Cut Finisher” for EHRT machines after the tooling operation. The changes have been applied both to Praxis as well as the EhrtBusbarTool. To enable this:
+
++ Select EHRT Finisher from Praxis Tools during the installation. This installs the EHRT external tool to the MetaCAM folder.
+[EHRT Tool](img/EHRTToolSelect.png)
++ Install EHRT machines and run machine settings for which you want to enable the EHRT external tool and check *Run Cut Finisher* option under the Auto Tooling settings. 
+</br> [Run Cut Finisher](img/RunCutFinisher.png)
++ Now upload/retool a part and check the tooling status in the simulation page.
+[Bend Hole](img/BendHoleCut.png)
+

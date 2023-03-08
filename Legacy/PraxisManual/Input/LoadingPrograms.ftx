@@ -1,0 +1,38 @@
+----------------------------
+Loading Programs into Vulcan
+-----------------------------------
+
+(o) Launch Praxis and Vulcan. Switch to Praxis and import Job spreadsheets from the _C:\Program Files\Metamation\Praxis\Samples\Jobs_ folder. (Or load some parts and create new Job from the part library).
+ 
+(o) Select a job, right click, and use the *Plan Job* panel command. Select a bend machine.
+
+(o) Repeat *Plan Job* (previous step) and select *Proteck Dual Head* machine from the menu.
+
+[Proteck Dualhead](img/ProteckVulcan.png)
+
+Nests start appearing after a few seconds. Right click and use Send to Machine… command to send the layouts to Vulcan.
+
+[Send To Machine](img/SendToMachine.png)
+
+Launch Vulcan and switch to Programs page. It lists programs to run in Proteck Dual Head queue. The program tiles display job details like sheets to run, estimated machine-time-per-sheet, Praxis raw-materials etc.
+
+[Programs Page](img/ProgramsPage.png)
+
+The program list is updated as layouts are sent/recalled from Praxis. Programs are automatically refreshed when layouts are edited in Praxis.
+ 
+Use the search box to search the programs by *name, raw-material* or *LTT table*. The examples below show results of programs searched by 
++ Raw-material 
++ LTT.
+
+[Layout](img/LayoutLTT.png)
+
+Removing programs from the queue
+-------------------------------------------------
+
+(o) Switch to Praxis Job page or go to the nests tab.
+
+(o) Select one or more layouts, right click, and use the Recall from Machine… panel command to remove the layouts from the production queue.
+
+[Recall](img/RecallFromMachine.png)
+
+(o) The Vulcan program list is automatically updated with the updated queue.

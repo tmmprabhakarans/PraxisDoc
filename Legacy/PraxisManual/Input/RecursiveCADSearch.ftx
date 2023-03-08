@@ -1,0 +1,7 @@
+-------------------------------
+Recursive CAD search
+-------------------------------
+Check ON _*Use recursive CAD*_ available in *factory • settings • jobs.*  option to make Praxis use
+recursive search for the CAD lookup when a spreadsheet file is imported.
+
+[Recursive CAD](img/RecursiveCAD.png)

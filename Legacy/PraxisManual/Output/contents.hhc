@@ -1,0 +1,394 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head> <!-- Sitemap 1.0 --> </head> <body>
+<object type="text/site properties">
+<param name="Window Styles" value="0x800627">
+<param name="ImageType" value="Folder">
+<param name="Font" value="Segoe Condensed,10,0">
+</object>
+
+<ul>
+<li> <object type="text/sitemap">
+<param name="Name" value="Praxis Manual Version 2.0">
+<param name="Local" value="PraxisManualVersion2.0.html">
+</object> </li>
+  <ul>
+  <li> <object type="text/sitemap">
+  <param name="Name" value="Introduction">
+  <param name="Local" value="Input\Introduction.html">
+  </object> </li>
+    <ul>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Installation">
+    <param name="Local" value="Input\Installation.html">
+    </object> </li>
+      <ul>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Pre-Requisites">
+      <param name="Local" value="Input\Pre-Requisites.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Praxis Setup Installation">
+      <param name="Local" value="Input\PraxisSetupInstallation.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Server Installation">
+      <param name="Local" value="Input\ServerInstallation.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Client Installation">
+      <param name="Local" value="Input\ClientInstallation.html">
+      </object> </li>
+      </ul>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Basic Workflow">
+    <param name="Local" value="Input\BasicWorkflow.html">
+    </object> </li>
+    </ul>
+  <li> <object type="text/sitemap">
+  <param name="Name" value="Part Library">
+  <param name="Local" value="Input\PartLibrary.html">
+  </object> </li>
+    <ul>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="CAD File Types">
+    <param name="Local" value="Input\CADFileTypes.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Part Library Tour">
+    <param name="Local" value="Input\PartLibraryTour.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Import Parts">
+    <param name="Local" value="Input\ImportParts.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Tooling Status">
+    <param name="Local" value="Input\ToolingStatus.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Validate Error">
+    <param name="Local" value="Input\ValidateError.html">
+    </object> </li>
+      <ul>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Material Missing">
+      <param name="Local" value="Input\MaterialMissing.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Material Not Assigned">
+      <param name="Local" value="Input\MaterialNotAssigned.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Bend and Cut Infeasible">
+      <param name="Local" value="Input\BendAndCutInfeasible.html">
+      </object> </li>
+      </ul>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Update Tooling Instance">
+    <param name="Local" value="Input\UpdateToolingInstance.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Save Outputs">
+    <param name="Local" value="Input\SaveOutputs.html">
+    </object> </li>
+    </ul>
+  <li> <object type="text/sitemap">
+  <param name="Name" value="Assembly">
+  <param name="Local" value="Input\Assembly.html">
+  </object> </li>
+    <ul>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Producing Assembly">
+    <param name="Local" value="Input\ProducingAssembly.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Import Non-Sheet metal Parts">
+    <param name="Local" value="Input\ImportNon-SheetMetalParts.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Producing Job from Assembly">
+    <param name="Local" value="Input\ProducingJobFromAssembly.html">
+    </object> </li>
+    </ul>
+  <li> <object type="text/sitemap">
+  <param name="Name" value="Job">
+  <param name="Local" value="Input\Job.html">
+  </object> </li>
+    <ul>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Job Workflow">
+    <param name="Local" value="Input\JobWorkflow.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Auto Release Job">
+    <param name="Local" value="Input\AutoReleaseJob.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Job Planning ways">
+    <param name="Local" value="Input\JobPlanningWays.html">
+    </object> </li>
+      <ul>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Mixed Nesting">
+      <param name="Local" value="Input\MixedNesting.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Interactive Nesting">
+      <param name="Local" value="Input\InteractiveNesting.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Pull Workflow">
+      <param name="Local" value="Input\PullWorkflow.html">
+      </object> </li>
+      </ul>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Layout Commands">
+    <param name="Local" value="Input\LayoutCommands.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Save Nest Outputs">
+    <param name="Local" value="Input\SaveNestOutput.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Layout Report">
+    <param name="Local" value="Input\LayoutReport.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Out of date Layout">
+    <param name="Local" value="Input\OutOfDateLayout.html">
+    </object> </li>
+    </ul>
+  <li> <object type="text/sitemap">
+  <param name="Name" value="Job Spreadsheet">
+  <param name="Local" value="Input\JobSpreadsheet.html">
+  </object> </li>
+    <ul>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Map Un-map">
+    <param name="Local" value="Input\Map Un-map.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Mapping Error">
+    <param name="Local" value="Input\MappingError.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="CAD Lookup">
+    <param name="Local" value="Input\CADLookup.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Missing Part">
+    <param name="Local" value="Input\MissingPart.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Recursive CAD search">
+    <param name="Local" value="Input\RecursiveCADSearch.html">
+    </object> </li>
+    </ul>
+  <li> <object type="text/sitemap">
+  <param name="Name" value="Factory Settings">
+  <param name="Local" value="Input\FactorySettings.html">
+  </object> </li>
+    <ul>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Add Machine">
+    <param name="Local" value="Input\AddMachine.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Add Material">
+    <param name="Local" value="Input\AddMaterial.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Delete Material">
+    <param name="Local" value="Input\DeleteMaterial.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Material mapping">
+    <param name="Local" value="Input\MaterialMapping.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Edit Factory Material">
+    <param name="Local" value="Input\EditFactoryMaterial.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Update MetaCAM Laser Database">
+    <param name="Local" value="Input\UpdateMetaCAMLaserDatabase.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Normalize Flat along the part-width">
+    <param name="Local" value="Input\NormalizeFlatAlongThePart-width.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Fudge Shape Identification">
+    <param name="Local" value="Input\FudgeShapeIdentification.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Email Notification">
+    <param name="Local" value="Input\EmailNotification.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Nest Settings">
+    <param name="Local" value="Input\NestSettings.html">
+    </object> </li>
+    </ul>
+  <li> <object type="text/sitemap">
+  <param name="Name" value="Filters">
+  <param name="Local" value="Input\Filters.html">
+  </object> </li>
+    <ul>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Dropdown Command Bar">
+    <param name="Local" value="Input\DropdownCommandBar.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Part Library Filter">
+    <param name="Local" value="Input\PartLibraryFilter.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Save Filter">
+    <param name="Local" value="Input\SaveFilter.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Job Page Filter">
+    <param name="Local" value="Input\JobPageFilter.html">
+    </object> </li>
+    </ul>
+  <li> <object type="text/sitemap">
+  <param name="Name" value="CAD Extensions">
+  <param name="Local" value="Input\CADExtensions.html">
+  </object> </li>
+    <ul>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Creo Add-In">
+    <param name="Local" value="Input\CreoAdd-In.html">
+    </object> </li>
+      <ul>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Commands Supported">
+      <param name="Local" value="Input\CommandsSupported.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Emulation Mode">
+      <param name="Local" value="Input\EmulationMode.html">
+      </object> </li>
+      </ul>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="SolidWorks Addin">
+    <param name="Local" value="Input\SolidWorksAddin.html">
+    </object> </li>
+      <ul>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Saving Part To Praxis">
+      <param name="Local" value="Input\SavingPartToPraxis.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Saving Assembly Parts">
+      <param name="Local" value="Input\SavingAssemblyParts.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Save Configuration">
+      <param name="Local" value="Input\SaveConfiguration.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Part Feasibilty Check">
+      <param name="Local" value="Input\PartFeasibiltyCheck.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Thickness Fudge">
+      <param name="Local" value="Input\ThicknessFudge.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Factory Settings">
+      <param name="Local" value="Input\SWFactorySettings.html">
+      </object> </li>
+      </ul>
+    </ul>
+  <li> <object type="text/sitemap">
+  <param name="Name" value="HMI Controls">
+  <param name="Local" value="Input\HMIControls.html">
+  </object> </li>
+    <ul>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Right Angle Link">
+    <param name="Local" value="Input\RightAngleLink.html">
+    </object> </li>
+      <ul>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Loading Programs">
+      <param name="Local" value="Input\LoadingProgramsIntoRA.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Searching Programs">
+      <param name="Local" value="Input\SearchingProgramsRA.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Running Programs">
+      <param name="Local" value="Input\RunningProgramsRA.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Editing Programs">
+      <param name="Local" value="Input\EditingProgramsRA.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Adding Multiple RA Stations">
+      <param name="Local" value="Input\AddingMultipleRAStations.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Tools and Settings Synchronization">
+      <param name="Local" value="Input\ToolsAndSettingsSynchronization.html">
+      </object> </li>
+      </ul>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Vulcan Link">
+    <param name="Local" value="Input\VulcanLink.html">
+    </object> </li>
+      <ul>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Loading Programs">
+      <param name="Local" value="Input\LoadingPrograms.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Running Programs">
+      <param name="Local" value="Input\RunningPrograms.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Editing Programs">
+      <param name="Local" value="Input\EditingPrograms.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="LTT Synchronization">
+      <param name="Local" value="Input\LTTSynchronization.html">
+      </object> </li>
+      </ul>
+    </ul>
+  <li> <object type="text/sitemap">
+  <param name="Name" value="Misc Tools">
+  <param name="Local" value="Input\Tools.html">
+  </object> </li>
+    <ul>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Jupidu Bend Post">
+    <param name="Local" value="Input\JupiduBendPost.html">
+    </object> </li>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Forms">
+    <param name="Local" value="Input\Forms.html">
+    </object> </li>
+      <ul>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Indexing">
+      <param name="Local" value="Input\Indexing.html">
+      </object> </li>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Forming Preview">
+      <param name="Local" value="Input\FormingPreview.html">
+      </object> </li>
+      </ul>
+    <li> <object type="text/sitemap">
+    <param name="Name" value="Bus Bar machine support">
+    <param name="Local" value="Input\BusBarMachineSupport.html">
+    </object> </li>
+      <ul>
+      <li> <object type="text/sitemap">
+      <param name="Name" value="Cut Finisher for EHRT Machines">
+      <param name="Local" value="Input\CutFinisherForEHRTMachines.html">
+      </object> </li>

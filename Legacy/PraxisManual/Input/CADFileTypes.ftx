@@ -1,0 +1,21 @@
+---------------------------
+CAD File Types
+-----------------------------
+
+The following file formats are supported while importing a part into the Part Library.
+
+(o) DXF 
+
+(o) DWG 
+
+(o) 2D IGES 
+
+(o) SLDPRT 
+
+(o) SolidEdge 
+
+(o) 3D IGES 
+
+(o) SAT files
+
+(o) Creo Files

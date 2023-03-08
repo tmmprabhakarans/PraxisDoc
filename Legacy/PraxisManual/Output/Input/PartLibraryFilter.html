@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>Part Library Filter</title>
+<link rel="stylesheet" href="../std.css" type="text/css" media="all" />
+</head>
+<body>
+<div><span class="breadcrumbleft">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\PraxisManualVersion2.0.html">Praxis Manual Version 2.0</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\Filters.html">Filters</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;</span><span class="breadcrumbright">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\DropdownCommandBar.html">&#8672;Prev</a>&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\SaveFilter.html">Next&#8674;</a></span><div style="clear:both"></div>
+</div><hr />
+<h1>Part Library Filter</h1>
+<h2>Filtering parts by tooling status</h2>
+<p><img src="img/ToolingStatus.png" class="rightalign" alt="Tooling status"/> Select Tooling Status search field to filter parts by their tooling status. The dropdown displays states as colored checkboxes and machines where <b>White</b> is <b>OK</b>, <b>Orange</b> is <b>Error</b> and <b>Yellow</b> is a <b>Warning</b> state. The <b>Apply All (&)</b> button is enabled in this case to apply the filter condition for all selected machines. </br> </br> </br> </br> </br> </br> </br> </br></p>
+<table>
+<tr>
+<th width=33%>Filter</th>
+<th width=66%>Description</th>
+</tr>
+<tr>
+<td><img src="img/ToolingOK.png" alt="Tooling OK"/></td>
+<td>Displays parts which have at least one tooling error</td>
+</tr>
+<tr>
+<td><img src="img/ToolingTruLaser.png" alt="Tooling TruLaser"/></td>
+<td>Displays parts which <b>cannot be cut</b> using <b>TruLaser 3030</b> machine</td>
+</tr>
+<tr>
+<td><img src="img/CutInfeasible.png" alt="Cut Infeasible"/></td>
+<td>Cut Infeasible: These parts cannot be cut on any cutting machine. (Notice “&” selection here)</td>
+</tr>
+<tr>
+<td><img src="img/BendingError.png" alt="Bending Error"/></td>
+<td>Bending Errors: Parts cannot be produced as there is no valid bend tooling</td>
+</tr>
+<tr>
+<td><img src="img/PanelBendOnly.png" alt="PanelBend"/></td>
+<td>Panel bend ONLY: These parts can be processed only because there is a valid panel bend tooling. These cannot be done on any of the press breaks.</td>
+</tr>
+</table>
+<h2>Filtering parts by Bend mount</h2>
+<p><img src="img/BendMount.png" class="rightalign" alt="Bend Mount"/></p>
+<p>Select <b>Bend Mounts</b> field to search parts by bend mount.</p>
+<p>&#9679; The dropdown, for this field, displays list of bend tools. Select a tool to find list of parts using this tool</p>
+<p>&#9679; The tool list in the dropdown can be narrowed down by typing in the tool name, tool type (punch, gooseneck, radius etc.,) and tool description</p>
+<p>&#9679; Select multiple tools and apply <b>ALL (&)</b> modifier to list all parts using both tools.</p>
+<p>&#9679; Select a part and double click to open part detail to highlight other tools used in the part for ALL bending machines. The tool description is updated with the mount details.</p>
+<p>&#9679; Double click the machine to highlight the bend tools used in the selected part for the selected machine.</p>
+<p><img src="img/BendMount2.png" alt="BendMounts"/></p>
+<p>Placing the mouse over the bend mount filter button displays tooltip with selected tool icons. A square bracket around the tool count means “ALL” match condition whereas the small bracket means ANY match.</p>
+<p><img src="img/BendTools.png" alt="BendTools"/></p>
+<h2> Filtering parts by used tools</h2>
+<p>This is identical to filtering based on used mounts except:</p>
+<p>&#9679; The tool icons are drawn in a proportional size (not exactly proportion).</p>
+<p>&#9679; When the tooling preview is open, moving the mouse over the highlighted tools highlights the corresponding tooling in the preview pane.</p>
+<p><img src="img/UsedToolsFilter.png" alt="Used Tools"/></p>
+<h2>Filtering parts by state</h2>
+<p>Library Parts can be filtered by <b>State</b> now. The options display list of ALL applicable states and therefore it changes depending on list of library parts and their current states. Pick <b>Material Missing</b> to list parts in unresolved material state.</p>
+<p><img src="img/StateFilter.png" alt="State Filter"/></p>
+<h2>Filtering parts by Error codes</h2>
+<p>In combination with the <b>status</b> and <b>Machines</b> now specific tooling <b>Error codes</b> can be used in search by <b>Tooling Status</b>. </p>
+<p>The image below shows the search scenario : Overload tooling errors for Machine 5170 6A</p>
+<p><img src="img/FilterErrors.png" alt="Filter Error"/></p>
+<p>The error list displays the applicable errors for the machine and status selection. It refreshes on machine and status selection change to make the search more accurate. So, if you select warning status for a punch machine, only the available punch warnings are displayed in the error list.</p>
+<h2>Suppressed State filter</h2>
+<p>Often Part toolings are suppressed due to over – sized geometry or thickness. The tooling is also suppressed if it is specifically denied by a CAD route. Praxis displays the suppress reason in the tooling tooltip. Also, such parts can be searched using the newly added <b>Suppressed state</b> box in the <b>Tooling Status</b> search menu.</p>
+<p><img src="img/Suppressed state.png" alt="Suppressed state"/></p>
+</body>
+</html>

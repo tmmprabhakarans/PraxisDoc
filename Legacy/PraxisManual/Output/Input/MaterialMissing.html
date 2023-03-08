@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>Untitled</title>
+<link rel="stylesheet" href="../std.css" type="text/css" media="all" />
+</head>
+<body>
+<div><span class="breadcrumbleft">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\PraxisManualVersion2.0.html">Praxis Manual Version 2.0</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\PartLibrary.html">Part Library</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\ValidateError.html">Validate Error</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;</span><span class="breadcrumbright">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\ValidateError.html">&#8672;Prev</a>&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\MaterialNotAssigned.html">Next&#8674;</a></span><div style="clear:both"></div>
+</div><hr />
+<h3>Material Missing</h3>
+<p>Material missing error is displayed when material is assigned but it is not found in the Praxis material database.</p>
+<p><img src="img/MatMissing.png" alt="Material Missing"/></p>
+<p>Make sure that you have the required material/ raw material entries (BRONZE, COPPER etc) in the database. Add material lookup key (For instance, PTC_MATERIAL_NAME in the below image) to help Praxis resolve the part material. </p>
+<h4>Material Lookup</h4>
+<p>&#9679; Open factory dialog and switch to Imports page.</p>
+<p>&#9679; Click on the Material lookup keys Pick… hyperlink to select the custom field name from the part.</p>
+<p>&#9679; Browse and open the ProE part in the Field picker dialog to extract and list all custom fields with their values.</p>
+<p>&#9679; Select the custom field and press OK to add it to the look keys.</p>
+<p><img src="img/MatLookup.png" alt="MaterialLookup"/></p>
+<p>Multiple lookup entries can be assigned using a comma separator between them. When a part is imported, Praxis uses these keys to search for material/revision values. The searched values and then to resolve the raw material. The original values are also stored in the part <b>Misc . Properties</b></p>
+<p><img src="img/MatProperties.png" alt="MaterialProperties"/></p>
+</body>
+</html>

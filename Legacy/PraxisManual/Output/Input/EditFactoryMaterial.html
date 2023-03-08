@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>Edit Factory Material</title>
+<link rel="stylesheet" href="../std.css" type="text/css" media="all" />
+</head>
+<body>
+<div><span class="breadcrumbleft">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\PraxisManualVersion2.0.html">Praxis Manual Version 2.0</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\FactorySettings.html">Factory Settings</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;</span><span class="breadcrumbright">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\MaterialMapping.html">&#8672;Prev</a>&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\UpdateMetaCAMLaserDatabase.html">Next&#8674;</a></span><div style="clear:both"></div>
+</div><hr />
+<h1>Edit Factory Material</h1>
+<p><img src="img/EditMaterial.png" class="rightalign" alt="Edit Material"/> Like the CAM page mapping, you can edit material aliases and bend material (material used in Flux Bend) using the <b>Map --&gt; Materials</b> command to map materials to the alternate names.</p>
+<p></br> This command brings up the material editor dialog as shown in the image above. This can be used to </p>
+<p>&#9679; Assign a bend-material to the selected material.</p>
+<p>&#9679; Edit alternate name (aliases) of a material.</p>
+<p>&#9679; Edit alternate names of a raw materials.</p>
+<p></br> </br> </br> </br> </br> </br></p>
+<h3>Bend-material</h3>
+<p>The factory materials defined in Praxis may be different from the known materials defined in Flux. Praxis&nbsp;&nbsp;&nbsp;assigns the mapped bend material to the part before sending it to&nbsp;&nbsp;&nbsp;Flux Engine for bend CAM. The bend material combo displayed in this UI displays all materials defined in Flux. Select one appropriate for selected material from the left.</p>
+<h3>Material Aliases</h3>
+<p><img src="img/AlreadyMapped.png" class="rightalign" alt="Already Mapped"/> Enter an alias name of the material, one-per-line, in the Aliases textbox. When importing new parts, these aliases are used to map the external material names like ERP, CAD systems etc. to the one defined in Praxis. This is a many-to-one map where multiple aliases can be assigned to a single Praxis material. While an alias name must be used just once. The UI enforces this rule if the alias is used again for some other material.</p>
+<h3>Raw Material Aliases</h3>
+<p>Like material-aliases, the raw-material aliases allow to provide alternate names for material + thicknesses. These short names later can be used in a spreadsheet to provide a single entry for both material + thickness. For instance, In the image above alias GALV#13 for the raw material QStE380TM-15 is used in spreadsheet below to assign the part-material:</p>
+<pre>PartName, Quantity, DueDate, Priority, Material
+00.13,6,08/21/2016,Normal,GALV#13
+00.14,13,08/21/2016,Normal,GALV#13 
+00.16,3,08/21/2016,Normal,GALV#13</pre>
+<p>The imported part is assigned with the target raw material and the alias is displayed as the Drawing material part field. This part-field is used to capture the material/raw material alias which was used to resolve the actual material or raw material of the part. As displayed in the right below – the bend material is assigned to part bending solution.</p>
+<p><img src="img/FluxMaterial.png" alt="Flux Material"/></p>
+<p>The Export… and Import… commands can be used to assign mappings in batch. The exported file is a simple key-value CSV file. The section below describes the key-value schema with examples. (Note that there is not header row in the exported CSV).</p>
+<h4>Bend Material ( Material, Bend-material) </h4>
+<pre>Aluminium, AlMg3
+QStE380TM, 1.8900
+Stainless, 1.4301</pre>
+<h4>Material alias (Alias, Material)</h4>
+<pre>AlMg3, Aluminium
+3.3535, Aluminium
+Al, Aluminium</pre>
+<h4>Raw Material alias (Alias, Raw Material)</h4>
+<pre style="margin-bottom:0;">ALUM#10, Aluminium-05
+AL07, Aluminium-07
+Al07X, Aluminium-07</pre>
+</body>
+</html>

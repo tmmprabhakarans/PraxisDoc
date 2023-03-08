@@ -30,3 +30,13 @@
     mediaType = 'text/html'
     permalinkable = false
     noUgly = true
+
+[outputs]
+home = [ "HTML", "RSS", "SEARCH", "PRINT" ]
+section = ["HTML", "RSS", "PRINT"]
+page = ["HTML", "RSS", "PRINT"]
+
+[params]
+alwaysOpen = false
+collapsibleMenu = true
+themeVariant = ["blue","green","red","relearn-dark"]

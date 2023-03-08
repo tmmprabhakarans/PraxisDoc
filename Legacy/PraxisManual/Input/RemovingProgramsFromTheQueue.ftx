@@ -1,0 +1,7 @@
+-----------------------------
+Removing programs from the queue
+--------------------------------------------
+
++ Switch to Praxis Job page and select one or more Jobs or Job-parts. 
++ Right click and use the Reset Job/Reset Part panel command to revoke the job parts from the production queue.
++ The RA program list is automatically updated with the updated queue.

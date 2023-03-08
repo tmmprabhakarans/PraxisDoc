@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>Part Library</title>
+<link rel="stylesheet" href="../std.css" type="text/css" media="all" />
+</head>
+<body>
+<div><span class="breadcrumbleft">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\PraxisManualVersion2.0.html">Praxis Manual Version 2.0</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;</span><span class="breadcrumbright">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\BasicWorkflow.html">&#8672;Prev</a>&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\CADFileTypes.html">Next&#8674;</a></span><div style="clear:both"></div>
+</div><hr />
+<h1>Part Library</h1>
+<p>New parts can be imported and viewed using Part Library page.</p>
+<ul>
+<li>The parts are added to the list and are submitted to the Praxis Engine for further processing.</li>
+</ul>
+<ul>
+<li>While dropping part in Part Library, it goes throught the following three stages i) Part Import ii) Bend/Fold tooling iii) Cut tooling. First two steps are carried out using Flux core whereas MetaCAM engine (Trek.exe) is used for the third.</li>
+</ul>
+<ul>
+<li>In the first stage:<ul>
+<li>Depending on the CAD geometry type, a part is folded or sheet-metalized (equivalent to 3D cleanup + unfold in MetaCAM world).</li>
+<li>Material + Thickness is assigned to the part.</li>
+<li>Thumbnail is extracted along with other properties like size, weight etc., and Part is saved to the database for the second stage.</li>
+</ul>
+<li>In the second ingestion stage:<ul>
+<li>Part is tooled for all available press-brake and panel bending machines</li>
+<li>A flat part is generated from the part’s 3D model and part is sent for third stage processing</li>
+</ul>
+<li>In the third stage:<ul>
+<li>The flat geometry is imported to MetaCAM part format and the part is tooled for all available profile cutting machines like laser, punch, plasma, waterjet etc.</li>
+</ul>
+</ul>
+<p>At the end of each stage, the part status is determined and assigned to the part. The changes are saved immediately to the database and the part library view reflects the changes instantaneously by updating the view live.</p>
+</body>
+</html>

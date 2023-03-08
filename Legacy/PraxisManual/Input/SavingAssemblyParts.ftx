@@ -1,0 +1,10 @@
+--------------------------------
+Saving SW Assembly Parts
+--------------------------------
+
+Open an assembly and use the *Save Assembly* toolbar command to save the assembly parts to the part library. The assembly save dialog displays the assembly BOM with part instance counts along with the identified raw-material. Press *OK* to save the parts to Praxis. 
+
+[Save Assembly](img/SaveAssembly.png)
+
+</br>
+[Assembly saved](img/AssemblySaved.png)

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>Saving SW Part to Praxis</title>
+<link rel="stylesheet" href="../std.css" type="text/css" media="all" />
+</head>
+<body>
+<div><span class="breadcrumbleft">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\PraxisManualVersion2.0.html">Praxis Manual Version 2.0</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\CADExtensions.html">CAD Extensions</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\SolidWorksAddin.html">SolidWorks Addin</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;</span><span class="breadcrumbright">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\SolidWorksAddin.html">&#8672;Prev</a>&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\SavingAssemblyParts.html">Next&#8674;</a></span><div style="clear:both"></div>
+</div><hr />
+<h1>Saving SW Part to Praxis</h1>
+<p>&#9679; Open a sheetmetal part in SolidWorks. (Praxis already ships with a few. Locate them in C:\Program Files\Metamation\Praxis\Samples\Parts folder).</p>
+<p>&#9679; Now switch to the Praxis tab. It should show the Praxis toolbar in SolidWorks.</p>
+<p><img src="img/SaveSWPart.png" alt="Save Part to Praxis"/></p>
+<p>Press <b>Save to Praxis</b> toolbar button to save the part to Praxis. This displays the save dialog where you can choose the part-configuration and the Praxis raw-material. Press <b>OK</b> to save.</p>
+<p><img src="img/PartDetails.png" alt="Part Details"/> <img src="img/PartSaved.png" alt="Part Saved"/></p>
+<h3>Setting up the auto-material resolution</h3>
+<p>This setting can be used to help Praxis convert the SolidWorks material and the part thickness to a Praxis raw-material during the part upload. To set it up:</p>
+<p>&#9679; Click on Options button to launch the Options dialog. Switch to the Material Mapping page and define material mapping between SolidWorks and Praxis materials by clicking first on a SolidWorks material from the left list followed by the Praxis material from the right list. Now use Map button to define the mapping. The mapping is added to the bottom list.</p>
+<p><img src="img/MaterialMapping.png" alt="Material Mapping"/></p>
+<p>Select the mapped item and use Un-map button to delete the mapping.</p>
+<p>&#9679; The mapping defined here is used to lookup the Praxis material from the SolidWorks material assigned to the Part. Thickness Fudge is another setting which affects the material lookup. This is the tolerance used when matching the model thickness to the raw-material thickness.</p>
+<p><img src="img/Miscellaneous.png" alt="Misc"/></p>
+<h3>Reading custom part properties</h3>
+<p>This is another setting which can be used to read the material, revision etc. from a SolidWorks part. To set it up:</p>
+<p>● Select the Custom Fields settings page.</p>
+<p><img src="img/CustField.png" alt="Custom Field"/></p>
+<p>Using <b>Map/Un-map</b> buttons, map the required Praxis fields with SolidWorks <b>Custom</b> and <b>Configuration</b> fields. (The field values displayed here are loaded from the active part).</p>
+<p><b>Note:</b> The settings defined here are saved into Praxis repository and are synchronized across all Praxis-SW stations.</p>
+</body>
+</html>

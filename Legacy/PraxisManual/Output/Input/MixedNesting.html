@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>Untitled</title>
+<link rel="stylesheet" href="../std.css" type="text/css" media="all" />
+</head>
+<body>
+<div><span class="breadcrumbleft">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\PraxisManualVersion2.0.html">Praxis Manual Version 2.0</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\Job.html">Job</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\JobPlanningWays.html">Job Planning ways</a>&nbsp;&nbsp;&#10093;&nbsp;&nbsp;</span><span class="breadcrumbright">
+<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\JobPlanningWays.html">&#8672;Prev</a>&nbsp;&nbsp;<a class="nounderline" href="D:\Work\To Repository\PraxisHelp\Output\Input\InteractiveNesting.html">Next&#8674;</a></span><div style="clear:both"></div>
+</div><hr />
+<h2>Mixed Nesting Workflow</h2>
+<p>&#9679; Select a Job or a job-part and right click. Praxis shows the command panel for job/part. </p>
+<p>&#9679; Click on the Plan Job…/Plan Part… panel command. Praxis displays the list of bend machines with unique and total quantities to be planned.</p>
+<p><img src="img/PlanJob.png" alt="Plan Job"/></p>
+<p>&#9679; Select the bend machine. And repeat these steps to select the cutting machine. The parts are queue up for the nesting. Praxis engines complete the nest, generate layouts and move the parts to the cutting queue. Job and part status are updated at every step and the whole process is reflected in the jobs page.</p>
+<p><img src="img/BendQueue.png" alt="Bend Queue"/></p>
+<p><img src="img/CutQueue.png" alt="Cutting Queue"/></p>
+<p>&#9679; Once a Job is nested, layout starts to appear in the layout page</p>
+<p><img src="img/layout.png" alt="Layout"/></p>
+<p><b>Reset Part…</b> command revokes all instances of a job-part from the existing nests. This command triggers a renest of the remaining parts and uses a smaller sheet if one is available to accommodate all the remaining parts. Overall, it tries to optimize the sheet usage even when a part is pulled back from existing nests. For the mixed mode layouts, parts from other jobs stay nested after the reset</p>
+<p><img src="img/ResetPart.png" alt="Reset Part"/></p>
+<p><i>In this image, when Reset Part is used for the Part 11-A-6149, the parts are withdrawn from Layout P145 and P146. As a result, all the remaining parts are nested in a single layout P146</i></p>
+<p><b>Reset Job…</b> command is less fancy and simply deletes all the nested layouts and resets all the parts back to the plannable state. If the layouts contain items from the other jobs – those parts are reset too. </p>
+<p><img src="img/ResetJob.png" alt="Reset Job"/></p>
+</body>
+</html>

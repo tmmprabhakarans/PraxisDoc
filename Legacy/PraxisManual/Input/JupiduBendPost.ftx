@@ -1,0 +1,18 @@
+------------------------
+Jupidu Bend Post
+------------------------
+
+The jupidu attachment has been implemented as a bend code finisher.
+
++ Select *Bend Code Finishers* in the component installation options to install this code-fnisher alongwith the others.
++ Open Flux settings for the target machine and enable *Attach reports to NC code if possible* option. (You can also enable this option at the application level).
++ Assign *JupiduCF* code-fnisher to the target machine in Praxis machine settings.
+
+[Jupidu](img/Jupidu.png)
+
+The code-finisher expects the *Jupidu Attachment* folder as parameter. Praxis passes this as an argument when calling up this tool to finish the jupidu code. The tool looks-up the folder for an attachment with same name as the part. And attaches to the Jupidu code if found one. The supported attachments types are: *pdf, stl, png, jpg, bmp, gif, tiff* and *txt*. Other file types are ignored.
+
+
+Check the *Attached NC Report* code-finisher option to attach the setup sheet report inside the jupidu file.
+
+[Attached NC](img/AttachedNC.png)
