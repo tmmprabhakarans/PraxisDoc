@@ -4,6 +4,11 @@ date: 2023-03-02T11:49:15+05:30
 weight: 1
 ---
 
+<div style="text-align: center">{{< video src="/videos/5. Job Spreadsheet/5.1 Map&Un-map/mapXLSX.mp4" type="video/mp4" >}}</div>
+
+*<div style="text-align: center">Mapping from XLSX</div>*
+
+
 ![Mapping:](/images/Mapping.png)
 
 To map spreadsheet, first click on one of the Praxis fields (say Part name) followed by a spreadsheet cell under the desired column in the right to create the mapping between the Praxis and Spreadsheet columns. The mapping preview is updated in the bottom to reflect the mapping result. The mapped field is grayed-out to reflect the mapping status. Double click the grayed-out, mapped field to *un-map*. Click on a mapped field and click another spreadsheet column to alter the mapping. 
@@ -13,6 +18,12 @@ Repeat this all-required Praxis fields to complete the mapping.
 
 Type-in the mapping name and press Save button to save the mapping. The saved mapping settings are synchronized across all stations and are used by Praxis by-default when spreadsheet is imported the next time. 
 
+Update Material & Thickness
+-----------------------
+<div style="text-align: center">{{< video src="/videos/5. Job Spreadsheet/5.1 Map&Un-map/mtrl_thickMapping.mp4" type="video/mp4" >}}</div>
+
+*<div style="text-align: center">Updating Material and Thickness</div>*
+
 ![New Job](/images/SpreadsheetNewJob.png)
 
 **Note:** Sometimes the spreadsheet uses the raw material (material + thickness) to define the part material. Therefore, the Thickness field mapping is optional, and the mapping can be skipped in those cases.
@@ -20,6 +31,11 @@ Following schemas are currently supported while importing spreadsheet.
 
 Update Existing mapping
 -----------------------
+
+<div style="text-align: center">{{< video src="/videos/5. Job Spreadsheet/5.1 Map&Un-map/EditMapping.mp4" type="video/mp4" >}}</div>
+
+*<div style="text-align: center">Edit Mapping</div>*
+
 The mapping exercise explained above can used to create multiple such mappings for different spreadsheet formats. When a spreadsheet is dropped, Praxis compares the spreadsheet schema (the column definitions) with the saved mapping and uses the matching one to import the spreadsheet. Hold the Ctrl key when the spreadsheet is dropped to load and edit the existing mapping. Praxis launches the mapping dialog. Click on the Praxis field to highlight the column it is mapped to. Use the steps mentioned in the previous section to modify and save the mapping.
 
 ![Update Existing Mapping](/images/UpdateMapping.png)

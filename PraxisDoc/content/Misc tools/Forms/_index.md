@@ -5,12 +5,14 @@ weight: 2
 ---
 
 Importing Formed Parts
-----------------------
-Praxis adds following enhancements to make it easier to work with parts with formed shapes. 
+----------------------------------
+Praxis adds following enhancements to make it easier to work with parts with formed shapes.   
+
 
 - It manages the Forms library and keeps them in sync across all Flux instances on Praxis network.
 
-- When parts with formed shapes are imported, it identifies the Forms and indexes them against the owner parts such that they can be searched later.
+- When parts with formed shapes are imported, it identifies the Forms and indexes them against the owner parts such that they can be searched later.      
+
 
 - Auto-extracts the unidentified Forms and adds them to the Forms database so that, later, they can be approved and updated interactively in a batch.
 

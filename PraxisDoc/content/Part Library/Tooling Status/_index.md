@@ -4,6 +4,15 @@ date: 2023-02-28T15:55:40+05:30
 weight: 4
 ---
 
+<div style="text-align: center">{{< video src="/videos/2. Part Library/2.4 Tooling Status/PartTooling_Flux.mp4" type="video/mp4" >}}</div>
+
+*<div style="text-align: center">PartTooling_Flux_Laser</div>*
+
+<p>&nbsp;</p>
+<div style="text-align: center">{{< video src="/videos/2. Part Library/2.4 Tooling Status/PartTooling_MetaCAMLaser.mp4" type="video/mp4" >}}</div>
+
+*<div style="text-align: center">PartTooling_MetaCAM_Laser</div>*
+
 Part tiles display tooling status of the part for all available Praxis machines. The sections below display various icons and icon-colors used to indicate the machine technology and tooling status.
 
 Technology Legends

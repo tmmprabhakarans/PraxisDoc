@@ -1,6 +1,6 @@
 +++
 archetype = "chapter"
-title = "Job Spread Sheet"
+title = "Job SpreadSheet"
 weight = 5
 +++
 

@@ -13,3 +13,6 @@ page = ["HTML", "RSS", "PRINT"]
 alwaysOpen = false
 collapsibleMenu = true
 themeVariant = ["blue","green","red","relearn-dark"]
+
+[markup.goldmark.renderer] 
+unsafe= true

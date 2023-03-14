@@ -1,8 +1,9 @@
 ---
-title: "Solid Works Addin"
+title: "SolidWorks Addin"
 date: 2023-03-02T17:39:37+05:30
 weight: 2
 ---
+
 
 **Pre-requisite:** The system must have SolidWorks Application installed to test this feature.
 

@@ -12,7 +12,7 @@ Praxis also displays highlighted preview of the Form when mouse is hovered over 
 Use Case
 --------
 
-- Select *Forms* in the search box and open the dropdown to see the list.
+- Select **Forms** in the search box and open the dropdown to see the list.
 
 - Now select a part with the forming (preferably with a multiple of them for clarity) and double click to switch to the details pane.
 

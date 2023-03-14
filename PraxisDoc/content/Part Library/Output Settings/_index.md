@@ -7,6 +7,10 @@ weight: 7
 Output Destination
 --------------------------
 
+<div style="text-align: center">{{< video src="/videos/2. Part Library/2.7 Save Outputs/SaveOutput.mp4" type="video/mp4" >}}</div>
+
+*<div style="text-align: center">SaveOutput</div>*
+
 Set Output Destination field of a machine to assign a specific target output folder for that machine. If this field is not set, the output settings set via **factory • settings • cut/bend** is used as the target output location.
 
 ![Output Destination](/images/OutputDestination.png)

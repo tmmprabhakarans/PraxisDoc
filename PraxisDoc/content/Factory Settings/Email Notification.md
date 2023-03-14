@@ -4,6 +4,10 @@ date: 2023-03-02T12:32:42+05:30
 weight: 9
 ---
 
+<div style="text-align: center">{{< video src="/videos/6. Factory Settings/6.9 Email Notification/e-notification.mp4" type="video/mp4" >}}</div>
+
+*<div style="text-align: center">Email Notification</div>*
+
 Use **Factory • Settings • Notifications** to enable and configure the email notification. Praxis needs access to a SMTP service and account to send email. The second section of the settings page provides options to set-it-up.
 
 ![Notification](/images/Notification.png)
