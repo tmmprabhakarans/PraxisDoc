@@ -7,6 +7,11 @@ weight: 2
 Using Factory Settings
 ----------------------
 
+<div style="text-align: center">{{< video src="/videos/6. Factory Settings/6.2 Add New Material/sheetDb.mp4" type="video/mp4" >}}</div>
+
+*<div style="text-align: center">Add New sheet Db</div>*
+
+
 Use **factory . sheets . add...** command and select **New Material...** menu option to add a new material or raw material.
 
 ![New Material](/images/NewMaterial.png)

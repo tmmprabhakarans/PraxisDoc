@@ -4,7 +4,12 @@ date: 2023-02-28T15:39:28+05:30
 weight: 2
 ---
 
-Use Shortcut key *P* to navigate to the Part Library
+
+<div style="text-align: center">{{< video src="/videos/2. Part Library/2.2 Part Library Tour/Part Library Tour.mp4" type="video/mp4" >}}</div>
+
+*<div style="text-align: center">Part Library Tour</div>*
+
+Use Shortcut key **P** to navigate to the Part Library
 
 ![Library](/images/Library.png)
 

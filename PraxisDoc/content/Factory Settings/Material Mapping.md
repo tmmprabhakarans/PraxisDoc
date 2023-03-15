@@ -18,8 +18,8 @@ The mapping dialog displays factory raw-material in the left-side and the laser 
 ![Mapping CAM Pages](/images/MappingCAMPages.png)
 
 
-Mapping Factory Materials
-=========================
+## Mapping Factory Materials
+
 
 The mapping can be performed at two levels 
 

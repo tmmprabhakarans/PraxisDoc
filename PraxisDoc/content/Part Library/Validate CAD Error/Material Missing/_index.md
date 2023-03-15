@@ -4,6 +4,10 @@ date: 2023-02-28T16:30:39+05:30
 weight: 1
 ---
 
+<div style="text-align: center">{{< video src="/videos/2. Part Library/2.5 Validate Error/MTLmissing2D&3D.mp4" type="video/mp4" >}}</div>
+
+*<div style="text-align: center">Material missing 2D & 3D</div>*
+
 Material missing error is displayed when material is assigned but it is not found in the Praxis material database.
 
 ![Material Missing](/images/MatMissing.png)

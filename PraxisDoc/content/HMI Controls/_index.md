@@ -1,6 +1,6 @@
 +++
 archetype = "chapter"
-title = "HMIControls"
+title = "HMI Controls"
 weight = 9
 +++
 

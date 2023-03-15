@@ -4,6 +4,10 @@ date: 2023-03-02T12:32:55+05:30
 weight: 10
 ---
 
+<div style="text-align: center">{{< video src="/videos/6. Factory Settings/6.10 Nest Settings/MixedParts.mp4" type="video/mp4" >}}</div>
+
+*<div style="text-align: center">Mix Parts from Multiple Jobs</div>*
+
 These nest settings can be used to control the auto-nest behavior in Praxis.
 
 ![Nest Settings](/images/NestSettings.png)

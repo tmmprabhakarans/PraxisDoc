@@ -3,6 +3,10 @@ title: "Create Nests from Assembly"
 date: 2023-03-01T15:06:08+05:30
 ---
 
+<div style="text-align: center">{{< video src="/videos/3. Assembly/ASMstatic_nest/static_nests.mp4" type="video/mp4" >}}</div>
+
+*<div style="text-align: center">Static Nests</div>*
+
 A new assembly can be imported from a CSV file. 
 
 Use **open • import assemblies…** command and select a CSV file to import it as a new assembly.

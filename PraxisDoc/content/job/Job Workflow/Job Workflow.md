@@ -4,6 +4,10 @@ date: 2023-03-01T15:54:30+05:30
 weight: 1
 ---
 
+<div style="text-align: center">{{< video src="/videos/4. Job/4.1 Job Workflow/JobBasicWorkflow.mp4" type="video/mp4" >}}</div>
+
+*<div style="text-align: center">Job Basic Workflow</div>*
+
 ## Create a job
 
  ### From part library
