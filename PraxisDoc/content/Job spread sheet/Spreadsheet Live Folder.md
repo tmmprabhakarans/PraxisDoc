@@ -4,7 +4,12 @@ date: 2023-03-02T11:57:34+05:30
 weight: 6
 ---
 
-<div style="text-align: center">{{< video src="/videos/5. Job Spreadsheet/5.6 Spreadsheet_LiveFolder/watch.mp4" type="video/mp4" >}}</div>
+<!--<div style="text-align: center">{{< video src="/videos/5. Job Spreadsheet/5.6 Spreadsheet_LiveFolder/watch.mp4" type="video/mp4" >}}</div>-->
+
+&nbsp;
+&nbsp;
+
+{{< youtube id=P6oxQch_9z8?rel=0 >}}
 
 *<div style="text-align: center">Spreadsheet Liver Folder - Watch</div>*
 

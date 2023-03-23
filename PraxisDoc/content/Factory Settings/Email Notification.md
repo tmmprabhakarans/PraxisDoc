@@ -4,7 +4,12 @@ date: 2023-03-02T12:32:42+05:30
 weight: 9
 ---
 
-<div style="text-align: center">{{< video src="/videos/6. Factory Settings/6.9 Email Notification/e-notification.mp4" type="video/mp4" >}}</div>
+<!--<div style="text-align: center">{{< video src="/videos/6. Factory Settings/6.9 Email Notification/e-notification.mp4" type="video/mp4" >}}</div>-->
+
+&nbsp;
+&nbsp;
+
+{{< youtube id=0Bwzw1o5cP4?rel=0 >}}
 
 *<div style="text-align: center">Email Notification</div>*
 

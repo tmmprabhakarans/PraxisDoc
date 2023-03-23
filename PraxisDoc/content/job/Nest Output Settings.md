@@ -12,7 +12,12 @@ Use Output settings from **factory • settings • job** to control the outputs
 
 ![Nest Output](/images/NestOutput.png)
 
-<div style="text-align: center">{{< video src="/videos/4. Job/4.5 Save Nest Outputs/report.mp4" type="video/mp4" >}}</div>
+<!--<div style="text-align: center">{{< video src="/videos/4. Job/4.5 Save Nest Outputs/report.mp4" type="video/mp4" >}}</div>-->
+
+&nbsp;
+&nbsp;
+
+{{< youtube id=-LIJnsvWnak?rel=0 >}}
 
 *<div style="text-align: center">Outputs</div>*
 

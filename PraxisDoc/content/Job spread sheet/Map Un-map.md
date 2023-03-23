@@ -4,7 +4,12 @@ date: 2023-03-02T11:49:15+05:30
 weight: 1
 ---
 
-<div style="text-align: center">{{< video src="/videos/5. Job Spreadsheet/5.1 Map&Un-map/mapXLSX.mp4" type="video/mp4" >}}</div>
+<!--<div style="text-align: center">{{< video src="/videos/5. Job Spreadsheet/5.1 Map&Un-map/mapXLSX.mp4" type="video/mp4" >}}</div>-->
+
+&nbsp;
+&nbsp;
+
+{{< youtube id=bokFYomVkSE?rel=0 >}}
 
 *<div style="text-align: center">Mapping from XLSX</div>*
 
@@ -20,7 +25,12 @@ Type-in the mapping name and press Save button to save the mapping. The saved ma
 
 Update Material & Thickness
 -----------------------
-<div style="text-align: center">{{< video src="/videos/5. Job Spreadsheet/5.1 Map&Un-map/mtrl_thickMapping.mp4" type="video/mp4" >}}</div>
+<!--<div style="text-align: center">{{< video src="/videos/5. Job Spreadsheet/5.1 Map&Un-map/mtrl_thickMapping.mp4" type="video/mp4" >}}</div>-->
+
+&nbsp;
+&nbsp;
+
+{{< youtube id=UTsEKeT7Y04?rel=0 >}}
 
 *<div style="text-align: center">Updating Material and Thickness</div>*
 
@@ -32,7 +42,12 @@ Following schemas are currently supported while importing spreadsheet.
 Update Existing mapping
 -----------------------
 
-<div style="text-align: center">{{< video src="/videos/5. Job Spreadsheet/5.1 Map&Un-map/EditMapping.mp4" type="video/mp4" >}}</div>
+<!--<div style="text-align: center">{{< video src="/videos/5. Job Spreadsheet/5.1 Map&Un-map/EditMapping.mp4" type="video/mp4" >}}</div>-->
+
+&nbsp;
+&nbsp;
+
+{{< youtube id=0cgTtai8GHY?rel=0 >}}
 
 *<div style="text-align: center">Edit Mapping</div>*
 
