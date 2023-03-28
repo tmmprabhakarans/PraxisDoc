@@ -9,7 +9,12 @@ Open a sheetmetal part in SolidWorks. (Praxis already ships with a few. Locate t
 
 * Now switch to the Praxis tab. It should show the Praxis toolbar in SolidWorks.
 
-<div style="text-align: center">{{< video src="/videos/8. CAD Extensions/8.2 SolidWorks Addin/8.2.1 Saving SW Part to Praxis/Save Parts.mp4" type="video/mp4" >}}</div>
+<!--<div style="text-align: center">{{< video src="/videos/8. CAD Extensions/8.2 SolidWorks Addin/8.2.1 Saving SW Part to Praxis/Save Parts.mp4" type="video/mp4" >}}</div>-->
+
+&nbsp;
+&nbsp;
+
+{{< youtube id=IO7GM9LAXi4?rel=0 >}}
 
 *<div style="text-align: center">Save Parts to Praxis</div>*
 
@@ -24,7 +29,12 @@ Press **Save to Praxis** toolbar button to save the part to Praxis. This display
 Setting up the auto-material resolution
 ---------------------------------------
 
-<div style="text-align: center">{{< video src="/videos/8. CAD Extensions/8.2 SolidWorks Addin/8.2.1 Saving SW Part to Praxis/MTRL mapping.mp4" type="video/mp4" >}}</div>
+<!--<div style="text-align: center">{{< video src="/videos/8. CAD Extensions/8.2 SolidWorks Addin/8.2.1 Saving SW Part to Praxis/MTRL mapping.mp4" type="video/mp4" >}}</div>-->
+
+&nbsp;
+&nbsp;
+
+{{< youtube id=Aztz2xvt0RM?rel=0 >}}
 
 *<div style="text-align: center">Material Mapping</div>*
 

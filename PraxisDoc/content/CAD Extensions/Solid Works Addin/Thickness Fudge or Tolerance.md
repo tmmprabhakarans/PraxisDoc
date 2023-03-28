@@ -4,7 +4,12 @@ date: 2023-03-02T17:55:13+05:30
 weight: 5
 ---
 
-<div style="text-align: center">{{< video src="/videos/8. CAD Extensions/8.2 SolidWorks Addin/8.2.5 Thickness Fudge_Tolerance/fudgeFactor.mp4" type="video/mp4" >}}</div>
+<!--<div style="text-align: center">{{< video src="/videos/8. CAD Extensions/8.2 SolidWorks Addin/8.2.5 Thickness Fudge_Tolerance/fudgeFactor.mp4" type="video/mp4" >}}</div>-->
+
+&nbsp;
+&nbsp;
+
+{{< youtube id=VUtaf01RdW8?rel=0 >}}
 
 *<div style="text-align: center">Thickness Fudge</div>*
 

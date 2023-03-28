@@ -5,13 +5,23 @@ weight: 2
 ---
 
 
-<div style="text-align: center">{{< video src="/videos/2. Part Library/2.2 Part Library Tour/Part Library Tour.mp4" type="video/mp4" >}}</div>
+<!--<div style="text-align: center">{{< video src="/videos/2. Part Library/2.2 Part Library Tour/Part Library Tour.mp4" type="video/mp4" >}}</div>-->
 
-*<div style="text-align: center">Part Library Tour</div>*
+&nbsp;
+&nbsp;
+
+{{< youtube id=-aM3-kI0DPI?rel=0 >}}
+
+*<div style="text-align: center">2.2 Part Library Tour</div>*
 
 Use Shortcut key **P** to navigate to the Part Library
 
 ![Library](/images/Library.png)
+{{<img src="images/Library.png">}}
+
+
+![Library](/images/Library.png)
+
 
 * This view displays parts as tiles with each tile displaying part-picture with a few basic part properties like name, size, material, thickness etc.
 

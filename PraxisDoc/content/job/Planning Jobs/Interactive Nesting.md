@@ -4,7 +4,12 @@ date: 2023-03-01T16:27:00+05:30
 weight: 2
 ---
 
-<div style="text-align: center">{{< video src="/videos/4. Job/4.3 Job Planning ways/InteractiveNesting.mp4" type="video/mp4" >}}</div>
+<!--<div style="text-align: center">{{< video src="/videos/4. Job/4.3 Job Planning ways/InteractiveNesting.mp4" type="video/mp4" >}}</div>-->
+
+&nbsp;
+&nbsp;
+
+{{< youtube id=PU8YYZTt5lE?rel=0 >}}
 
 *<div style="text-align: center">Interactive Nesting</div>*
 
