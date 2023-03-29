@@ -1,9 +1,9 @@
 baseURL = 'https://endearing-halva-664fec.netlify.app/'
 languageCode = 'en-us'
 title = 'Praxis Manual'
-themesDir="themes"
-theme="relearn"
-
+themesDir = 'themes'
+theme = 'leren'
+ 
 [outputs]
 home = [ "HTML", "RSS", "SEARCH", "PRINT" ]
 section = ["HTML", "RSS", "PRINT"]

@@ -56,6 +56,9 @@ Table of Contents
 ◉ [Save Outputs](/job/nest-output-settings/) | Save Layout, Output NC and Reports
 ◉ [Layout Report](/job/layout-report/) | Interpreting a Layout Report file
 ◉ [Out Of Date Layout](/job/out-of-date-layout/) | Out of Date Layout checking
+
+|Job Spreadsheet| Description|
+|:-----------|:-----------|
 ◉ [Job Spreadsheet](/job-spread-sheet/) | Job Spreadsheet mapping techniques
       ➤ [Map/Un-map](/job-spread-sheet/map-un-map/) | Creating mapping between Praxis fields and Spreadsheet
       ➤ [Mapping Error](/job-spread-sheet/spreadsheet-mapping-error/) | Possible validation errors during Mapping
@@ -88,13 +91,8 @@ Table of Contents
 ◉ [Job Page Filter](/filters/job-page-filter/) | Various ways to filter parts in Job/Nests
 
 
-|Tools| Description|
+|CAD Extensions| Description|
 |:-----------|:-----------|
-◉ [Jupidu Bend Post](/misc-tools/jupidu-bend-post/) | Attach Jupidu Bend Post
-◉ [Forms](/misc-tools/forms/) | Introduction to Importing formed parts
-      ➤ [Indexing](/misc-tools/forms/indexing/) | Adding Part-Form pair to the index
-      ➤ [Forming Preview](/misc-tools/forms/forming-preview/) | Preview of the Forms available
-      ➤ [Forming Approval](/misc-tools/forms/forming-preview/) | Approve the Identified Formed parts
 ◉ [Creo Add-In](/cad-extensions/creo-family-parts/) | Introduction to Creo Family parts
       ➤ [Commands Supported](/cad-extensions/creo-family-parts/commands-supported/) | Supported Creo commands
       ➤ [Emulation Mode](/cad-extensions/creo-family-parts/emulation-mode/) | Enabling Emulation mode   
@@ -105,11 +103,9 @@ Table of Contents
       ➤ [Part Feasibility check](/cad-extensions/solid-works-addin/part-feasibility-check/) | Check a sheetmetal part for the production feasibility
       ➤ [Thickness Fudge](/cad-extensions/solid-works-addin/thickness-fudge-or-tolerance/) | Setting tolerance to match the model thickness
       ➤ [Factory Settings](/cad-extensions/solid-works-addin/factory-settings/) | Siew and update Praxis factory settings as well as the Flux settings
-◉ [Bus Bar machine support](/misc-tools/bus-bar-machine-support/) | Introduction of EHRT Machines
-      ➤ [Cut Finisher for EHRT](/misc-tools/bus-bar-machine-support/cut-finisher-for-ehrt-machines/) | Enabling EHRT Cut Finisher
 
 
-|RightAngle Link| Description|
+|HMI Controls| Description|
 |:-----------|:-----------|
 ◉ [RightAngle Link](/hmi-controls/right-angle-link/) | Setting up Right Angle Link to Praxis
       ➤ [Loading Programs](/hmi-controls/right-angle-link/loading-programs-into-right-angle/) | Loading Programs into Right angle
@@ -118,12 +114,20 @@ Table of Contents
       ➤ [Editing Programs](/hmi-controls/right-angle-link/editing-programs/) | Editing Programs in Right angle
       ➤ [Multiple RA Stations](/hmi-controls/right-angle-link/adding-multiple-ra-stations/) | Linking multiple RA Station to Praxis
       ➤ [Tools and Settings](/hmi-controls/right-angle-link/tools-and-settings-synchronization/) | Synchronized tools across all Praxis linked applications
-
-
-|Vulcan Link| Description|
-|:-----------|:-----------|
 ◉ [Vulcan Link](/hmi-controls/vulcan-link/) | Setting up Praxis-Vulcan Link
       ➤ [Loading Programs](/hmi-controls/vulcan-link/loading-programs-into-vulcan/) | Loading Programs into Right angle
       ➤ [Running Programs](/hmi-controls/vulcan-link/running-programs/) | Running Programs in Vulcan
       ➤ [Editing Programs](/hmi-controls/vulcan-link/editing-programs/) | Editing Programs in Vulcan
       ➤ [LTT Synchronization](/hmi-controls/vulcan-link/ltt-synchronization/) | Synchronize Technology tables
+
+
+|Misc Tools| Description|
+|:-----------|:-----------|
+◉ [Jupidu Bend Post](/misc-tools/jupidu-bend-post/) | Attach Jupidu Bend Post
+◉ [Forms](/misc-tools/forms/) | Introduction to Importing formed parts
+      ➤ [Indexing](/misc-tools/forms/indexing/) | Adding Part-Form pair to the index
+      ➤ [Forming Preview](/misc-tools/forms/forming-preview/) | Preview of the Forms available
+      ➤ [Forming Approval](/misc-tools/forms/forming-preview/) | Approve the Identified Formed parts
+◉ [Bus Bar machine support](/misc-tools/bus-bar-machine-support/) | Introduction of EHRT Machines
+      ➤ [Cut Finisher for EHRT](/misc-tools/bus-bar-machine-support/cut-finisher-for-ehrt-machines/) | Enabling EHRT Cut Finisher
+
