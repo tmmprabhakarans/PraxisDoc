@@ -7,12 +7,7 @@ weight: 7
 Output Destination
 --------------------------
 
-<!--<div style="text-align: center">{{< video src="/videos/2. Part Library/2.7 Save Outputs/SaveOutput.mp4" type="video/mp4" >}}</div>-->
-
-&nbsp;
-&nbsp;
-
-{{< youtube id=xutX6svCKLI?rel=0 >}}
+<div style="text-align: center">{{< video src="/videos/2. Part Library/2.7 Save Outputs/SaveOutput.mp4" type="video/mp4" >}}</div>
 
 *<div style="text-align: center">SaveOutput</div>*
 
