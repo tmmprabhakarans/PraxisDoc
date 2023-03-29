@@ -4,12 +4,7 @@ date: 2023-03-02T11:57:42+05:30
 weight: 4
 ---
 
-<!--<div style="text-align: center">{{< video src="/videos/5. Job Spreadsheet/5.4 Missing Part/blank part.mp4" type="video/mp4" >}}</div>-->
-
-&nbsp;
-&nbsp;
-
-{{< youtube id=1KAKkyk_2W8?rel=0 >}}
+<div style="text-align: center">{{< video src="/videos/5. Job Spreadsheet/5.4 Missing Part/blank part.mp4" type="video/mp4" >}}</div>
 
 *<div style="text-align: center">Create Blank Part</div>*
 

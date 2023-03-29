@@ -4,13 +4,7 @@ date: 2023-03-02T12:18:20+05:30
 weight: 5
 ---
 
-<!--<div style="text-align: center">{{< video src="/videos/5. Job Spreadsheet/5.5 Recursive CAD search/Recursive.mp4" type="video/mp4" >}}</div>-->
-
-&nbsp;
-&nbsp;
-
-{{< youtube id=DUPGzqZ8f38?rel=0 >}}
-
+<div style="text-align: center">{{< video src="/videos/5. Job Spreadsheet/5.5 Recursive CAD search/Recursive.mp4" type="video/mp4" >}}</div>
 
 *<div style="text-align: center">Recursive CAD Search</div>*
 

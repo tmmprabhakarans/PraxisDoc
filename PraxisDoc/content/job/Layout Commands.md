@@ -12,12 +12,7 @@ The layouts are put in the release queue if they fall below the cut-off set via 
 
 ## Add Parts… 
 
-<!--<div style="text-align: center">{{< video src="/videos/4. Job/4.4 Layout Commands/addParts.mp4" type="video/mp4" >}}</div>-->
-
-&nbsp;
-&nbsp;
-
-{{< youtube id=gAN3s1YE3_g?rel=0 >}}
+<div style="text-align: center">{{< video src="/videos/4. Job/4.4 Layout Commands/addParts.mp4" type="video/mp4" >}}</div>
 
 *<div style="text-align: center">Add Parts</div>*
 
@@ -39,12 +34,7 @@ All the layouts are nested separately, and the nested results are displayed with
 
 ## Adapt/Compact
 
-<!--<div style="text-align: center">{{< video src="/videos/4. Job/4.4 Layout Commands/Adapt.mp4" type="video/mp4" >}}</div>-->
-
-&nbsp;
-&nbsp;
-
-{{< youtube id=TFrzAx4igf4?rel=0 >}}
+<div style="text-align: center">{{< video src="/videos/4. Job/4.4 Layout Commands/Adapt.mp4" type="video/mp4" >}}</div>
 
 *<div style="text-align: center">Adapt/Compact</div>*
 
