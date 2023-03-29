@@ -4,7 +4,8 @@ date: 2023-02-28T12:31:49+05:30
 draft: false
 ---
 
-# Praxis Manual User Guide
+ # Praxis Manual - User Guide
+ ----------------------------
 
 Table of Contents
 -----------------
