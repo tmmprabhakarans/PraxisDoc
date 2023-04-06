@@ -1,0 +1,2 @@
+TITLE=Flux
+OUTDIR=W:\FluxBookHtml

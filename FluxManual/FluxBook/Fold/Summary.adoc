@@ -1,0 +1,18 @@
+= Fold CAM Summary
+
+* When a part is open, use the *F* key to switch the part into Fold CAM
+  (panel-bender) mode and to compute the tooling and sequence.
+* Alternatively, use the *W* key to open the workflow panel and use that to direct
+  the processing. This can also be used to generate NC code.
+* Use the *Z* key to expand/collapse the Fold Navigator on the top of the screen.
+  Position the mouse cursor over a warning or error cell to get more
+  information.
+* To display the *Panel* for a bend operation: Click twice on the bend number in
+  the fold navigator.
+* To edit the *blank holder*: Click on the blank-holder
+* To edit the *ENW tool* for a bend: Click on the bend, and then click on the
+  blank-holder, the ENW tool, or on the ENW carrier plate.
+* To edit the *gauging* (centering) settings: Select the first bend in a side; the
+  gauges are then visible. Click on one of the gauges
+* To edit the *blade* settings for a bend: Switch to that bend, and click on the
+  blades (or on the ZBW blades or ZBW carrier)

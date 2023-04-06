@@ -1,0 +1,32 @@
+﻿= Tools/Machine tonnage check
+:imagesdir: img
+
+== Does Flux check the tonnages of punches/dies and the machine?
+Flux computesfootnote:[For the same part, you may sometimes notice that the 
+computed tonnage is different when you switch to a different press-brake, 
+even though you may be using similar punches and dies (with the same V-widths, 
+angles and punch tip radii). The difference is because Flux has a few different 
+_force computation_ algorithms, provided by different press-brake OEMs, 
+and their results are not always exactly in agreement.] 
+the press-force required to process each bend, and then uses this
+to check that the punches, dies and adapters used for the bend are not overloaded.
+Typically, tonnages for bend tools are specified as kN/m (kilo-newtons per meter)
+or tons per meter. Flux computes the linear tonnage required for a bend and 
+checks if this limit lies within the tools' limit load. When this is violated,
+errors are displayed:
+
+image::die-overload.png[Die Overload,width=381]
+
+In addition, the total tonnage required for the bend is checked against the 
+tonnage the machine can generate, and when the machine is overloaded, an error
+is displayed in the *Ram* row of the bend navigator. 
+
+The tool-tip generated for a punch or die shows the linear tonnage that the 
+tool is capable of handling:
+
+image::punch-tonnage.png[Punch Tonnage,width=234]
+
+The tool-tip for a bend operation shows the overall tonnage that is required
+to complete the bend:
+
+image::bend-tonnage.png[Bend Tonnage,width=469]

@@ -1,0 +1,46 @@
+= Switching to Fold CAM
+:experimental:
+:imagesdir: img
+
+image::switch1.png[Workflow Panel,float="right",width=234]
+
+If you have a 3-D sheet metal model open, you can switch to Fold CAM using the
+*Workflow* pane (see the chapter on Part Workflow for more details on this).
+Here is one way you could switch to the folding mode:footnote:[Depending on the
+options you have in your Flux installation, your workflow panel may look
+different.]
+
+* Click on the *workflow* icon in the command bar on the left.
+* Click on the *Fold Tech* process node in the workflow panel (see the highlight
+  in the image on the right). Optional: click on the auxiliary icon to the
+  right of the Fold Tech process node to select a different 
+  panel-benderfootnote:[This is for the case that you have multiple panel-benders
+  available in your Flux installation.]
+* Click the *close* button to close the workflow panel.
+
+Here is a faster way to do this, using the keyboard:
+
+* Press kbd:[W] to open the workflow panel.
+* Press kbd:[F] to switch to the folding mode.
+* Press kbd:[Esc] to close the workflow panel.
+
+An even faster method can be used if you simply want to use the default folding
+machine (the same one that was used the last time)
+
+* Open a part
+* Press kbd:[F] to switch to the folding mode
+
+== Generating fold outputs
+
+image::switch2.png[Fold outputs,float="right",width=199]
+
+When you switch to Fold CAM mode, Flux analyzes the part and computes a folding
+sequence and assigns tooling. In most cases, the results of this automatic
+processing will be a folded part that requires no further intervention.
+You can verify this by checking that the fold navigator (described in the
+next section) will have no alarm lights on.
+
+If there are no errors, you can click further on the Post-process fold part icon
+to generate the NC code for folding. This generates the NC code for the
+part, and saves it in a designated location. By clicking on the NC code
+icon near the fold outputs node, you can view the NC code.

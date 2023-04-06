@@ -1,0 +1,19 @@
+= Welcome to Flux
+:imagesdir: img
+
+image::logo.png[Logo]
+
+Flux is an Integrated Sheet-metal CAM application. Using Flux, you can convert your sheet
+metal designs into CAM data, which can be used to drive various types of sheet-metal NC
+machines. Flux can generate code for a large number and variety of sheet-metal
+machinery, including:
+
+* Press-brakes
+* Panel bending machines
+* Laser machines
+
+By providing a unified environment from which you can program all these different types of
+machines, Flux makes it possible to use a single CAM application to control all the
+sheet-metal machinery on your shopfloor. Flux can also integrate with
+Metamation's *Praxis* system for doing advanced resource planning,
+shop-floor management and large-volume batch processing.

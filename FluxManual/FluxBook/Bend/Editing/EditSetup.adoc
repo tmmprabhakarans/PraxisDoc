@@ -1,0 +1,22 @@
+﻿= Editing a Bend Setup
+:imagesdir: img
+
+image::edit-setup.png[Editing a Setup,float="right",width=132]
+
+When you are editing a bend mount, you can click the *Setup* navigation button in the
+tool mount panel to edit the complete bend setup. The Bend Setup panel is displayed alongside, 
+and there are a few operations possible here.
+
+* You can *Save* a setup to a bend-setup file (these are files with the extension *.bsetup).
+  Later, you can use the *Load* option to load this setup for use with a different part.
+  This is a simple, manual, way to use the same setup for multiple parts. 
+* The *Pack Station* button appears if there are multiple stations in this setup, and 
+  it can be used to _pack_ those stations closer, while still avoiding any collisions
+  with bends being processed at adjacent stations. 
+* The *Center Setup* button appears if the stations in this setup are not centered 
+  in the machine's available table area.
+* The *Prev* and *Next* buttons can be used to switch between different setups in 
+  this part (if there are multiple setups). 
+* Clicking on the *Mounts* navigation button will take you down one level, to editing 
+  the first xref:EditMount#[tool mount] in this setup (it is the opposite of the *Setup* 
+  navigation button in the tool mount panel).

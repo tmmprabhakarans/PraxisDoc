@@ -1,0 +1,19 @@
+= Editing Operations
+
+There are various _panels_ used to edit the settings of a 
+bend operation, the blade settings, the blank-holder settings etc. Most of these panels 
+are accessed simply by clicking on the appropriate element in 3D display - for example, 
+to edit the blank-holder settings, just click on the
+blank-holder.
+
+* xref:EditBend#[Editing a Bend operation]
+* xref:EditSide#[Editing a Side/Section]
+* xref:EditSeq#[Changing the Sequence]
+* xref:EditBH#[Editing the Blank-holders]
+* xref:EditGauge#[Editing the Gauging]
+* xref:EditBlade#[Editing the Blades]
+
+The following operations are also available for automatic panel benders with a 
+rotor axis (like the 7030 and the 7020):
+
+* xref:EditUnload#[Editing the Unloading]

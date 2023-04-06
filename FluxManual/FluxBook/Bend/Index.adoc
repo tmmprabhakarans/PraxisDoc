@@ -1,0 +1,25 @@
+﻿= Bend CAM
+
+A sheet metal _flat_ is bent to its final shape using a press-brake. The
+*Bend CAM* subsystem of Flux (or *Flux/Bend*) is used to program press brakes.
+Here is some of the work that Flux/Bend can do:
+
+* Compute a feasible and optimal *bending sequence*
+* Compose bend *tooling stations* from the available inventory of bend tools
+* Compute *gauging locations* where the back-gauges can be positioned to align
+  the part for bending.
+* Generate *NC Code* that can be transmitted to the press-brake for processing
+* Generate reports (such as *setup sheets*) for the bending process
+
+Flux incorporates algorithms and heuristics to compute these automatically for most cases,
+and in most cases little or no human intervention should be required. However, Flux
+also provides a rich set of tools and operations to modify the bending sequence,
+tooling setups, gauging positions and every parameter of the bend technology.
+
+* xref:SwitchToBend#[Switching to Bend CAM]
+* xref:Navigator#[The Bend Navigator]
+* xref:Recompute#[Recomputing the Bend Solution]
+* xref:Editing/Index#[Editing Operations]
+
+This page contains some of the most xref:FAQ/Index#[frequently asked questions] about
+the bend CAM system.

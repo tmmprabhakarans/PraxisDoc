@@ -1,0 +1,24 @@
+= Editing the Blank-holders
+:imagesdir: img
+
+Clicking on the blank-holder brings up the *BH panel* (blank-holder panel). The blank-holder panel 
+has the following settings:
+
+image::edit-bh.png[Edit BH,float="right",width=166]
+
+* *Length* is used to select different blank-holder composition length (this is
+  displayed if this side uses a split-blank holder composition).
+* The *Use ENW* tool check-box is used to enable an ENW tool for processing this
+  bend.
+* If the *Use ENW* tool setting is turned on, then this list can be used to select
+  one of the available ENW tools. This is a part-wide setting, since
+  different ENW tools cannot be used for different bends.
+* The *Prev* and *Next* button are used to switch between the different bends in the
+  part.
+
+As you experiment with various ENW tools, Flux will immediately compute the
+collision status of that blank-holder composition for all the bends in the
+part, and will update the Fold Navigator status. Thus, it is very simple
+to pick a suitable ENW tool by scrolling through this list, since there is
+immediate feedback on whether any bends have issues with the selected
+tool.

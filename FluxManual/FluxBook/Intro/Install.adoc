@@ -1,0 +1,49 @@
+﻿= Installing Flux
+:imagesdir: img
+
+== Preparing to install Flux
+
+=== System requirements
+
+* One of the following operating systems. Note
+that Windows 7 requires Service Pack 1 to be installed, otherwise Flux cannot work on Windows 7.
+  ** Windows 7 SP1, 64-bit (Windows 7 SP1 is supported with Extended Security Updates installed)
+  ** Windows 8.1, 64-bit
+  ** Windows 10, 64-bit
+  ** Windows 11, 64-bit
+* 8 GB RAM (16 GB recommended)
+* 1024 x 768 screen resolution (1920 x 1080 recommended)
+* Graphics card with OpenGL 4.0 support (Nvidia discrete GPU recommended)
+* 3-button mouse or trackball
+
+=== Pre-requisite software
+The following pre-requisite software is required, and will be installed by the Flux installer
+automatically, if it is not found:
+
+* Visual C++ 2005 SP1 Redistributable (x86)
+* Visual C++ 2010 SP1 Redistributable (x86)
+* Visual C++ 2013 Redistributable (x64) – only on 64-bit platforms
+* Visual C++ 2019 Redistributable (x64) – only on 64-bit platforms
+* Microsoft .Net Framework 4.7.2
+* Microsoft .Net 6.0.1
+
+== Installing Flux
+
+image::picklanguage.png[Pick Language,float="right",width=239]
+
+Run *FluxSetup.exe* (the exact filename may be different, and may include the revision number or 
+date). If the pre-requisites (such as the .Net Framework) are not already installed, installation may 
+take up to 15 minutes to complete. If the pre-requisites are already installed, installation should 
+take about 1 or 2 minutes.
+
+Follow the instructions to install Flux. This install process will place a short-cut to the Flux 
+application on your desktop, and in the start menu. You can also start the application by running the
+*Flux.exe* program directly.
+
+=== Running Flux
+When you run Flux for the first time, a language selector pops up and you can select the language 
+used for Flux. (Depending on your installation, you may see a different set of languages here).
+
+The language you choose here is used for Flux, and this can subsequently be changed by clicking on 
+the *language* on the command bar. (This icon appears when you start Flux, and when you have 
+had no parts open).

@@ -1,0 +1,134 @@
+﻿= Editing a Bend
+:imagesdir: img
+
+Some basic settings for a bend can be viewed and edited by using the *Bend* panel. 
+To bring up the bend panel for a particular bend:
+
+* Click on a bend in the bend navigator to select the bend.
+* Click *again* on the same bend to open the bend panel to edit that bend.
+
+An alternative method:
+
+* *Ctrl+Click* on a bend in the bend navigator, to select the bend and
+  to open the editing panel for that bend.
+
+== The Bend Panel
+
+image::edit-bend.png[Bend Panel,float="right"width=136]
+
+The Bend panel looks like the image alongside. This has some settings and operations for working
+on the bend.
+
+* The *Position* input is used to move the bend along the machine. The value displayed here is
+  the position of the _left end_ of the bend on the machine's scale. (You can also drag the bend
+  to interactively set the position, see the section below).
+* The *Setup* and *Station* lists are used to move this bend-operation to a different 
+  setup,footnote:[A *setup* is a complete assemblage of punches and dies on the machine; some 
+  parts require multiple setups to be processed fully, and for such parts, Flux will 
+  generate multiple NC codes (one for each setup).] or to a different 
+  stationfootnote:[A *station* is an aligned set of punches and dies in a setup, used 
+  to process a bend. Depending on the complexity of the part, some setups may contain 
+  a number of stations positioned along the table of the machine. Different bends may
+  be processed at different stations.] within this setup. These choices appear only if 
+  the part has multiple setups, or if the setup has multiple stations, respectively. 
+  (You can also move a bend to a different station by just dragging it there).
+* The *Flip Part* button is used to _flip_ the part (insert it with the other side into 
+  the machine). The image belows shows the effect of clicking this button (clicking it 
+  again will restore the original orientation):
+
+image::flip-part.png[Flip Part,align="center",width=561]
+
+* The *Ungroup* button appears when you are editing a _multiple-span_ bend (a bend made of two
+  or more collinear bending spans). If the grouped bend _can_ be ungrouped and processed as 
+  separate bends, this button can be used to break this bend operation into two separate ones. 
+  The image below shows how bend 1 (displayed as 1a and 1b in the sequencing mode) splits into
+  bend 1 and 2 after ungrouping:
+
+image::ungroup.png[Ungroup,align="center",width=552]
+  
+* The *Angle Measure* button is used to display the _angle-measurement panel_ for this bend. 
+  This button is visible only if one or more angle measurement methods are available for the
+  selected machine.
+* The *Skip Bend* button is used to tell Flux not to process this particular bend. This is useful
+  to mark some bends as being processed with a different technology than the press-brake (for 
+  example, a punch-press or a panel-bender).footnote:[You can move a skipped bend to the 
+  beginning or the end of the process sequence, depending on whether it should be treated 
+  as _already done_ or _to be done later_. Setting this correctly will help Flux to do a 
+  more accurate collision check.]
+
+* Turn on the *Coining* check-box to tell Flux to use a coining operation. This is enabled only
+  if a coining would be possible (typically, this means there is a coining-capable punch and
+  die that can be used). Coining requires more press force, but can result in a tighter bending
+  radius than an air-bending can. Coining also requires that you have a punch and die with the
+  exact angle that is required for this bend operation. 
+* Turn on the *Pre-bending* option to split this bend into two separate operations - a pre-bend,
+  and the finishing bend. By default, Flux will move the finishing bend to a position that is just
+  after the _next_ bend in the sequence. See the section below for more on using a 
+  pre-bend.footnote:[Usually, Flux can determine automatically when a pre-bend can be used to 
+  avoid such collisions, and will turn on the pre-bending option for such a bend. This switch 
+  provides a manual override for this (to turn on/off a pre-bend).]
+* Use the *Prev* and *Next* buttons to cycle through editing the different bends in the part.
+
+== Using a pre-bend
+Some types of collisions can be avoided by splitting a bend operation into a pre-bend and a
+finishing bend. Here is a simple example:
+
+image::pre-bend1.png[Die Collision,width=327]
+
+The part above has two bends, and on the second bend the part collides with the die-rail. This
+cannot be fixed by changing the sequence. One possible fix is to introduce a pre-bend at bend 1, 
+by choosing bend 1 and turning on the *Pre-bending* check-box. 
+
+image::pre-bend2.png[Pre-bending,width=367]
+
+As can be seen in the image, this splits bend 1 into a pre-bend and a finishing-bend (which 
+now becomes bend 3). The icons on the bend-navigator now indicate that bend 1 is a pre-bend,
+while bend 3 is a finishing bend. You can use the *Prebend* input box to fine-tune the angle
+of the pre-bend. In this example, the angle is set to 120, so the part is bent from the
+flat state (180 interior angle) to 120 degrees in the first stage, and then to 90 degrees in
+the second stage. Thus, during the processing of bend 2, the first flange is not fully bent, and
+so avoids a collision with the die-rail (the images below show the situation when bends 2 and
+3 are being processed):
+
+image::pre-bend3.png[Pre-bending,width=280]
+
+== Dragging a bend
+The *Position* input box can be used to position a bend precisely. Often, it is easier to 
+just _drag_ a bend into the required position. To do this:
+
+* Ensure the bend editing panel is open (by clicking twice on the bend number)
+* Click on the part near the bend line and start dragging the part left/right
+
+Depending on where you hold the part (near the center of the bend line, or near the the
+left/right edges), Flux will generate automatic _snap lines_ that help you position the 
+bend precisely with respect to a tool station. The image below shows a bend being dragged
+by holding it near the center, or by holding it near the left edge.
+
+image::drag-bend.png[Drag Bend,width=596]
+
+The snap lines in the figures above show the bend being positioned exactly in the center 
+of the tool station, or with the left edge aligned exactly with the punch and die.
+
+== Editing multiple bends
+It is possible to edit multiple bends at the same time. To do this:
+
+* Click on a bend in the bend navigator to select it.
+* Hold down the *Shift* key and select additional bends to edit them all together.
+
+image::edit-bends.png[Edit Bends,float="right"width=106]
+
+An editing panel like the one alongside is displayed. Some editing operations that
+can be done on all the bends together are displayed here. In addition, this panel
+may display some additional buttons:
+
+* The *Group* button is displayed if you select two or more bends that are collinear
+  and could be grouped together into a single multi-span bend operation. 
+* The *Swap Bends* button is displayed when you select exactly two bends, and allows
+  the two bends to be swapped in the sequence (this is displayed only if the two
+  bends _can_ be swapped in the sequence).
+* If the two bends are parallel, in opposite directions, and are a short distance 
+  apart, it may be possible to combine them into a single _Z-Bend_. In this case, the
+  *Make Z-Bend* button is displayed.footnote:[Usually, Flux can determine automatically
+  if two such bends should be grouped into a single Z-bend (sometimes called an offset bend, 
+  or a joggle bend) for processing. This switch exists for some situations where you want 
+  to manually override that decision.]

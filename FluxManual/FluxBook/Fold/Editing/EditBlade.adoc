@@ -1,0 +1,100 @@
+= Editing the Blades
+:experimental:
+:imagesdir: img
+
+== Blade Panel
+
+The blade settings for each bend can edited by accessing the *Blade Panel*. To
+access the blade panel for a particular bend:
+
+* Switch to that bend by clicking on the number in the fold navigator, or by
+  using kbd:[PageUp] / kbd:[PageDn] keys.
+* Click on the standard blade, the ZBW blade or the ZBW blade carrier to open
+  the Blade panel
+
+image::edit-blade.png[Edit-Blade,float="right",width=148]
+
+The blade panel is displayed as shown alongside. Here are the various settings
+you can control from this panel:
+
+* Use the *Air-gap* setting to adjust the air-gap. As the air-gap is adjusted from
+  its default value, the Fold Navigator will display a _non-standard
+  air-gap_ warning. Collision checking will also be done immediately with
+  the updated air-gap and you can tune the air-gap to prevent
+  collisions. The bending force will also be computed, and if you set
+  the air-gap so low that the maximum bending force is exceeded, the
+  fold navigator will display this as an error.
+* The *Use ZBW blade* toggle can be used to turn on or off the use of ZBW blades
+  for this bend. If the bend is too long, or no ZBW blades are
+  available, this may be greyed out (moving the mouse over the check-box
+  will tell you why it is greyed out).
+
+=== ZBW Settings
+
+* Click on the *ZBW Settings* header to open that section, if it is closed.
+* Use the *Mount* list to select if this bend should use a blade mounted on the
+  *Left* carrier, or the *Right* carrier. For bends that contain multiple
+  segments, you can also choose *Both*, to indicate that some segments are
+  processed with the left blade while others are processed with the
+  right blade
+* Use the *Blade* selector to pick one of the ZBW blades available for this
+  machine.
+* Use the *Position* selector to change the position of the blade along the
+  machine's bending axis. For both blades, this position indicates the
+  location of the _reference edge_ of the blade (the edge closer to the
+  back-gauge) along the machine's bending axis, with 0 being at the
+  center. As you adjust this position, you can see the ZBW blade
+  immediately move, and the navigator at the top displays the current
+  status. These are the possible status indicators.footnote:[As you adjust the
+  blade position and length, these errors or warnings are immediately computed
+  and updated, so it is quite simple to adjust these until the blade length and
+  position are perfect.]
+  ** It is possible the blade is slightly short of the bend span (5 to 10 mm
+    short). This is indicated as a _warning_.
+  ** It is possible the blade is more than 10 mm short of the bending span (the
+    bend overhangs the blade by more than 10 mm on one side or the
+    other). This is indicated as an _error_.
+  ** It is possible the blade collides with the part during the bending cycle; this
+    is indicated as an _error_.
+* Use the *Length* input to enter the length of the blade. It is possible to
+  create a blade mount that has multiple spans, separated by gaps.
+
+=== Clearance
+
+* Click on the *Clearance* header to open that section, if it is closed
+* Use the *Insert* clearance value to adjust the clearance between the ZBW blade
+  and the part as the blade is inserted. 
+* Use the *Extract* clearance value to adjust the clearance between the ZBW blade
+  and the part while the blade is extracted (or moved to a different position
+  for the next bend). The image below shows how the clearance is measured
+  [Clearance](Img/zbw-clearance.png)
+
+=== Mount Lengths and Gaps
+
+image::edit-blade2.png[Mount length,width=768]
+
+The image above shows *Both* mounts being used. There is now an additional section
+that allows you to enter the position and length of the second mount. The
+*Length 2* setting has been set to *95,-55,95*. This means that there is a *95*
+mm section of blade, a *55* mm gap, and an additional *95* mm section of
+blade. Positive numbers are used to indicate blade lengths, while negative
+numbers indicate gaps between blade segments. The measurements always
+start from the reference edge of the blade carrier (the edge closest to
+the back-gauges).
+
+Using this length input, it is possible to compose a blade with any number os
+segments, separated by gaps. Note that the blade segment lengths are
+limited to being multiples of 5 mm, while the gaps can be set at any
+value.
+
+*Note 1*: The same notation (of using positive number for spans, with negative
+numbers for gaps) is also seen in the tool-tip that is displayed for such
+a multi-segment bend.
+
+image::blade-tooltip.png[Blade Tooltip,width=369]
+
+*Note 2*: The notation is also used to express the blade length in the NC code
+that is generated. The Notes section of the NC code shows this blade
+compsition thus:
+
+image::blade-nc.png[Blade NC,width=577]

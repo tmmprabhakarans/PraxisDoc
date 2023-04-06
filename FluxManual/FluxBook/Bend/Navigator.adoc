@@ -1,0 +1,190 @@
+= The Bend Navigator
+:imagesdir: img
+
+When you are in the _bending view_, the *Bend Navigator* panel appears along the top
+edge of the Flux window. This navigator provides a quick way to navigate
+through various bend operations, and also an instant view into various
+status-checks for every bend. It provides controls to view or stop the
+folding simulation. Here is an example of how the bend navigator looks:
+
+image::nav1.png[Navigator 1,width=50%]
+
+The navigator displays different colors for bends that have some warnings or
+errors. The current bend is displayed with an outlined box, and the small dots
+that appear in each of the boxes indicate the _tool station_ in which the
+bend is processed.footnote:[These dots are displayed only if the part has more than
+one station]
+
+== Simulation controls
+
+When you move the mouse near the fold navigator, *simulation controls* appear.
+
+image::nav2.png[Navigator 2,width=50%]
+
+* The *slider* can be used to move the current bend through various phases of the
+  bending operation (insert part for bending, retract back-gauges
+  move punch to pinch point, press with beam to bending position, etc). As the slider is moved, the
+  tool-tip displays the current phase of bending, and various parts of
+  the machine move in the simulation. If there are any collisions, those
+  parts are colored red to clearly highlight the collision.  
+* The *play controls* near the left can be used to start the simulation, stop it,
+  or rewind to the beginning. (*Tip*: You can also press the *Spacebar* to
+  start or stop playing the fold simulation).
+* The downward facing chevron near the middle can be used to expand the fold
+  navigator, displaying more detailed information about the errors and
+  warnings for various bends. (*Tip*: you can also press the *Z* key to
+  expand/collapse the fold navigator display).
+
+== Bend navigator: expanded view
+
+When you open the bend navigator by clicking the open button, or by pressing the
+*Z* key, this is how it looks:
+
+image::nav3.png[Navigator 3,width=50%]
+
+For each bend, the navigator now displays a several rows of status icons. Each colored
+icon represents an error or a warning. Moving the mouse over the colored
+cell displays some more information about what the error or warning is (as
+you can see in the picture above).
+
+Clicking on an cell that displays an error positions the simulation so that the
+error is immediately obvious. For example, clicking on a cell that
+displays a *punch-crash* error moves the simulation to the stage of the
+simulation where the punch crashes with the workpiece.
+
+=== The *Punch* row
+The _Punch_ row of the bend navigator displays information about the punch
+used for this bend, and shows if there are any punch-related warnings or errors.
+These the icons that you might see in the Punch row:
+
+:imagesdir: ../img/icons
+
+[%autowidth, cols="^,<"]
+|===
+| *Icon* | *Meaning*
+| image:correct.png[width=50%]  | No error, valid punch used
+| image:explosion.png[width=50%] | Error: Punch collides with the part during bending
+| image:explosion3.png[width=50%] | Error: Punch collides with the Die during bending
+| image:missing.png[width=50%] | Error: Punch missing - no punch is assigned for this bend
+| image:tool-short.png[width=50%] | Error: Punch height is too short to complete the bend (a taller punch must be used, or an adapter added)
+| image:exclaim.png[width=50%] | Error: An incorrect punch process is used (for example, a non-coining punch is
+  used for a coining operation, or a standard punch is used for a Z-bending operation)
+| image:overload.png[width=50%] | Error: Punch is overloaded beyond its rated tonnage (tooltip shows the actual load)
+| image:span-short.png[width=50%] | Error: Punch span is too short (the part overhangs beyond the end of the punch)
+| image:sensor-edge.png[width=50%] | Warning: An ACB sensor is mounted at the end of the punch station
+| image:sensor-close.png[width=50%] | Warning: ACB sensor disks are mounted too close to each other.
+| image:skipped-bend.png[width=50%] | This bend has been skipped (no processing for this bend)
+|===
+
+=== The *Die* row
+The _Die_ row of the bend navigator displays information about the die
+used for this bend, and shows if there are any die-related warnings or errors.
+These are the icons you might see in the Die row:
+
+[%autowidth, cols="^,<"]
+|===
+| *Icon* | *Meaning*
+| image:correct.png[width=50%] | No error, valid die used
+| image:explosion.png[width=50%] | Error: Die collides with part during bending
+| image:explosion3.png[width=50%] | Error: Die collides with Punch during bending
+| image:missing.png[width=50%] | Error: Die missing - no die assigned for this bend
+| image:exclaim.png[width=50%] | Error: An incorrect die process is used (for example, a 
+   standard V die is used to process a Z-bend)
+| image:overload.png[width=50%] | Error: Die is overloaded beyond its rated tonnage (the 
+   tooltip shows the actual tonnage)
+| image:span-short.png[width=50%] | Error: Die span is too short (the part overhangs 
+   beyond the end of the die)
+| image:flange-narrow.png[width=50%] | Warning: The flange might be too narrow for this die; 
+   the bending may not be accurate
+| image:skipped-bend.png[width=50%] | This bend has been skipped
+|===
+
+=== The *Gauges* row
+The _Gauges_ row of the bend navigator displays information about the back-gauges
+used to reference the part during bending, and also any gauge-related warnings or errors.
+
+[%autowidth, cols="^,<"]
+|===
+| *Icon* | *Meaning* 
+| image:correct.png[width=50%] | No error, valid die used
+| image:explosion.png[width=50%] | Error: The back-gauges collide with the part
+| image:explosion3.png[width=50%] | Error: The back-gauges collide with the punch or the die
+| image:missing.png[width=50%] | Error: Back-gauges not assigned for this bend
+| image:overtravel.png[width=50%] | Error: Back-gauge position exceeds the travel limits of the gauge
+| image:one-finger.png[width=50%] | Warning: Only one back-gauge used; gauging may not be stable
+| image:so-so.png[width=50%] | Warning: Back-gauge position well above or below die-line; 
+  gauging may not be stable
+| image:skipped-bend.png[width=50%] | This bend has been skipped
+|===
+
+=== The *Beam* row
+The _Beam_ row of the bend navigator displays errors related to the beam (press-ram).
+
+[%autowidth, cols="^,<"]
+|===
+| *Icon* | *Meaning*
+| image:correct.png[width=50%] | No problems related to the beam
+| image:explosion.png[width=50%] | Error: Part collides with the press beam during bending
+| image:explosion4.png[width=50%] | Error: Part collides with the bend-guard (safety system) during bending
+| image:overload.png[width=50%] | Error: Machine's rated tonnage exceeded while processing this bend
+| image:skipped-bend.png[width=50%] | This bend has been skipped
+|===
+
+=== The *Die-Bed* row
+The _Die-Bed_ row of the bend navigator displays errors related to the die-bed and table.
+
+[%autowidth, cols="^,<"]
+|===
+| *Icon* | *Meaning*
+| image:correct.png[width=50%] | No problems related to the die-bed
+| image:explosion.png[width=50%] | Error: Part collides with the die-bed or machine table during bending
+| image:skipped-bend.png[width=50%] | This bend has been skipped
+|===
+
+=== The *ACB* row
+The _ACB_ row of the bend navigator displays warnings and errors related to the angle
+measurement system.
+
+[%autowidth, cols="^,<"]
+|===
+| *Icon* | *Meaning*
+| image:acb-ok.png[width=50%] | ACB *Identify* method used for this bend
+| image:acb-corrected.png[width=50%] | ACB *Corrected* method used for this bend 
+  (user-specified spring-back correction)
+| image:acb-learned.png[width=50%] | ACB *Learned* method used for this bend (beam bending 
+  stroke copied from earlier reference bend)
+| image:missing.png[width=50%] | ACB is not used for this bend
+| image:acb-range.png[width=50%] | Warning: No ACB disks are engaged with the part
+| image:acb-hole.png[width=50%] | Error: ACB sensor disks falls into a hole
+| image:acb-flange.png[width=50%] | Warning: Flange is too narrow for ACB measurement
+| image:acb-reference.png[width=50%] | Error: Incorrect bend is picked as the reference bend for ACB
+| image:skipped-bend.png[width=50%] | This bend has been skipped
+|===
+
+=== The *Handling* row
+The _Handling_ row of the bend navigator displays information about part-handling.
+This includes information on how the part should be rotated or flipped between bends, and
+also warnings for situations where the part center-of-gravity falls behind the bending
+axis (part tip-back warning).
+
+[%autowidth, cols="^,<"]
+|===
+| *Icon* | *Meaning*
+| image:correct.png[width=50%] | No part handling issues; part does not have to be rotated or flipped
+| image:incorrect.png[width=50%] | Error: An invalid bend sequence is used; the segments of this bend are 
+  not collinear and this bend cannot be processed at this position in the sequence.
+| image:explosion.png[width=50%] | Warning: Part flanges collide during over-bending; angle accuracy may 
+  be compromised
+| image:less-than.png[width=50%] | Warning: Part center-of-gravity lies behind the bend line 
+  (part tipping backwards)
+| image:rotate-l.png[width=50%] | Part has to be rotated left for the next bend
+| image:rotate-r.png[width=50%] | Part has to be rotated right for the next bend
+| image:rotate-180.png[width=50%] | Part has to be rotated 180&deg; for the next bend
+| image:flip-vertical.png[width=50%] | Part has to be flipped upside down for the next bend
+| image:skipped-bend.png[width=50%] | This bend has been skipped
+|===
+
+As you make changes to the punch, die, sequence, or gauge configurations, the
+bend navigator is immediately updated with the new status. This immediate feedback
+makes it easy to experiment with different configurations without having to issue a
+*recompute* command each time.

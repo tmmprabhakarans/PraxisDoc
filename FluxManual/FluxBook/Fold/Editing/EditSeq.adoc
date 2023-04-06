@@ -1,0 +1,53 @@
+# Changing the Sequence
+:imagesdir: img
+
+There are two ways to change the sequence in which sides are processed. One way
+is to use the *Edit Sequence* button in the xref:EditSide#[Side Panel] as explained above.
+The other simpler method is to simply drag the section to a new location
+in the Fold Navigator.
+
+* Click on a fold number in the Fold Navigator  and drag it to change the
+  sequence. The side you click on defines the exact set of bends that
+  get dragged. Let's consider a part like the one below, which has two
+  short sides and two long sides. The sequence in this case is L1 L2 C1
+  C2: +
+  image:seq1.png[Seq1,width=485]
+
+* If you click on one of the bends in side C1 or side L1, then the entire _short side_
+  or the entire set of _long sides_ are being dragged. So, if you
+  click on the bends 1 or 2 (part of L1) or the bends 5 or 6 (part of
+  C1), then you are dragging 4 bends. Here is an image below showing a
+  drag initiated from bend 5; we are now dragging sides C1 and C2 (note
+  how bends 5, 6, 7 and 8 are slightly grayed out and move along with
+  the mouse). We can now drop this before the sides L1 and L2, thus changing the sequence to
+  C1 C2 L1 L2. +
+  image:seq2.png[Seq2,width=395]
+
+* If we start dragging the sides L2 or C2, then only that side gets dragged, and
+  we could use this to shuffle the two sides C1 and C2 or the sides L2
+  and L2. We could even use this to change the sequence to something
+  like L1 C1 C2 L2 (which will usually not work, but it may be useful in
+  some special cases). Here is an example where we are dragging the side
+  L2 (note how bends 3 and 4 are slightly grayed out, and move along
+  with the mouse): +
+  image:seq3.png[Seq3,width=377]
+
+* The dragging is designed to allow the common case of swapping the long and
+  short sides easily (CCLL <-> LLCC), while still allowing changing the
+  order between individual sides like C1 and C2. When the sequence is
+  changed, Flux computes updated tooling, blades, gauging etc. It is
+  likely that the change in sequence may now require ZBW blades, ENW
+  tools to be deployed (or it may cause these to be no longer required).
+  All these changes are automatically computed.
+
+* Sometimes, the sequence you select in this way may not be feasible. For
+  example, consider the part below, with 6 bends. The bends 1 and 2 are
+  composite bends made of multiple collinear segments. If we process
+  bends 4 or 6 first, we cannot then process bends 1 or 2, since the
+  individual segments will no longer be collinear. +
+  image:seq4.png[Seq4,width=533] +  
+  If you try to alter the sequence in such a way that you create such an
+  _impossible_ sequence, Flux will not change the sequence, but will instead
+  display an error: +
+  image:seq5.png[Seq5,width=378]
+  

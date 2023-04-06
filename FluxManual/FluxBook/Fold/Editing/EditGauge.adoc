@@ -1,0 +1,48 @@
+= Editing the Gauging
+:imagesdir: img
+:experimental:
+
+The first bend in every side (or section) has a gauging position that is
+computed automatically by Flux. You can examine or edit this gauging
+position interactively. To do this:
+
+* Select the first bend in a section (click on the bend number in the fold
+  navigator, or use kbd:[PageUp] and kbd:[PageDn] to switch to that
+  bend).
+* When the first bend in a section is selected, the gauges are visible.
+* Click on one of the gauges to bring up the *Gauges* panel .
+
+The panel (shown alongside) has a few different settings and operations:
+
+image::edit-gauge.png[Edit Gauge,float="right",width=448]
+
+* *Slack* is the extra opening between the gauges (this corresponds to the D Z1-Z2
+  parameter in the centering settings of the machine). This can be used
+  to open up the gauges slightly to make it easier to insert the part.
+* *Height* is the amount the gauges are lifted up from the zero position during
+  the centering (the zero position places the flat surface at the corner
+  recess of the gauge at the bottom of the sheet). For some parts, it is
+  useful to adjust the Height to reference against the bottom part of
+  the back-gauges. As you adjust this, the gauge moves, and if it
+  collides with the part, the gauge and the offending surface in the
+  part are colored red. When such a collision happens, the navigator on
+  the top also updates immediately to show the offending bend in red.
+  (You can then open the navigator to inspect the reason for the error).
+* *Auto-place* is used to compute automatic positions for the gauges. This is done
+  for all the sides when you switch to the panel-bending mode. However,
+  after you have manually moved the gauge into some position for
+  experimenting, this button is useful to reset the position of the
+  gauges. In actuality, the gauges panel computes a series of
+  alternative positions for the gauges, and each time you click on the
+  Auto-place button, it displays the next feasible position of both the
+  gauges.
+  To get back to the first-recommended gauging position, close the gauges panel
+  (by clicking the X on the top right corner), click on the gauge again and
+  click on Auto-place.
+* The *Next* and *Prev* buttons are used to switch to the other sides in the part;
+  you can then edit the gauging settings for those sides. As you click
+  on these buttons you will see the part simulation immediately update
+  to display that side in the centering position.
+* *Gauge-X* and *Gauge-Y* are used to fine-tune the position of the gauges
+  interactively. As you use these to adjust the gauge positions, the
+  gauges move and the collision status is updated.

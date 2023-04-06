@@ -1,0 +1,64 @@
+﻿= Switching to Bend CAM
+:imagesdir: img
+:experimental:
+
+If you have a 3D sheet metal model open, you can switch to Bend CAM using the 
+Workflow panel. For example:
+
+. Click on the *workflow* icon in the command bar on the left
+. Click on the *Bend Tech* process node in the workflow panel (see the
+  highlight in the image on the right). <u>Optional:</u> Click on the auxiliary icon
+  to the right of the Bend Tech process node to select a different machine first.
+. Click the *close* button to close the Workflow panel
+
+Here is a faster way to do the steps above, using keyboard shortcuts:
+
+. Press kbd:[W] to open the workflow panel
+. Press kbd:[B] to switch to bending mode
+. Press kbd:[Esc] to close the workflow panel
+
+And here is an even quicker method that you can use, for the common case that
+you want to simply use the same press-brake you used last time:
+
+* Open a part (2D or 3D)
+* Press the kbd:[B] key
+* This switches to bend mode, computes a bending solution and generates the
+  NC code and the setup sheet automatically. footnote:outputs[You can configure whether
+  Bend NC code and/or a setup sheet are automatically generated when you switch
+  to bending, using the `Settings > Bend CAM > Bend Outputs` page of the Settings dialog. 
+  If there are any errors in the bend solution (part collisions, or incorrect 
+  gauging), NC code is not automatically generated.]
+
+== Generating Bend Outputs
+When you switch to Bend-CAM, Flux analyzes the part, computes a bending sequence
+and assigns tooling. In most cases, the results of this automatic processing will be a completed
+bend-part which requires no further intervention. You can verify this by checking that the
+bend technology status in the workflow panel reads _no errors_. Also, the 
+xref:Navigator#[bend navigator] will have no alarm lights on.
+
+If there are no errors, you can click further on the Post process bend part icon in
+the workflow to generate the outputs from bending. These are typically a bending report
+(containing a setup sheet) and the actual NC code for bending. By clicking on the icons
+near the bend outputs node, you can view these outputs.
+
+Once NC code has been generated, the NC code icon turns gray:
+
+image::code-generated.png[Code Generated,width=338]
+
+Subsequently, when any change is made to the part (for example, if you change the tooling,
+the sequence or the gauging), the icon becomes _enabled_ again, reminding you that NC code
+has not yet been generated for the changes you have just made:
+
+image::generate-code.png[Generate code,width=251]
+
+== Switching to a different machine
+When you use one of the methods described above, the part normally gets tooled up for 
+the default machine (the same machine that was used the last time). To switch to a 
+different machine:
+
+* Click on the machine name in the part's tab on the bottom of the screen
+* Pick the new machine from the list of bend machines installed (see image below)
+* The part is re-sequenced and tooled for the new machine, and NC code is 
+  generated if you have turned that on. footnote:outputs[]
+
+image::pick-machine.png[Pick Bend Machine,width=472]  

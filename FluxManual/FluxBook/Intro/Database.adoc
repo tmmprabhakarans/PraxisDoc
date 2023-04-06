@@ -1,0 +1,26 @@
+﻿= The Machine Database
+:imagesdir: img
+
+Click on the *Database* icon in the command bar on the left to install a new machine, or 
+to edit the settings of an installed machine.
+
+image::database.png[Database,float="right",width=232]
+
+This displays the *Machines* dialog, which is used to install machines, remove machines, or
+to edit the settings of an existing machine.
+
+image::installmc.png[Machine DB,687]
+
+* The panel on the right shows the list of all the available machines. Expand the tree to
+  pick the machine you want to install, and then click on the *Install* button to install
+  the machine. 
+* The panel at top left shows the list of _installed_ machines. Select a machine to edit the 
+  settings for that machine. The exact list of settings will vary depending on the machine
+  selected. One setting that is common for all machines is the *Nickname* that you can set
+  for each machine. This is the name that is displayed when the machine is referenced in 
+  the Flux user interface.
+* You can select a installed machine, and click on the *Remove* button to uninstall it. 
+  (Flux confirms if you really want to remove the machine).
+
+When you install a new machine, that machine gets selected as the default machine, so you
+can immediately test it out.   

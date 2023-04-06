@@ -1,0 +1,30 @@
+= Fold CAM
+
+A sheet metal flat can be folded to its final shape using a panel-bender. The
+**Fold CAM**footnote:[The term *Bend CAM* is used in Flux for press brakes, and *Fold CAM*
+is used for pane benders.] module of Flux is used to program panel benders. 
+Here are some of the things this module can do.
+
+* Compute a feasible and optimal *folding sequence*.
+* Compose *blank-holders* suitable for processing the part.
+* Engage or disengage *ENW tools* as necessary for appropriate bends.
+* Engage or disengage *ZBW blades* as necessary where needed.
+* Compute *gauging locations* for centering the part in the machine.
+* Compute how the part is to be *gripped* by the part manipulators (the type of
+  manipulator, the gripping surface etc).
+* For automated benders like the TruBendCenter(TM) 7030 or 7020, compute
+  optimized *rotor positions*, and also automatically calculate 2-stage or
+  3-stage rotations where needed.
+* Generate *NC code* that can be transmitted to a panel-bender for processing.
+
+Flux incorporates algorithms and heuristics to compute these automatically where
+possible, and in most cases, you will not really need to intervene in this 
+process. However, there is also a set of tools and operations to
+modify the sequence, change the tooling and modify other settings as
+needed.
+
+* xref:Switching#[Switching to Fold CAM]
+* xref:FoldView#[The Fold CAM View]
+* xref:Editing/Index#[Editing Operations]
+* xref:Tools#[Tool Management]
+* xref:Summary#[Summary]

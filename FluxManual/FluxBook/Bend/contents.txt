@@ -1,0 +1,5 @@
+SwitchToBend
+Navigator
+Recompute
+[Editing]
+[FAQ]

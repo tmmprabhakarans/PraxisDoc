@@ -1,0 +1,46 @@
+# Editing a Bend-Op
+:imagesdir: img
+
+Some basic settings of a bend operation can can be edited by bring up the *Bend*
+panel. To bring up the bend panel, use the bend navigator:
+
+* Click on one of the numbers in the fold navigator to switch to a bend
+* Click *again* on the same number to bring up the bend panel for that bend.
+
+image::edit-bend.png[Edit Bend,float="right",width=166]
+
+The bend panel can be seen alongside. This has some settings and operations for
+working on the bend.
+
+* The *Air-gap* input box is used to adjust the air-gap for bending (this is the
+  gap between the blade and blank-holders). As the air-gap is adjusted
+  from its default value, the Fold Navigator will display a _non-standard
+  air-gap_ warning. Collision checking will also be done immedaitely with
+  the updated air-gap and you can tune the air-gap to prevent
+  collisions. The bending force will also be computed, and if you set
+  the air-gap so low that the maximum bending force is exceeded, the
+  fold navigator will display this as an error.
+* The *P86* setting is used to control the application of additional hold-down
+  pressure during the bending cycle
+* Use the *Skip Bend* button skip this bend; this bend will not be processed by
+  the panel-bender and needs to be processed later (possibly by a
+  press-brake).
+* The *New Side* button is used to split a side into two separate sides; this
+  appears only if you are not editing the first bend in a side. Clicking
+  this button splits the side at this bend, and starts a new side. There
+  are several reasons you may want to split a side:
+  * The side may need to be split into two, and the part may need to be flipped
+    between the two sides before processing can be completed.
+  * Some bends from another side may need to be completed before the remaining
+    bends of this side can be completed. In this case, you can split
+    the side, and re-sequence the sides so the bends from the other
+    side are inserted in between.
+* The *Prev* and *Next* buttons are used to navigate between the different bends in
+  the part. (You can also use the _PageUp_ and _PageDown_ keys for this).
+* The *Side* button is used to navigate up from this bend op to the containing
+  side. Clicking this button displays the Bend Side panel (described
+  below) which can be used to perform some operations on the entire
+  bending side (or section).
+
+If this bend has been skipped, these settings are not displayed; there is only
+an *Unskip Bend* button to bring the bend back into processing.

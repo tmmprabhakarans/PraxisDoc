@@ -1,0 +1,12 @@
+﻿= Editing Operations
+
+There are several TODO[Clarity](../intro/clarity) _panels_ used to edit the settings of a
+bend operation, the punch and die stations, the gauging or the angle-sensor configuration.
+Most of these panels are accessed simply by clicking on the appropriate element in the
+3D display - for example, to edit the die station settings, just click on the die mount.
+
+* xref:EditBend#[Editing a Bend Operation]
+* xref:EditMount#[Editing a Tool Mount]
+* xref:EditSetup#[Editing a Bend Setup]
+* xref:EditGauge#[Editing the Back-gauges]
+* xref:EditACB#[Angle Measurement Setup]

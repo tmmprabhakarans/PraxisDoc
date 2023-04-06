@@ -1,0 +1,5 @@
+﻿= Bend F.A.Q.
+
+Here are some of the common questions about Flux/Bend, along with their answers.
+
+xref:Tonnage#[Does Flux check the tonnages of punches/dies and the machine?]

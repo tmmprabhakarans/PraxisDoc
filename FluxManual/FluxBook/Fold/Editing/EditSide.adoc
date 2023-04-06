@@ -1,0 +1,47 @@
+= Editing a Side/Section
+:experimental:
+:imagesdir: img
+
+image::edit-side.png[Edit Side,float="right",width=225]
+
+There are a few settings and operations connected to an entire bending _side_ (as
+opposed to a single bend _operation_). These are accessed by opening the
+*Side Panel*:
+
+* Open a Bend panel (by clicking twice on a number in the Fold Navigator). Then
+  click on the *Side* button to open the Side panel for the side that
+  contains that bend.
+* Hold down kbd:[Ctrl] and click on a number in the fold navigator to open the
+  side panel for that side.
+
+The side panel looks like the one shown alongside (the actual set of options
+available in the Edit Sequence popup may be different, depending on the
+part).
+
+* Click the *Flip Side* button to flip the entire side upside down. This will
+  cause the blades, blank-holders and part-handling to be recomputed
+  immediately.
+* Click the *Edit Sequence* button to bring up a sub-menu that shows the possibly
+  sequence shuffling that you could do with this side. In the picture
+  above, we are working with a part that has a side sequence like L1 L2
+  C1 C2, and we have selected the side L2. The possible sequence choices
+  are explained below:
+  * *<< L2 earlier* shifts the side L2 earlier, leading to a sequence that would be
+    L2 L1 C1 C2 (of course, the sides are immediately renamed after
+    this, so the sequence still reads L1 L2 C1 C2 when code is
+    generated).
+  * *L1+L2 later >>* shifts both L1 and L2 to happen after C1 and C2. Thus, the new
+    sequence would be C1 C2 L1 L2.
+  * *L2 later >>* shifts L2 one step later, so the new sequence would be L1 C1 L2
+    C2. While this may not be so common, it could be useful in some
+    situations.
+
+The set of choices available in this menu depends on the current sequence, and
+on which side you are selecting to re-order.
+
+* Click on the *Next* or *Prev* buttons to navigate between the different sides in
+  this part
+* Click on the *Bends* button to navigate down from the sides into the set of
+  bends for this side (this is the converse of the *Side* button in the
+  Bend panel that lets you navigate up from a bend to the side that
+  contains the bend).
